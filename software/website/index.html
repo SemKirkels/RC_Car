@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>RC car sensors</title>
+    </head>
+
+    <body>
+        <h1>Sensor data</h1>
+        <pre id="data"></pre>
+        <script>
+            async function update(){
+                const response = await fetch('/data');
+                const data = await response.json();
+                document.getElementById("data").textContent = JSON.stringify(data, null, 2);
+            }
+            setInterval(update, 1000);
+            update();
+        </script>
+    </body>
+</html>
