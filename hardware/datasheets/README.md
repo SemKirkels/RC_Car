@@ -9,7 +9,7 @@
 * [mct8329a](https://www.ti.com/product/MCT8329A)
 
 ## batterySensor
-* [2944fa]([https://be.farnell.com/en-BE/analog-devices/ltc2944cdd-pbf/battery-gas-gauge-li-ion-60v-dfn/dp/4027958?utm_source=chatgpt.com](https://be.farnell.com/en-BE/analog-devices/ltc2944cdd-pbf/battery-gas-gauge-li-ion-60v-dfn/dp/4027958))
+* [2944fa](https://be.farnell.com/en-BE/analog-devices/ltc2944cdd-pbf/battery-gas-gauge-li-ion-60v-dfn/dp/4027958)
 
 ## TofSensor
 * [adafruit-vl53l1x](https://www.adafruit.com/product/3967)
