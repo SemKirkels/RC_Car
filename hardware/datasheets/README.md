@@ -8,9 +8,16 @@
 * [mcf8329hs-q1](https://www.ti.com/product/MCF8329HS-Q1)
 * [mct8329a](https://www.ti.com/product/MCT8329A)
 
-## batterySensor
-* [2944fa](https://be.farnell.com/en-BE/analog-devices/ltc2944cdd-pbf/battery-gas-gauge-li-ion-60v-dfn/dp/4027958)
+## Sensors
+* [TOF](https://www.adafruit.com/product/3967)
+* [AmbientTEMP](https://www.mouser.be/ProductDetail/Microchip-Technology/MCP9808-E-MS?qs=fgHA1UgJI8CbPdrkP5zjqQ%3D%3D)
+* [TEMP](https://www.mouser.be/ProductDetail/Microchip-Technology/MCP9600-E-MX?qs=ZEMkBHnybREkP7PCRsOOMQ%3D%3D)
+* [BMC](https://www.mouser.be/ProductDetail/Texas-Instruments/BQ7692006PW?qs=MJut%252BdqOEgjXPi0Ty9wSKA%3D%3D)
 
-## TofSensor
-* [adafruit-vl53l1x](https://www.adafruit.com/product/3967)
+## Voltage Regulator
+[3.3VLDO](https://www.mouser.be/ProductDetail/Analog-Devices/LT1764EQPBF?qs=ytflclh7QUW3%252BUOpCc3roQ%3D%3D)
+
+## GPIO
+[LedDriver]([https://www.mouser.be/ProductDetail/Diodes-Incorporated/BCR420UW6Q-7?qs=4EhzHfbM1GjXU07mR%2FihoQ%3D%3D](https://www.mouser.be/ProductDetail/Diodes-Incorporated/BCR421UW6Q-7?qs=7rrmt5iGdWdedcb2M%252BEvjA%3D%3D))
+
   
