@@ -7,9 +7,7 @@
 [![📄 Bekijk datasheets](https://img.shields.io/badge/Datasheets-Open-blue?style=for-the-badge)](https://github.com/SemKirkels/RC_Car/tree/main/hardware/datasheets)
 
 ## Software Block Design
-<p align="center">
-  <img src="https://github.com/user-attachments/assets/39fa7dcd-486f-4488-af2c-12398fa7f607" alt="RC Block Design Software" />
-</p>
+![Software_diagram](https://github.com/user-attachments/assets/e2f91585-a01f-4611-84a9-a0ad17972404)
 
 ## Pinout
 
