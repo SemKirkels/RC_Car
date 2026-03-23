@@ -18,6 +18,5 @@
 [3.3VLDO](https://www.mouser.be/ProductDetail/Analog-Devices/LT1764EQPBF?qs=ytflclh7QUW3%252BUOpCc3roQ%3D%3D)
 
 ## GPIO
-[LedDriver]([https://www.mouser.be/ProductDetail/Diodes-Incorporated/BCR420UW6Q-7?qs=4EhzHfbM1GjXU07mR%2FihoQ%3D%3D](https://www.mouser.be/ProductDetail/Diodes-Incorporated/BCR421UW6Q-7?qs=7rrmt5iGdWdedcb2M%252BEvjA%3D%3D))
-
+[LedDriver](https://www.mouser.be/ProductDetail/Diodes-Incorporated/BCR421UW6Q-7?qs=7rrmt5iGdWdedcb2M%252BEvjA%3D%3D)
   
