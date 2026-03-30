@@ -30,6 +30,10 @@ dist/
 # OS files
 .DS_Store
 Thumbs.db
+<<<<<<< Updated upstream
 
 # Excel
 ~$*
+=======
+.exe
+>>>>>>> Stashed changes
