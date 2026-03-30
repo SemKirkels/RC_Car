@@ -7,7 +7,7 @@
 #define POLL_RATE_HZ 1
 #define POLL_DELAY_MS (1000/POLL_RATE_HZ)
 
-int main() {
+int main(){
     XINPUT_STATE state;
     ZeroMemory(&state, sizeof(XINPUT_STATE));
 
