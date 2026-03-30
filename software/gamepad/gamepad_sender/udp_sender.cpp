@@ -19,7 +19,7 @@ UdpSender::UdpSender(const std::string& host, int port){
     inet_pton(AF_INET, host.c_str(), &dest.sin_addr);
 }
 
-UdpSender::~UdpSender() {
+UdpSender::~UdpSender(){
     closesocket(sock);
     WSACleanup();
 }
