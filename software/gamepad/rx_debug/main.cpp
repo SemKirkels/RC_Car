@@ -21,7 +21,7 @@
 #pragma pack(push, 1)
 struct GamepadState{
     bool  connected;
-    short buttons;
+    unsigned short buttons;
     unsigned char leftTrigger;
     unsigned char rightTrigger;
     short thumbLX;
