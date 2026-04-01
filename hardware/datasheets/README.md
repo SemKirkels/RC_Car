@@ -16,6 +16,7 @@
 
 ## Voltage Regulator
 * [3.3VLDO](https://www.mouser.be/ProductDetail/Analog-Devices/LT1764EQPBF?qs=ytflclh7QUW3%252BUOpCc3roQ%3D%3D)
+* [5VBuckConverter](https://www.mouser.be/ProductDetail/Texas-Instruments/LM2596SX-5.0-NOPB?qs=X1J7HmVL2ZGZ5T4VcWdmNw%3D%3D)
 
 ## GPIO
 * [LedDriver](https://www.mouser.be/ProductDetail/Diodes-Incorporated/BCR421UW6Q-7?qs=7rrmt5iGdWdedcb2M%252BEvjA%3D%3D)
