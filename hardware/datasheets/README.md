@@ -2,9 +2,9 @@
 
 ## Drivers
 
-* [drv8306](https://www.ti.com/product/DRV8306?keyMatch=DRV8306&tisearch=universal_search&usecase=GPN-ALT)
+* [drv8306](https://www.ti.com/product/DRV8306?keyMatch=DRV8306&tisearch=universal_search&usecase=GPN-ALT) 
 * [mcf8329a](https://www.ti.com/product/MCF8329A)
-* [mcf8329a-q1](https://www.ti.com/product/MCF8329A-Q1)
+* [mcf8329a-q1](https://www.ti.com/product/MCF8329A-Q1) (voorkeur)
 * [mcf8329hs-q1](https://www.ti.com/product/MCF8329HS-Q1)
 * [mct8329a](https://www.ti.com/product/MCT8329A)
 
