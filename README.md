@@ -2,8 +2,7 @@
 
 ## Hardware Block Design
 
-
-![RC_BlockDesign-HARDWARE (1)](https://github.com/user-attachments/assets/5ab4031d-ff7d-49f9-8439-ca3e1b38e226)
+![RC_BlockDesign-HARDWARE (2)](https://github.com/user-attachments/assets/f704fb50-b634-4142-924a-dbbc5328aee2)
 [![📄 Bekijk datasheets](https://img.shields.io/badge/Datasheets-Open-blue?style=for-the-badge)](https://github.com/SemKirkels/RC_Car/tree/main/hardware/datasheets)
 
 ## Software Block Design
