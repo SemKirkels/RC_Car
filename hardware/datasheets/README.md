@@ -20,4 +20,13 @@
 
 ## GPIO
 * [LedDriver](https://www.mouser.be/ProductDetail/Diodes-Incorporated/BCR421UW6Q-7?qs=7rrmt5iGdWdedcb2M%252BEvjA%3D%3D)
-  
+
+## MOSFET halfbridge
+* [PSMN4R2-40VSHX](https://www.mouser.be/ProductDetail/Nexperia/PSMN4R2-40VSHX?qs=GCAb4wyKXLKP4GTVQY42wA%3D%3D)
+
+## MOSFET BMC
+* [SQJ422EP-T1_BE3](https://www.mouser.be/ProductDetail/Vishay-Siliconix/SQJ422EP-T1_BE3?qs=zW32dvEIR3s9%2FaA%2FvimzvQ%3D%3D)
+
+## Fuze
+* [PTS18126V300](https://www.eaton.com/content/dam/eaton/products/electronic-components/resources/data-sheet/eaton-pts1812-6-60-volt-dc-surface-mount-resettable-ptc-data-sheet.pdf)
+* [3555-2](https://www.mouser.be/ProductDetail/Keystone-Electronics/3555-2?qs=fP5bVVCrK%2FcbaGNcd%2BfxHA%3D%3D)
