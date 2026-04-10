@@ -1,9 +1,14 @@
 #ifndef ADDRESS_H
 #define ADDRESS_H
 
-#define TEMP_SENSOR_ADDR   0x00
-#define DIST_FRONT_ADDR    0x00
-#define DIST_LEFT_ADDR     0x00
-#define DIST_RIGHT_ADDR    0x00
+/* Temperature sensors */
+#define TEMP_MOTOR_ADDR     0x00
+#define TEMP_BATTERY_ADDR   0x00
+#define TEMP_AMBIENT_ADDR   0x00
+
+/* TOF sensors */
+#define TOF_FRONT_ADDR      0x00
+#define TOF_LEFT_ADDR       0x00
+#define TOF_RIGHT_ADDR      0x00
 
 #endif
