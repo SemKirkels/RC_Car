@@ -4,17 +4,18 @@
 #define SSID      ""
 #define PASSWD    ""
 #define UDP_PORT  40450
+#define BUFF_SIZE 64
 
 #pragma pack(push, 1)
 struct GamepadState{
-    bool  connected;
-    unsigned short buttons;
-    unsigned char leftTrigger;
-    unsigned char rightTrigger;
-    short thumbLX;
-    short thumbLY;
-    short thumbRX;
-    short thumbRY;
+    bool            connected     = false;
+    unsigned short  buttons       = 0;
+    unsigned char   leftTrigger   = 0;
+    unsigned char   rightTrigger  = 0;
+    short           thumbLX       = 0;
+    short           thumbLY       = 0;
+    short           thumbRX       = 0;
+    short           thumbRY       = 0;
 };
 #pragma pack(pop)
 
@@ -28,31 +29,32 @@ void setup(){
   WiFi.begin(SSID, PASSWD);
   while(WiFi.status() != WL_CONNECTED){
     delay(500);
-    Serial.print(".");
   }
-  Serial.println("\r\nConnected");
 
-  Serial.print("IP: ");
   Serial.println(WiFi.localIP());
   udp.begin(UDP_PORT);
-  Serial.printf("Listening on UDP port %d\n", UDP_PORT);
 }
 
 void loop(){
+  char buf[BUFF_SIZE];
   int size = udp.parsePacket();
 
   if(size == sizeof(GamepadState)){
     udp.read((char*)&gs, sizeof(GamepadState));
 
-    if(gs.connected){
-      Serial.printf("Buttons: %d\n", gs.buttons);
-      Serial.printf("LT: %d  RT: %d\n", gs.leftTrigger, gs.rightTrigger);
-      Serial.printf("LX: %d  LY: %d\n", gs.thumbLX, gs.thumbLY);
-      Serial.printf("RX: %d  RY: %d\n", gs.thumbRX, gs.thumbRY);
-      Serial.println("----------------------");
+    if(!gs.connected){
+      /* Send all zeroes, stop car */
+      gs.buttons = 0;
+      gs.leftTrigger = 0;
+      gs.rightTrigger = 0;
+      gs.thumbLX = 0;
+      gs.thumbLY = 0;
+      gs.thumbRX = 0;
+      gs.thumbRY = 0;
     }
-    else{
-      Serial.println("Controller disconnected");
-    }
+    
+    /* Format: connected > buttons > triggers > sticks < */
+    snprintf(buf, sizeof(buf), "%d>%u>%u>%u>%d>%d>%d>%d<",gs.connected, gs.buttons, gs.leftTrigger, gs.rightTrigger, gs.thumbLX, gs.thumbLY, gs.thumbRX, gs.thumbRY);
+    Serial.println(buf);
   }
 }
