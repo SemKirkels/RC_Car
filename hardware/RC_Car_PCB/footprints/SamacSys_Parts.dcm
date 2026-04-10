@@ -1,0 +1,129 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP NE555DR
+D Single Precision Timer
+K
+F http://www.ti.com/lit/ds/symlink/ne555.pdf
+$ENDCMP
+#
+$CMP XT60PW-M
+D Connector: DC supply; socket; XT60; male; PIN: 2; on PCBs; THT; 30A
+K
+F https://www.tme.eu/Document/b13629717d44ae038681dba08d18c0b6/XT60PW-M.pdf
+$ENDCMP
+#
+$CMP 3555-2
+D KEYSTONE - 3555-2 - FUSE HOLDER, AUTO BLADE, MAXI, TH
+K
+F https://www.keyelco.com/product-pdf.cfm?p=1372
+$ENDCMP
+#
+$CMP LT1764EQ#PBF
+D IC: voltage regulator; LDO,adjustable; 1.221V; 3A; D2PAK-5; SMD
+K
+F https://www.analog.com/media/en/technical-documentation/data-sheets/1764fb.pdf
+$ENDCMP
+#
+$CMP CRCW08054R30FKEA
+D Thick Film Resistors - SMD 1/8watt 4.3ohms 1% 100ppm
+K
+F http://www.vishay.com/docs/20035/dcrcwe3.pdf
+$ENDCMP
+#
+$CMP PTS18126V300
+D PPTC SMD 1812 6V 3.0A
+K
+F https://www.eaton.com/content/dam/eaton/products/electronic-components/resources/data-sheet/eaton-pts1812-6-60-volt-dc-surface-mount-resettable-ptc-data-sheet.pdf
+$ENDCMP
+#
+$CMP T491C106M025AT
+D SMD, MnO2, Molded
+K
+F https://www.yageogroup.com/content/datasheet/asset/file/KEM_T2005_T491
+$ENDCMP
+#
+$CMP LM2596SX-5.0_NOPB
+D SIMPLE SWITCHER&#174; 4.5V to 40V, 3A Low Component Count Step-Down Regulator
+K
+F http://www.ti.com/lit/gpn/lm2596
+$ENDCMP
+#
+$CMP 1N5824
+D Diode Schottky 30V 5A 2-Pin TOP HAT Tray
+K
+F https://www.microchip.com/en-us/product/1n5824-rectifier
+$ENDCMP
+#
+$CMP EEU-FR1E681
+D Aluminium Electrolytic Capacitor, Radial Lead Type, 105C,  680UF 20% 25V RADIAL
+K
+F http://industrial.panasonic.com/cdbs/www-data/pdf/RDF0000/ABA0000C1259.pdf
+$ENDCMP
+#
+$CMP PE-54040SNL
+D Fixed Inductors SIMPLE SWITCHER IND
+K
+F https://productfinder.pulseeng.com/products/datasheets/SPM2007_47.pdf
+$ENDCMP
+#
+$CMP C0805C104J4JACAUTO
+D SMD, MLCC, Ultra-Stable, Low Loss, Automotive Grade
+K
+F https://www.yageogroup.com/content/datasheet/asset/file/KEM_C1086_U2J
+$ENDCMP
+#
+$CMP TAJD227M010R
+D Tantalum Capacitor , 2917 220F 10V
+K
+F http://datasheets.avx.com/TAJ.pdf
+$ENDCMP
+#
+$CMP MCF8329A1IQRRYRQ1
+D Motor / Motion / Ignition Controllers & Drivers Automotive, 12V and 24V, sensorless, field-oriented control (FOC) three-phase BLDC gate driver
+K
+F https://www.ti.com/lit/ds/symlink/mcf8329a-q1.pdf?ts=1747751899093
+$ENDCMP
+#
+$CMP 0805B474J160CT
+D WALSIN - 0805B474J160CT - SMD Multilayer Ceramic Capacitor, General Purpose, 0.47 F, 16 V, 0805 [2012 Metric], +/- 5%, X7R
+K
+F https://g.componentsearchengine.com/Datasheets/2/0805B474J160CT.pdf
+$ENDCMP
+#
+$CMP 08053C104JAZ2A
+D Capacitor 0805 0.1UF +/-5% 25V
+K
+F 
+$ENDCMP
+#
+$CMP EXV107M025A9HAA
+D Surface Mount, Aluminum Electrolytic
+K
+F https://www.yageogroup.com/content/datasheet/asset/file/KEM_A4003_EXV
+$ENDCMP
+#
+$CMP EXV226M025A9DAA
+D Surface Mount, Aluminum Electrolytic
+K
+F https://www.yageogroup.com/content/datasheet/asset/file/KEM_A4003_EXV
+$ENDCMP
+#
+$CMP CL32B226KLV6PJE
+D Multilayer Ceramic Capacitors MLCC - SMD/SMT 1210/3225 , X7R , 22uF , 35V,+/-10% , -55C ~ +125C
+K
+F https://product.samsungsem.com/part/download.do
+$ENDCMP
+#
+$CMP 08053C105JAZ2A
+D Multilayer Ceramic Capacitors MLCC - SMD/SMT 25V 1uF X7R 0805 5% Tol FLEX
+K
+F https://datasheets.kyocera-avx.com/C0GNP0-Dielectric.pdf
+$ENDCMP
+#
+$CMP PSMN4R2-40VSHX
+D Dual N-channel 40 V, 4.2 mOhm standard level MOSFET in LFPAK56D (half-bridge configuration)
+K
+F https://assets.nexperia.com/documents/data-sheet/PSMN4R2-40VSH.pdf
+$ENDCMP
+#
+#End Doc Library

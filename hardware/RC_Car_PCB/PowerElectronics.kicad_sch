@@ -1,0 +1,92 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "2f9bdcdc-94f3-4701-9eaa-5bac58b0c112")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 158.75 33.02)
+		(size 113.03 111.76)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "b580a13a-ba47-4dd6-8481-a54f8e44980e")
+		(property "Sheetname" "Servo"
+			(at 158.75 32.3084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Servo.kicad_sch"
+			(at 158.75 145.3646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "RC_Car_PCB"
+				(path "/e3eebfb1-ca33-4fe6-a6b8-7fbebca142f4/c8889cea-e2ad-494b-9685-520bba206a12"
+					(page "9")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 25.4 33.02)
+		(size 110.49 111.76)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "ef6dd820-2017-4ad7-8ef5-6a714fc31936")
+		(property "Sheetname" "BLDC DRIVER"
+			(at 25.4 32.3084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "BLDC_driver.kicad_sch"
+			(at 25.4 145.3646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "RC_Car_PCB"
+				(path "/e3eebfb1-ca33-4fe6-a6b8-7fbebca142f4/c8889cea-e2ad-494b-9685-520bba206a12"
+					(page "8")
+				)
+			)
+		)
+	)
+)
