@@ -126,4 +126,40 @@ K
 F https://assets.nexperia.com/documents/data-sheet/PSMN4R2-40VSH.pdf
 $ENDCMP
 #
+$CMP PSR500HTQFD0L30
+D 15x7.75 (5931) size, 10W, 0.3m, High Power Type Metal Plate Shunt Resistor (AEC-Q200 Qualified)
+K
+F https://fscdn.rohm.com/en/products/databook/datasheet/passive/resistor/chip_resistor/psr-e.pdf
+$ENDCMP
+#
+$CMP ERJ-U06D5101V
+D Anti-Sulfurated Thick Film Chip Resistor, 0805, 0.125W
+K
+F https://industrial.panasonic.com/cdbs/www-data/pdf/RDP0000/AOA0000C334.pdf
+$ENDCMP
+#
+$CMP ERA-6AHD330V
+D Metal Thin Film Chip Resistor, 0805, 0.125W
+K
+F https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf
+$ENDCMP
+#
+$CMP ERA-6AHD150V
+D Metal Thin Film Chip Resistor, 0805, 0.125W
+K
+F https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf
+$ENDCMP
+#
+$CMP CRGH0805F4K7
+D TE CONNECTIVITY - CRGH0805F4K7 - RES, THICK FILM, 4K7, 1%, 0.33W, 0805
+K
+F http://docs-europe.electrocomponents.com/webdocs/12d7/0900766b812d7379.pdf
+$ENDCMP
+#
+$CMP 1333871
+D PCB terminal block, nominal current: 76 A, rated voltage (III/2): 1000 V, nominal cross section: 16 mm, number of potentials: 3, number of rows: 1, number of positions per row: 3, product range: LPTA 16/, pitch: 15 mm, connection method: Lever Push-in connection, mounting: Wave soldering, conductor/PCB connection direction: 30 , color: green, Pin layout: Zigzag pinning W, Solder pin [P]: 3.6 mm, number of solder pins per potential: 3, type of packaging: packed in cardboard
+K
+F https://www.phoenixcontact.com/en-us/products/pcb-terminal-block-lpta-16-3-150-zb-1333871?type=pdf
+$ENDCMP
+#
 #End Doc Library
