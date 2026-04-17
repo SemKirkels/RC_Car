@@ -11,8 +11,5 @@
 ## Pinout
 
 <p align="center">
-  <img width="927" height="880" alt="Schermafbeelding 2026-03-23 155520" src="https://github.com/user-attachments/assets/3211dc90-899f-46c6-9769-0d73fbe45335" />
+  <img width="708" height="711" alt="Screenshot from 2026-04-17 10-51-13" src="https://github.com/user-attachments/assets/741b931c-9348-41bb-9b4b-151d76e28d72" />
 </p>
-
-
- 
