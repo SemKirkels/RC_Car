@@ -9,11 +9,11 @@
 #define RECONNECT_DELAY 3000
 
 /* Redout defines */
-#define POLL_RATE_HZ 50
+#define POLL_RATE_HZ 10
 #define POLL_DELAY_MS (1000/POLL_RATE_HZ)
 
 /* Network defines */
-#define UDP_HOST        "192.168.1.65"
+#define UDP_HOST        "192.168.50.65"
 #define UDP_PORT        40450
 
 int main(){

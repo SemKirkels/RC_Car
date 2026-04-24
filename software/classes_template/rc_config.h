@@ -39,7 +39,4 @@
 /* SPI1 */
 #define SPI1_ENABLE false
 
-/* CAN1 */
-#define CAN1_ENABLE false
-
 #endif

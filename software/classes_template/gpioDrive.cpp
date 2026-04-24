@@ -10,7 +10,7 @@ void GpioDrive::init(const char* taskName){
 
     osThreadAttr_t attr = {};
     attr.name = taskName;
-    attr.stack_size = 128;
+    attr.stack_size = 512;
     attr.priority = osPriorityNormal;
 
     osThreadNew(taskEntry, this, &attr);
