@@ -1,28 +1,32 @@
 #ifndef CAR_H
 #define CAR_H
 
-#include "motor.h"
+#include "main.h"
+#include "gamepadParser.h"
 #include "steering.h"
-#include "battery.h"
-#include "address.h"
+#include "gpioDrive.h"
 
 class Car{
     public:
-        Car();
+        Car(
+            UART_HandleTypeDef* huart,
+            TIM_HandleTypeDef*  steeringTim,
+            uint32_t            steeringChannel,
+            GPIO_TypeDef*       ledFrontPort, uint16_t ledFrontPin,
+            GPIO_TypeDef*       ledRearPort, uint16_t ledRearPin
+        );
+        void init();
+        void update();
 
+        void uartRxCallback(uint16_t size);
     private:
-        /* Sensors */
-        Sensor      distFront;
-        Sensor      distLeft;
-        Sensor      distRight;
-        Sensor      temp;
+        GamepadParser   m_gamepad;
+        Steering        m_steering;
+        GpioDrive       m_ledFront;
+        GpioDrive       m_ledRear;
 
-        /* Actuators */
-//        Motor       motor;
-//        Steering    steering;
-
-        /* Battery */
-//        Battery     battery;
+        bool            m_prevX;
+        bool            m_prevB;
 };
 
 #endif

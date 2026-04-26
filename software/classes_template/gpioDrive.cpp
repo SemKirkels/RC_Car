@@ -23,6 +23,10 @@ void GpioDrive::setState(bool state){
     }
 }
 
+void GpioDrive::toggle(){
+    setState(!m_state);
+}
+
 void GpioDrive::write(bool val){
     if(val){
         set();

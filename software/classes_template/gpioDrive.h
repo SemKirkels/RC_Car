@@ -9,6 +9,7 @@ class GpioDrive{
         GpioDrive(GPIO_TypeDef* port, uint16_t pin);
         void init(const char* taskName);
         void setState(bool state);
+        void toggle();
     private:
         GPIO_TypeDef* const m_port;
         const uint16_t m_pin;
