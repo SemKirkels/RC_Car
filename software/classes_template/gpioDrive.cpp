@@ -3,6 +3,7 @@
 GpioDrive::GpioDrive(GPIO_TypeDef* port, uint16_t pin):m_port(port), m_pin(pin), m_state(false){}
 
 void GpioDrive::init(const char* taskName){
+    /* Create task */
     m_semaphore = osSemaphoreNew(1, 0, NULL);
     if(m_semaphore == NULL){
         Error_Handler();
@@ -17,6 +18,7 @@ void GpioDrive::init(const char* taskName){
 }
 
 void GpioDrive::setState(bool state){
+    /* set state + release semaphore */
     if(state != m_state){
         m_state = state;
         osSemaphoreRelease(m_semaphore);

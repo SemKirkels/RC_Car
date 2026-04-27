@@ -8,6 +8,7 @@ void Steering::init(){
 }
  
 void Steering::setFromJoystick(short thumbLX){
+    /* update PWM */
     __HAL_TIM_SET_COMPARE(m_htim, m_channel, mapToCCR(thumbLX));
 }
  

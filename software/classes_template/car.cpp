@@ -4,15 +4,26 @@ Car::Car(
     UART_HandleTypeDef* huart,
     TIM_HandleTypeDef*  steeringTim,
     uint32_t            steeringChannel,
-    GPIO_TypeDef*       ledFrontPort, uint16_t ledFrontPin,
-    GPIO_TypeDef*       ledRearPort,  uint16_t ledRearPin
+    GPIO_TypeDef*       ledFrontPort, 
+    uint16_t            ledFrontPin,
+    GPIO_TypeDef*       ledRearPort,  
+    uint16_t            ledRearPin,
+    TIM_HandleTypeDef*  motorTim,
+    uint32_t            motorChannel,
+    GPIO_TypeDef*       dirPort,
+    uint16_t            dirPin,
+    GPIO_TypeDef*       brakePort,
+    uint16_t            brakePin,
+    GPIO_TypeDef*       drvoffPort,
+    uint16_t            drvoffPin
     ):
     m_gamepad(huart),
     m_steering(steeringTim, steeringChannel),
     m_ledFront(ledFrontPort, ledFrontPin),
     m_ledRear(ledRearPort, ledRearPin),
     m_prevX(false),
-    m_prevB(false){
+    m_prevB(false),
+    m_motor(motorTim, motorChannel, dirPort, dirPin, brakePort, brakePin, drvoffPort, drvoffPin){
     }
 
 void Car::init(){
@@ -20,16 +31,20 @@ void Car::init(){
     m_steering.init();
     m_ledFront.init("FrontLEDs");
     m_ledRear.init("RearLEDs");
+    m_motor.init();
 }
 
 void Car::update(){
     if(osSemaphoreAcquire(m_gamepad.getSemaphore(), 100) == osOK){
         GamepadState state = m_gamepad.getState();
 
-        /* Steering */
+        /* Update Steering */
         m_steering.setFromJoystick(state.thumbLX);
 
-        /* Lights */
+        /* Update Motor */
+        m_motor.setFromTriggers(state.leftTrigger, state.rightTrigger);
+
+        /* Update Lights */
         bool currX = (state.buttons & 0x4000) != 0;
         bool currB = (state.buttons & 0x2000) != 0;
         if(currX && !m_prevX) m_ledFront.toggle();
