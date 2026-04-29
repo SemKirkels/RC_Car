@@ -1,4 +1,4 @@
-26811752338510466
+26863294920860572
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -97286,6 +97286,13 @@ Schottky Diode
 2
 2
 SamacSys_Parts
+500SSP1S1M2QEA
+500SSP1S1M2QEA-3
+Switch
+0
+3
+3
+SamacSys_Parts
 35552
 3555-2-1
 Undefined or Miscellaneous
@@ -97299,6 +97306,41 @@ Connector
 0
 9
 9
+SamacSys_Parts
+1711026
+1711026
+Connector
+0
+2
+2
+SamacSys_Parts
+21344412
+2134441-2-3
+Connector
+0
+9
+9
+SamacSys_Parts
+B4BXHALFSN
+B4B-XH-A(LF)(SN)-3
+Connector
+0
+4
+4
+SamacSys_Parts
+BEADC1608X95N
+0603 (1608 metric
+Ferrite Bead
+0
+2
+2
+SamacSys_Parts
+C0805
+C0805
+Capacitor
+0
+2
+2
 SamacSys_Parts
 CAPAE660X800N
 EXV107M025A9HAA
@@ -97321,8 +97363,22 @@ Capacitor
 2
 2
 SamacSys_Parts
+CAPC2012X98N
+0805 (0.98 T)
+Capacitor
+0
+2
+2
+SamacSys_Parts
 CAPC2012X140N
 C0805C104J4JACAUTO-
+Capacitor
+0
+2
+2
+SamacSys_Parts
+CAPC2012X145N
+size code 0805
 Capacitor
 0
 2
@@ -97356,8 +97412,29 @@ Capacitor Polarised
 2
 2
 SamacSys_Parts
+DIOAD1068W53L380D172
+1N4148
+Diode
+0
+2
+2
+SamacSys_Parts
+EA5070LA128000MTR
+EA5070
+Crystal or Oscillator
+0
+4
+4
+SamacSys_Parts
 ERA6AEB101V
 ERA6A
+Resistor
+0
+2
+2
+SamacSys_Parts
+ERJP06D1000V
+ERJP06(0805)
 Resistor
 0
 2
@@ -97384,12 +97461,54 @@ Fuse
 2
 2
 SamacSys_Parts
+FWP21830CR002F
+FWP218-30C-R002F-2
+Resistor
+0
+2
+2
+SamacSys_Parts
+HDRV3W64P0X254_1X3_762X254X864P
+M20-9990345
+Connector
+0
+3
+3
+SamacSys_Parts
+HDRV4W66P0X254_1X4_1016X249X1067P
+22-28-4044
+Connector
+0
+4
+4
+SamacSys_Parts
+HDRV5W66P0X254_1X5_1270X249X1067P
+22-28-4054_11
+Connector
+0
+5
+5
+SamacSys_Parts
 HDRV8W64P254_2X4_1020X500X680P
 XG8T-0831
 Connector
 0
 8
 8
+SamacSys_Parts
+HDRV8W87P0X254_1X8_2032X249X863P
+22-28-4083
+Connector
+0
+8
+8
+SamacSys_Parts
+HDRV9W66P0X254_1X9_2286X249X1258P
+22-30-3093
+Connector
+0
+9
+9
 SamacSys_Parts
 KTT0005B
 KTT0005B
@@ -97426,6 +97545,13 @@ MOSFET (N-Channel)
 10
 10
 SamacSys_Parts
+QFN40P400X500X80-37N-D
+REE0036A
+Integrated Circuit
+0
+37
+37
+SamacSys_Parts
 QFN50P400X600X80-33N-D
 MCF8329A1IQRRYRQ1
 Integrated Circuit
@@ -97433,8 +97559,43 @@ Integrated Circuit
 33
 33
 SamacSys_Parts
+QFN65P500X500X100-21N-D
+MQFN-20
+Integrated Circuit
+0
+21
+21
+SamacSys_Parts
+QFP50P1200X1200X160-64N
+LQFP64 - 64-pin, 10 x 10 mm low-profile quad flat
+Integrated Circuit
+0
+64
+64
+SamacSys_Parts
 RESC2012X50N
 CRCW0805
+Resistor
+0
+2
+2
+SamacSys_Parts
+RESC2012X60N
+0805-4
+Resistor
+0
+2
+2
+SamacSys_Parts
+RESC2012X65N
+SDR10EZPF1004
+Resistor
+0
+2
+2
+SamacSys_Parts
+RESC2012X70N
+ERJ6G
 Resistor
 0
 2
@@ -97454,6 +97615,34 @@ Resistor
 2
 2
 SamacSys_Parts
+RHDR40W70P254_2X20_5120X504X850P
+M20-7832042_1
+Connector
+0
+40
+40
+SamacSys_Parts
+SOP65P490X110-8N
+24AA256-I/MS
+Integrated Circuit
+0
+8
+8
+SamacSys_Parts
+SOP65P640X120-20N
+PW (R-PDSO-G20)
+Integrated Circuit
+0
+20
+20
+SamacSys_Parts
+SOT95P240X120-3N
+SOT-23 3L
+MOSFET (P-Channel)
+0
+3
+3
+SamacSys_Parts
 SOT95P285X140-6N
 SOT26_2024-3
 Integrated Circuit
@@ -97461,9 +97650,23 @@ Integrated Circuit
 6
 6
 SamacSys_Parts
+SQJ422EPT1_BE3
+SQJ422EP-T1_BE3-3
+MOSFET (N-Channel)
+0
+8
+8
+SamacSys_Parts
 T491C
 T491C-1
 Capacitor Polarised
+0
+2
+2
+SamacSys_Parts
+THRMC2012X95N
+NTCS0805
+Thermistor
 0
 2
 2

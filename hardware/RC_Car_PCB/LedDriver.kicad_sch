@@ -932,8 +932,8 @@
 		)
 	)
 	(rectangle
-		(start 118.11 16.51)
-		(end 207.01 110.49)
+		(start 106.68 16.51)
+		(end 195.58 110.49)
 		(stroke
 			(width 0)
 			(type default)
@@ -979,7 +979,7 @@
 	)
 	(text "LED driver B\n"
 		(exclude_from_sim no)
-		(at 197.358 18.796 0)
+		(at 185.928 18.796 0)
 		(effects
 			(font
 				(size 1.905 1.905)
@@ -1004,7 +1004,7 @@
 		(uuid "1f90d174-e200-4523-834e-478c14914a1e")
 	)
 	(junction
-		(at 173.99 83.82)
+		(at 162.56 83.82)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5d20e147-6f26-46b6-bf98-d872df7d10f5")
@@ -1016,7 +1016,7 @@
 		(uuid "c0e1ccc3-ae83-4e6e-80cf-f861667fc4cc")
 	)
 	(junction
-		(at 161.29 58.42)
+		(at 149.86 58.42)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ef2c28f3-8fd6-4a98-a5f3-a28fef1d0df6")
@@ -1055,7 +1055,7 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 83.82) (xy 195.58 83.82)
+			(xy 162.56 83.82) (xy 184.15 83.82)
 		)
 		(stroke
 			(width 0)
@@ -1065,7 +1065,7 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 83.82) (xy 173.99 86.36)
+			(xy 162.56 83.82) (xy 162.56 86.36)
 		)
 		(stroke
 			(width 0)
@@ -1125,7 +1125,7 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 83.82) (xy 173.99 83.82)
+			(xy 160.02 83.82) (xy 162.56 83.82)
 		)
 		(stroke
 			(width 0)
@@ -1155,7 +1155,7 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 76.2) (xy 177.8 76.2)
+			(xy 160.02 76.2) (xy 166.37 76.2)
 		)
 		(stroke
 			(width 0)
@@ -1165,7 +1165,7 @@
 	)
 	(wire
 		(pts
-			(xy 195.58 76.2) (xy 195.58 83.82)
+			(xy 184.15 76.2) (xy 184.15 83.82)
 		)
 		(stroke
 			(width 0)
@@ -1175,7 +1175,7 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 58.42) (xy 163.83 59.69)
+			(xy 152.4 58.42) (xy 152.4 59.69)
 		)
 		(stroke
 			(width 0)
@@ -1235,7 +1235,7 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 58.42) (xy 161.29 58.42)
+			(xy 147.32 58.42) (xy 149.86 58.42)
 		)
 		(stroke
 			(width 0)
@@ -1255,7 +1255,7 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 59.69) (xy 158.75 58.42)
+			(xy 147.32 59.69) (xy 147.32 58.42)
 		)
 		(stroke
 			(width 0)
@@ -1345,7 +1345,7 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 58.42) (xy 163.83 58.42)
+			(xy 149.86 58.42) (xy 152.4 58.42)
 		)
 		(stroke
 			(width 0)
@@ -1385,7 +1385,7 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 52.07) (xy 161.29 58.42)
+			(xy 149.86 52.07) (xy 149.86 58.42)
 		)
 		(stroke
 			(width 0)
@@ -1395,7 +1395,7 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 58.42) (xy 161.29 59.69)
+			(xy 149.86 58.42) (xy 149.86 59.69)
 		)
 		(stroke
 			(width 0)
@@ -1405,7 +1405,7 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 52.07) (xy 151.13 59.69)
+			(xy 139.7 52.07) (xy 139.7 59.69)
 		)
 		(stroke
 			(width 0)
@@ -1436,7 +1436,7 @@
 	)
 	(hierarchical_label "EN_LED_B"
 		(shape input)
-		(at 151.13 52.07 90)
+		(at 139.7 52.07 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1447,7 +1447,7 @@
 	)
 	(hierarchical_label "LED_driver2"
 		(shape input)
-		(at 161.29 52.07 90)
+		(at 149.86 52.07 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1491,7 +1491,7 @@
 	)
 	(symbol
 		(lib_id "SamacSys_Parts:CRCW08058R06FKEAC")
-		(at 177.8 76.2 0)
+		(at 166.37 76.2 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1500,7 +1500,7 @@
 		(fields_autoplaced yes)
 		(uuid "070cdd2d-083d-4a00-b0a7-016bcbd5cd3f")
 		(property "Reference" "R18"
-			(at 186.69 69.85 0)
+			(at 175.26 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1508,7 +1508,7 @@
 			)
 		)
 		(property "Value" "8.06"
-			(at 186.69 72.39 0)
+			(at 175.26 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1516,7 +1516,7 @@
 			)
 		)
 		(property "Footprint" "RESC2012X60N"
-			(at 191.77 172.39 0)
+			(at 180.34 172.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1526,7 +1526,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.arrow.com/en/products/crcw08058r06fkeac/vishay"
-			(at 191.77 272.39 0)
+			(at 180.34 272.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1536,7 +1536,7 @@
 			)
 		)
 		(property "Description" "D12/CRCW0805-C 100 8R06 1% ET1"
-			(at 177.8 76.2 0)
+			(at 166.37 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1545,7 +1545,7 @@
 			)
 		)
 		(property "Height" "0.6"
-			(at 191.77 472.39 0)
+			(at 180.34 472.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1555,7 +1555,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Vishay"
-			(at 191.77 572.39 0)
+			(at 180.34 572.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1565,7 +1565,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "CRCW08058R06FKEAC"
-			(at 191.77 672.39 0)
+			(at 180.34 672.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1575,7 +1575,7 @@
 			)
 		)
 		(property "Mouser Part Number" ""
-			(at 191.77 772.39 0)
+			(at 180.34 772.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1585,7 +1585,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" ""
-			(at 191.77 872.39 0)
+			(at 180.34 872.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1595,7 +1595,7 @@
 			)
 		)
 		(property "Arrow Part Number" "CRCW08058R06FKEAC"
-			(at 191.77 972.39 0)
+			(at 180.34 972.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1605,7 +1605,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/crcw08058r06fkeac/vishay"
-			(at 191.77 1072.39 0)
+			(at 180.34 1072.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1925,7 +1925,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 173.99 86.36 0)
+		(at 162.56 86.36 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1934,7 +1934,7 @@
 		(fields_autoplaced yes)
 		(uuid "23888ab8-30e3-4b8b-9300-edf6745a6a12")
 		(property "Reference" "#PWR033"
-			(at 173.99 92.71 0)
+			(at 162.56 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1943,7 +1943,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 173.99 91.44 0)
+			(at 162.56 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1951,7 +1951,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 173.99 86.36 0)
+			(at 162.56 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1960,7 +1960,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 173.99 86.36 0)
+			(at 162.56 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1969,7 +1969,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 173.99 86.36 0)
+			(at 162.56 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2189,7 +2189,7 @@
 	)
 	(symbol
 		(lib_id "SamacSys_Parts:BCR421UW6Q-7")
-		(at 146.05 66.04 0)
+		(at 134.62 66.04 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2198,7 +2198,7 @@
 		(fields_autoplaced yes)
 		(uuid "6857ff6f-85cc-46b2-8e35-d4f051c2fd3f")
 		(property "Reference" "IC6"
-			(at 147.32 73.9774 0)
+			(at 135.89 73.9774 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2207,7 +2207,7 @@
 			)
 		)
 		(property "Value" "BCR421UW6Q-7"
-			(at 147.32 76.5175 0)
+			(at 135.89 76.5175 0)
 			(effects
 				(font
 					(size 0.889 0.889)
@@ -2216,7 +2216,7 @@
 			)
 		)
 		(property "Footprint" "SOT95P285X140-6N"
-			(at 172.72 160.96 0)
+			(at 161.29 160.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2226,7 +2226,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.diodes.com//assets/Datasheets/BCR420UW6Q_BCR421UW6Q.pdf"
-			(at 172.72 260.96 0)
+			(at 161.29 260.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2236,7 +2236,7 @@
 			)
 		)
 		(property "Description" "LED Driver IC 1 Output Linear PWM Dimming 350mA SOT-26"
-			(at 146.05 66.04 0)
+			(at 134.62 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2245,7 +2245,7 @@
 			)
 		)
 		(property "Height" "1.4"
-			(at 172.72 460.96 0)
+			(at 161.29 460.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2255,7 +2255,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Diodes Incorporated"
-			(at 172.72 560.96 0)
+			(at 161.29 560.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2265,7 +2265,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "BCR421UW6Q-7"
-			(at 172.72 660.96 0)
+			(at 161.29 660.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2275,7 +2275,7 @@
 			)
 		)
 		(property "Mouser Part Number" "621-BCR421UW6Q-7"
-			(at 172.72 760.96 0)
+			(at 161.29 760.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2285,7 +2285,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Diodes-Incorporated/BCR421UW6Q-7?qs=7rrmt5iGdWdedcb2M%252BEvjA%3D%3D"
-			(at 172.72 860.96 0)
+			(at 161.29 860.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2295,7 +2295,7 @@
 			)
 		)
 		(property "Arrow Part Number" "BCR421UW6Q-7"
-			(at 172.72 960.96 0)
+			(at 161.29 960.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2305,7 +2305,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/bcr421uw6q-7/diodes-incorporated?utm_currency=USD&region=nac"
-			(at 172.72 1060.96 0)
+			(at 161.29 1060.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
