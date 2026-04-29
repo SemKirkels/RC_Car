@@ -1,4 +1,4 @@
-26765579558449547
+26811752338510466
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -97279,12 +97279,194 @@ rotary encoder illuminated switch vertical
 9
 8
 SamacSys_Parts
+1N5824
+1N5824-9
+Schottky Diode
+0
+2
+2
+SamacSys_Parts
+35552
+3555-2-1
+Undefined or Miscellaneous
+0
+4
+4
+SamacSys_Parts
+1333871
+1333871-4
+Connector
+0
+9
+9
+SamacSys_Parts
+CAPAE660X800N
+EXV107M025A9HAA
+Capacitor Polarised
+0
+2
+2
+SamacSys_Parts
+CAPC2012X90N
+0009090908 height
+Capacitor
+0
+2
+2
+SamacSys_Parts
+CAPC2012X94N
+SIZE 0805-1
+Capacitor
+0
+2
+2
+SamacSys_Parts
+CAPC2012X140N
+C0805C104J4JACAUTO-
+Capacitor
+0
+2
+2
+SamacSys_Parts
+CAPC2013X94N
+CAPC2013X94N
+Capacitor
+0
+2
+2
+SamacSys_Parts
+CAPC3225X285N
+1210 (3225)
+Capacitor
+0
+2
+2
+SamacSys_Parts
+CAPPM7344X310N
+CASE D
+Capacitor Polarised
+0
+2
+2
+SamacSys_Parts
+CAPPRD500W65D1000H1750
+10x16+
+Capacitor Polarised
+0
+2
+2
+SamacSys_Parts
+ERA6AEB101V
+ERA6A
+Resistor
+0
+2
+2
+SamacSys_Parts
+ERJS06_U06__0805_
+ERJS06_U06_(0805)
+Resistor
+0
+2
+2
+SamacSys_Parts
+EXV106M035A9DAA
+EXV226M025A9DAA
+Capacitor Polarised
+0
+2
+2
+SamacSys_Parts
+FUSC4632X120N
+PTS181233V075
+Fuse
+0
+2
+2
+SamacSys_Parts
+HDRV8W64P254_2X4_1020X500X680P
+XG8T-0831
+Connector
+0
+8
+8
+SamacSys_Parts
+KTT0005B
+KTT0005B
+Integrated Circuit
+0
+8
+8
+SamacSys_Parts
+LT1764EQPBF
+Q Package5-Lead Plastic DD Pak_2025
+Integrated Circuit
+0
+6
+6
+SamacSys_Parts
 NE555DR
 D (R-PDSO-G8)
 Integrated Circuit
 0
 8
 8
+SamacSys_Parts
+PE54040SNL
+PE-54040SNL-1
+Inductor
+0
+2
+2
+SamacSys_Parts
+PSMN4R240VSHX
+SOT1205_2022
+MOSFET (N-Channel)
+0
+10
+10
+SamacSys_Parts
+QFN50P400X600X80-33N-D
+MCF8329A1IQRRYRQ1
+Integrated Circuit
+0
+33
+33
+SamacSys_Parts
+RESC2012X50N
+CRCW0805
+Resistor
+0
+2
+2
+SamacSys_Parts
+RESC2013X65N
+CRGH0805
+Resistor
+0
+2
+2
+SamacSys_Parts
+RESC15078X155N
+PSR500h
+Resistor
+0
+2
+2
+SamacSys_Parts
+SOT95P285X140-6N
+SOT26_2024-3
+Integrated Circuit
+0
+6
+6
+SamacSys_Parts
+T491C
+T491C-1
+Capacitor Polarised
+0
+2
+2
 SamacSys_Parts
 XT60PWM
 XT60PW-M-2

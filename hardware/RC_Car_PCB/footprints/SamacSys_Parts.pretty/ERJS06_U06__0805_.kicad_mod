@@ -22,7 +22,7 @@
   (fp_circle (center -2.275 0) (end -2.275 0.05) (layer F.SilkS) (width 0.2))
   (pad 1 smd rect (at -1.175 0 90) (size 1.15 1.15) (layers F.Cu F.Paste F.Mask))
   (pad 2 smd rect (at 1.175 0 90) (size 1.15 1.15) (layers F.Cu F.Paste F.Mask))
-  (model "C:\\Uhasselt\\2025_2026\\semester2\\bachelor proef\\design\\RC_Car_PCB\\footprints\\SamacSys_Parts.3dshapes\\ERJ-U06D5101V.stp"
+  (model "C:\\Uhasselt\\2025_2026\\semester2\\bachelor proef\\design\\RC_Car_PCB\\footprints\\SamacSys_Parts.3dshapes\\ERJ-U06D2002V.stp"
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

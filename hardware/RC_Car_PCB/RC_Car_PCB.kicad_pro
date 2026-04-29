@@ -633,18 +633,6 @@
     [
       "582f25c9-aa23-4c15-845c-ca6fcfa01660",
       "LedDriver"
-    ],
-    [
-      "75b4de92-a665-4fdf-ba6c-eb60068e46bd",
-      "Communication"
-    ],
-    [
-      "ef6dd820-2017-4ad7-8ef5-6a714fc31936",
-      "BLDC DRIVER"
-    ],
-    [
-      "b580a13a-ba47-4dd6-8481-a54f8e44980e",
-      "Servo"
     ]
   ],
   "text_variables": {}

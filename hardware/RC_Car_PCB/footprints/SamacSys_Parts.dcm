@@ -162,4 +162,226 @@ K
 F https://www.phoenixcontact.com/en-us/products/pcb-terminal-block-lpta-16-3-150-zb-1333871?type=pdf
 $ENDCMP
 #
+$CMP BCR421UW6Q-7
+D LED Driver IC 1 Output Linear PWM Dimming 350mA SOT-26
+K
+F https://www.diodes.com//assets/Datasheets/BCR420UW6Q_BCR421UW6Q.pdf
+$ENDCMP
+#
+$CMP XG8T-0831
+D Headers & Wire Housings Connector
+K
+F https://omronfs.omron.com/en_US/ecb/products/pdf/en-xj8.pdf
+$ENDCMP
+#
+$CMP CRCW08058R06FKEAC
+D D12/CRCW0805-C 100 8R06 1% ET1
+K
+F https://www.arrow.com/en/products/crcw08058r06fkeac/vishay
+$ENDCMP
+#
+$CMP MCF8329A1IREER
+D Motor / Motion / Ignition Controllers & Drivers 60-V, sensorless, field-oriented control (FOC) three-phase BLDC gate driver 36-WQFN -40 to 125
+K
+F https://www.ti.com/lit/gpn/mcf8329a
+$ENDCMP
+#
+$CMP STM32L476RGT6TR
+D Ultra-low-power Arm Cortex-M4 32-bit MCU+FPU, 100DMIPS, up to 1MB Flash, 128 KB SRAM, USB OTG FS, LCD, ext. SMPS
+K
+F https://www.st.com/resource/en/datasheet/stm32l476je.pdf
+$ENDCMP
+#
+$CMP C0805C102F3GACTU
+D SMD, MLCC, Ultra-Stable, Low Loss, Class I
+K
+F https://www.yageogroup.com/content/datasheet/asset/file/KEM_C1003_C0G_SMD
+$ENDCMP
+#
+$CMP ERJ-6RBD1002V
+D ERJ6R Resistor 0.1W0K.5%0ppm Panasonic Precision Thick Film Surface Mount Resistor 0805 Case 10k +/-0.5% 0.1W +/-50ppm/C
+K
+F 
+$ENDCMP
+#
+$CMP 500SSP1S1M2QEA
+D SLIDE, 5A, 120VAC/28VDC SPDT, On-On Through Hole
+K
+F https://configured-product-images.s3.amazonaws.com/2D/specs/500SSP1S1M2QEA.pdf
+$ENDCMP
+#
+$CMP MMZ1608Y601BTD25
+D TDK - MMZ1608Y601BTD25 - Ferrite Bead, 0603 [1608 Metric], 600 ohm, 500 mA, MMZ Series, 0.4 ohm, +/- 25%
+K
+F https://product.tdk.com/system/files/dam/doc/product/emc/emc/beads/catalog/beads_automotive_signal_mmz1608_en.pdf
+$ENDCMP
+#
+$CMP EA5070LA12-8.000M_TR
+D Crystals 8MHz 12pF 15ppm -20C +70C
+K
+F https://abracon.com/datasheets/Ecliptek/EA5070.pdf
+$ENDCMP
+#
+$CMP C0805X180F8HACAUTO
+D SMD, MLCC, High Temperature, Ultra-Stable, FT-CAP, Automotive Grade
+K
+F https://www.yageogroup.com/content/datasheet/asset/file/KEM_C1063_X8R_FT-CAP_SMD
+$ENDCMP
+#
+$CMP 2134441-2
+D Body Features: Offset .88 MM | Shell Plating Material Tin over Nickel | Shell Plating Finish Matte | Connector Profile Micro | Configuration Features: Number of Positions 5 | Number of Ports 1 | Contact Features: Contact Mating Area Plating Material Thickness .76 MICM | Contact Current Rating (Max) 1.8 AMP | Contact Mating Area Plating Material Gold | Contact Mating Area Plating Material Thickness 29.52 MICIN | Dimensions: PCB Thickness (Recommended) .8  1. MM | PCB Thickness (Recommended) .031  .039 
+K
+F https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=5-1773464-3&DocType=Data%20Sheet&DocLang=English&PartCntxt=2134441-2&DocFormat=pdf
+$ENDCMP
+#
+$CMP ERA-6AED152V
+D Thin Film Resistors - SMD 0805 1500ohms 25ppm 0.5% AEC-Q200
+K
+F https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf
+$ENDCMP
+#
+$CMP 22-28-4044
+D Headers & Wire Housings 4P VERT HDR 15u Au
+K
+F https://www.molex.com/content/dam/molex/molex-dot-com/products/automated/en-us/salesdrawingpdf/423/42375/022284044_sd.pdf?inline
+$ENDCMP
+#
+$CMP M20-7832042
+D M20: 20+20 Pos Receptacle DIL Straight 3mm THT Connector 8.5mm high Gold+Tin
+K
+F https://content.harwin.com/m/9326bc87f68b4cd2/original/DRG-00386-Technical-Drawing-Datasheet-M20-783-pdf.pdf
+$ENDCMP
+#
+$CMP BQ7692006PW
+D 3 to 5-Series Cell Li-Ion and Li-Phosphate Battery Monitor (bq76940 Family)
+K
+F http://www.ti.com/lit/ds/symlink/bq76920.pdf
+$ENDCMP
+#
+$CMP B4B-XH-A_LF__SN_
+D CONN HEADER VERT 4POS 2.5MM
+K
+F https://datasheet.lcsc.com/szlcsc/JST-Sales-America-B4B-XH-A-LF-SN_C144395.pdf
+$ENDCMP
+#
+$CMP ERJ-P06F1000V
+D Thick Film Resistors - SMD 0805 100ohms 0.5W 1% AEC-Q200
+K
+F http://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C102.pdf
+$ENDCMP
+#
+$CMP FWP218-30C-R002F
+D ResFoil FWP218 THT 0.002R 1% 30W TC300
+K
+F https://www.bourns.com/docs/product-datasheets/FWP218.pdf
+$ENDCMP
+#
+$CMP SQJ422EP-T1_BE3
+D MOSFET N-CHANNEL 40-V (D-S) 175C MOSFET
+K
+F https://www.vishay.com/docs/63989/sqj422ep.pdf
+$ENDCMP
+#
+$CMP SDR10EZPF1004
+D Thick Film Resistors - SMD
+K
+F https://www.rohm.com/datasheet?p=SDR10EZPF&dist=Mouser&media=referral&source=mouser.com&campaign=Mouser
+$ENDCMP
+#
+$CMP BSS84
+D -0.13 A, -50 V RDS(ON) = 10  @ VGS = -5 V; High-Density Cell Design for Low RDS(ON); Voltage-controlled P-channel small signal switch; High Saturation Current.
+K
+F https://www.onsemi.com/pub/Collateral/BSS84-D.PDF
+$ENDCMP
+#
+$CMP 1N4148
+D Small Signal Diode, 100V 0.3A 2-Pin DO35
+K
+F https://www.onsemi.com/pub/Collateral/1N914-D.PDF
+$ENDCMP
+#
+$CMP NTCS0805E3103HLT
+D VISHAY - NTCS0805E3103HLT - NTC THERMISTOR, AEC-Q200, 10K, SMD, 0805
+K
+F http://www.vishay.com/docs/29044/ntcs0805e3t.pdf
+$ENDCMP
+#
+$CMP ERJ-U06D2002V
+D Anti-Sulfurated Thick Film Chip Resistor, 0805, 0.125W
+K
+F https://industrial.panasonic.com/cdbs/www-data/pdf/RDP0000/AOA0000C334.pdf
+$ENDCMP
+#
+$CMP 0805X475M250CT
+D Multilayer Ceramic Capacitors MLCC - SMD/SMT 0805 MLCC X5R 4.7 uF +/- 20% 25 V T&R GP
+K
+F https://www.mouser.co.uk/datasheet/2/210/WTC_MLCC_General_Purpose-1534899.pdf
+$ENDCMP
+#
+$CMP MCP9808-E_MS
+D +/-0.5C Maximum Accuracy Digital Temperature Sensor
+K
+F https://datasheet.datasheetarchive.com/originals/distributors/Datasheets-DGA18/383780.pdf
+$ENDCMP
+#
+$CMP 22-28-4054
+D Headers & Wire Housings 5P HEADER 15u Au
+K
+F https://www.mouser.com/datasheet/2/276/0022284054_PCB_HEADERS-228201.pdf
+$ENDCMP
+#
+$CMP MCP9600-E_MX
+D Board Mount Temperature Sensors Thermocouple to I2C converter
+K
+F https://datasheet.datasheetarchive.com/originals/distributors/DKDS41/DSANUWW0026539.pdf
+$ENDCMP
+#
+$CMP HMC0805JT20M0
+D RES, 0805, 20 Mohm, 5%, 0.125W
+K
+F https://cs.seielect.com/catalog/SEI-HMC.pdf
+$ENDCMP
+#
+$CMP CRCW08052M00FKEAC
+D Res Thick Film 0805 2M Ohm 1% 0.125W(1/8W) +/-100ppm/C Pad SMD T/R
+K
+F https://www.vishay.com/docs/20008/dcrcw.pdf
+$ENDCMP
+#
+$CMP CRCW08052M00JNEA
+D Vishay CRCW Series Thick Film Surface Mount Resistor 0805 Case 2M +/-5% 0.33W +/-200ppm/K
+K
+F http://www.vishay.com/docs/20035/dcrcwe3.pdf
+$ENDCMP
+#
+$CMP CRCW08051M00JNEAHP
+D Thick Film Resistors - SMD 1/2watt 1Mohms 5% High Power AEC-Q200
+K
+F https://componentsearchengine.com/Datasheets/1/CRCW08051R00FKEAHP.pdf
+$ENDCMP
+#
+$CMP 1711026
+D PCB terminal block, nominal current: 24 A, rated voltage (III/2): 400 V, nominal cross section: 2.5 mm?, Number of potentials: 2, Number of rows: 1, Number of positions per row: 2, product range: MKDS 3, pitch: 5 mm, connection method: Screw connection with tension sleeve, mounting: Wave soldering, conductor/PCB connection direction: 0 ?, color: green, Pin layout: Linear pinning, Solder pin [P]: 5 mm, type of packaging: packed in cardboard. The article can be aligned to create different nos. of positions!
+K
+F https://www.phoenixcontact.com/en-us/products/printed-circuit-board-terminal-mkds-3-2-1711026?type=pdf
+$ENDCMP
+#
+$CMP 22-30-3093
+D Headers & Wire Housings KK 100 Hdr Assy Bkwy Assy Bkwy 09 Ckt Tin
+K
+F https://www.mouser.com/datasheet/2/276/022303093_sd-589259.pdf
+$ENDCMP
+#
+$CMP M20-9990345
+D M20: 3 Pos Plug SIL Straight 3mm THT Connector 6.1mm pin Gold
+K
+F https://content.harwin.com/m/0df15f6e0f9f48e2/original/DRG-00479-Technical-Drawing-Datasheet-M20-999-pdf.pdf
+$ENDCMP
+#
+$CMP 22-28-4083
+D Headers & Wire Housings BREAKAWAY HDR VERT 8
+K
+F https://componentsearchengine.com/Datasheets/1/22-28-4083.pdf
+$ENDCMP
+#
 #End Doc Library

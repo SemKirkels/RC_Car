@@ -1,0 +1,759 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "1f2178f7-c7c2-4e12-a72d-08429f717332")
+	(paper "A4")
+	(lib_symbols
+		(symbol "SamacSys_Parts:BCR421UW6Q-7"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "IC5"
+				(at 9.144 -17.272 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right)
+				)
+			)
+			(property "Value" "BCR421UW6Q-7"
+				(at 14.732 -13.97 0)
+				(effects
+					(font
+						(size 0.889 0.889)
+					)
+					(justify right)
+				)
+			)
+			(property "Footprint" "SOT95P285X140-6N"
+				(at 26.67 -94.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.diodes.com//assets/Datasheets/BCR420UW6Q_BCR421UW6Q.pdf"
+				(at 26.67 -194.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "LED Driver IC 1 Output Linear PWM Dimming 350mA SOT-26"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "1.4"
+				(at 26.67 -394.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "Diodes Incorporated"
+				(at 26.67 -494.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "BCR421UW6Q-7"
+				(at 26.67 -594.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "621-BCR421UW6Q-7"
+				(at 26.67 -694.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Diodes-Incorporated/BCR421UW6Q-7?qs=7rrmt5iGdWdedcb2M%252BEvjA%3D%3D"
+				(at 26.67 -794.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Arrow Part Number" "BCR421UW6Q-7"
+				(at 26.67 -894.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Arrow Price/Stock" "https://www.arrow.com/en/products/bcr421uw6q-7/diodes-incorporated?utm_currency=USD&region=nac"
+				(at 26.67 -994.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "BCR421UW6Q-7_1_1"
+				(rectangle
+					(start 2.54 1.27)
+					(end 20.32 -19.685)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 5.08 6.35 270)
+					(length 5.08)
+					(name "EN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 6.35 270)
+					(length 5.08)
+					(name "OUT_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 15.24 6.35 270)
+					(length 5.08)
+					(name "OUT_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 17.78 6.35 270)
+					(length 5.08)
+					(name "OUT_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 25.4 -10.16 180)
+					(length 5.08)
+					(name "REXT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 25.4 -17.78 180)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(rectangle
+		(start 132.08 33.02)
+		(end 220.98 127)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 4e16347f-16da-4143-bf9f-8069a9f550da)
+	)
+	(rectangle
+		(start 30.48 33.02)
+		(end 119.38 127)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid e9547eba-9b03-40cd-8cfc-ff3212984dc8)
+	)
+	(text "LED driver A"
+		(exclude_from_sim no)
+		(at 111.76 35.56 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "03e53b08-490b-4b12-abdb-b9a91e1cbd83")
+	)
+	(text "LED driver B\n"
+		(exclude_from_sim no)
+		(at 213.36 35.306 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "f24188e9-0474-44c0-922d-9604c697d36a")
+	)
+	(junction
+		(at 72.39 74.93)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1f90d174-e200-4523-834e-478c14914a1e")
+	)
+	(junction
+		(at 175.26 74.93)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ef2c28f3-8fd6-4a98-a5f3-a28fef1d0df6")
+	)
+	(wire
+		(pts
+			(xy 74.93 74.93) (xy 74.93 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1c0c6c22-e922-409e-9e5e-b442eb8034c6")
+	)
+	(wire
+		(pts
+			(xy 177.8 74.93) (xy 177.8 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "68621dda-15d6-40c3-ad77-c0ea7ee05193")
+	)
+	(wire
+		(pts
+			(xy 72.39 74.93) (xy 74.93 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6acf0cc8-77cb-420c-8192-1f7c777bdcf7")
+	)
+	(wire
+		(pts
+			(xy 172.72 74.93) (xy 175.26 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8de9e546-d53b-410f-af05-e3b9001d7843")
+	)
+	(wire
+		(pts
+			(xy 172.72 76.2) (xy 172.72 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "96d66673-8a10-4f95-9095-e8863b1f8e37")
+	)
+	(wire
+		(pts
+			(xy 69.85 76.2) (xy 69.85 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9e4f84a4-3535-460b-a63b-b640325b8077")
+	)
+	(wire
+		(pts
+			(xy 69.85 74.93) (xy 72.39 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a05edec1-c6c8-480d-a9fc-2ae8b56065f8")
+	)
+	(wire
+		(pts
+			(xy 175.26 74.93) (xy 177.8 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cbb73454-4d50-4d64-909b-3ef39b9de97e")
+	)
+	(wire
+		(pts
+			(xy 62.23 71.12) (xy 62.23 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cde29d40-fa98-4425-922d-17ff0a351fef")
+	)
+	(wire
+		(pts
+			(xy 175.26 74.93) (xy 175.26 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "de54b735-7bc8-47f5-baba-4d0eb151bd8c")
+	)
+	(wire
+		(pts
+			(xy 165.1 68.58) (xy 165.1 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f1c72efa-c8bd-4cd0-a094-51a83962f42a")
+	)
+	(wire
+		(pts
+			(xy 72.39 74.93) (xy 72.39 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f59b0731-36e7-4511-a3be-d00696c82106")
+	)
+	(hierarchical_label "EN_LED_A"
+		(shape input)
+		(at 62.23 71.12 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "31b1948a-d720-45bc-8eab-1b14528bf42f")
+	)
+	(hierarchical_label "EN_LED_A"
+		(shape input)
+		(at 165.1 68.58 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "434e1280-c4f2-40ac-b965-ae5121dd3a68")
+	)
+	(symbol
+		(lib_id "SamacSys_Parts:BCR421UW6Q-7")
+		(at 57.15 82.55 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "21373a37-278b-4f4f-ace2-128fc455c4d6")
+		(property "Reference" "IC5"
+			(at 58.42 90.4874 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "BCR421UW6Q-7"
+			(at 58.42 93.0275 0)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "SOT95P285X140-6N"
+			(at 83.82 177.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.diodes.com//assets/Datasheets/BCR420UW6Q_BCR421UW6Q.pdf"
+			(at 83.82 277.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "LED Driver IC 1 Output Linear PWM Dimming 350mA SOT-26"
+			(at 57.15 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "1.4"
+			(at 83.82 477.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Diodes Incorporated"
+			(at 83.82 577.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "BCR421UW6Q-7"
+			(at 83.82 677.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "621-BCR421UW6Q-7"
+			(at 83.82 777.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Diodes-Incorporated/BCR421UW6Q-7?qs=7rrmt5iGdWdedcb2M%252BEvjA%3D%3D"
+			(at 83.82 877.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" "BCR421UW6Q-7"
+			(at 83.82 977.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/bcr421uw6q-7/diodes-incorporated?utm_currency=USD&region=nac"
+			(at 83.82 1077.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "92cf87e5-83b2-4852-bea7-dd2976be9735")
+		)
+		(pin "3"
+			(uuid "6fbba651-4e87-4366-aba8-f00e2bd21176")
+		)
+		(pin "4"
+			(uuid "de22eabc-e2f7-4dab-839a-4d3be8c8d69c")
+		)
+		(pin "1"
+			(uuid "c378d322-65a8-4691-b3b0-996f6fb4461b")
+		)
+		(pin "6"
+			(uuid "f6a3d850-3314-4d18-9469-462cf0c666fa")
+		)
+		(pin "2"
+			(uuid "faa3eca5-af22-4a98-93ec-88b2a7d2c21e")
+		)
+		(instances
+			(project ""
+				(path "/e3eebfb1-ca33-4fe6-a6b8-7fbebca142f4/582f25c9-aa23-4c15-845c-ca6fcfa01660"
+					(reference "IC5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SamacSys_Parts:BCR421UW6Q-7")
+		(at 160.02 82.55 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6857ff6f-85cc-46b2-8e35-d4f051c2fd3f")
+		(property "Reference" "IC6"
+			(at 161.29 90.4874 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "BCR421UW6Q-7"
+			(at 161.29 93.0275 0)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "SOT95P285X140-6N"
+			(at 186.69 177.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.diodes.com//assets/Datasheets/BCR420UW6Q_BCR421UW6Q.pdf"
+			(at 186.69 277.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "LED Driver IC 1 Output Linear PWM Dimming 350mA SOT-26"
+			(at 160.02 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "1.4"
+			(at 186.69 477.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Diodes Incorporated"
+			(at 186.69 577.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "BCR421UW6Q-7"
+			(at 186.69 677.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "621-BCR421UW6Q-7"
+			(at 186.69 777.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Diodes-Incorporated/BCR421UW6Q-7?qs=7rrmt5iGdWdedcb2M%252BEvjA%3D%3D"
+			(at 186.69 877.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" "BCR421UW6Q-7"
+			(at 186.69 977.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/bcr421uw6q-7/diodes-incorporated?utm_currency=USD&region=nac"
+			(at 186.69 1077.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "9368b78e-a7c9-4890-9c80-14343c3bacbc")
+		)
+		(pin "3"
+			(uuid "36a066fe-d6aa-41d3-af2a-75627de34bb4")
+		)
+		(pin "4"
+			(uuid "c92743ee-e3c1-4e0a-af3a-4d42627c5076")
+		)
+		(pin "1"
+			(uuid "7af359a4-2de1-400d-9981-264bdc01c472")
+		)
+		(pin "6"
+			(uuid "09c88937-2ee1-4e08-8f46-2a2a83e8ee83")
+		)
+		(pin "2"
+			(uuid "782c321b-6653-4c1c-928e-65865d8071a0")
+		)
+		(instances
+			(project "RC_Car_PCB"
+				(path "/e3eebfb1-ca33-4fe6-a6b8-7fbebca142f4/582f25c9-aa23-4c15-845c-ca6fcfa01660"
+					(reference "IC6")
+					(unit 1)
+				)
+			)
+		)
+	)
+)

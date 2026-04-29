@@ -707,4 +707,1065 @@ P 5 0 1 6 200 100 700 100 700 -600 200 -600 200 100 N
 ENDDRAW
 ENDDEF
 #
+#SamacSys ECAD Model BCR421UW6Q-7
+#/318899/1832056/2.50/6/2/Integrated Circuit
+DEF BCR421UW6Q-7 IC 0 30 Y Y 1 F N
+F0 "IC" 1050 300 50 H V L CNN
+F1 "BCR421UW6Q-7" 1050 200 50 H V L CNN
+F2 "SOT95P285X140-6N" 1050 100 50 H I L CNN
+F3 "https://www.diodes.com//assets/Datasheets/BCR420UW6Q_BCR421UW6Q.pdf" 1050 0 50 H I L CNN
+F4 "LED Driver IC 1 Output Linear PWM Dimming 350mA SOT-26" 1050 -100 50 H I L CNN "Description"
+F5 "1.4" 1050 -200 50 H I L CNN "Height"
+F6 "Diodes Incorporated" 1050 -300 50 H I L CNN "Manufacturer_Name"
+F7 "BCR421UW6Q-7" 1050 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "621-BCR421UW6Q-7" 1050 -500 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.co.uk/ProductDetail/Diodes-Incorporated/BCR421UW6Q-7?qs=7rrmt5iGdWdedcb2M%252BEvjA%3D%3D" 1050 -600 50 H I L CNN "Mouser Price/Stock"
+F10 "BCR421UW6Q-7" 1050 -700 50 H I L CNN "Arrow Part Number"
+F11 "https://www.arrow.com/en/products/bcr421uw6q-7/diodes-incorporated?utm_currency=USD&region=nac" 1050 -800 50 H I L CNN "Arrow Price/Stock"
+DRAW
+X EN 1 0 0 200 R 50 50 0 0 P
+X OUT_1 2 0 -100 200 R 50 50 0 0 P
+X OUT_2 3 0 -200 200 R 50 50 0 0 P
+X REXT 6 1200 0 200 L 50 50 0 0 P
+X OUT_3 5 1200 -100 200 L 50 50 0 0 P
+X GND 4 1200 -200 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 1000 100 1000 -300 200 -300 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model XG8T-0831
+#/265286/1832056/2.50/8/3/Connector
+DEF XG8T-0831 J 0 30 Y Y 1 F N
+F0 "J" 650 300 50 H V L CNN
+F1 "XG8T-0831" 650 200 50 H V L CNN
+F2 "HDRV8W64P254_2X4_1020X500X680P" 650 100 50 H I L CNN
+F3 "https://omronfs.omron.com/en_US/ecb/products/pdf/en-xj8.pdf" 650 0 50 H I L CNN
+F4 "Headers & Wire Housings Connector" 650 -100 50 H I L CNN "Description"
+F5 "6.8" 650 -200 50 H I L CNN "Height"
+F6 "OMRON Electronics" 650 -300 50 H I L CNN "Manufacturer_Name"
+F7 "XG8T-0831" 650 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "653-XG8T-0831" 650 -500 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.com/Search/Refine.aspx?Keyword=653-XG8T-0831" 650 -600 50 H I L CNN "Mouser Price/Stock"
+F10 "" 650 -700 50 H I L CNN "Arrow Part Number"
+F11 "" 650 -800 50 H I L CNN "Arrow Price/Stock"
+DRAW
+X 1 1 0 0 200 R 50 50 0 0 P
+X 3 3 0 -100 200 R 50 50 0 0 P
+X 5 5 0 -200 200 R 50 50 0 0 P
+X 7 7 0 -300 200 R 50 50 0 0 P
+X 2 2 800 0 200 L 50 50 0 0 P
+X 4 4 800 -100 200 L 50 50 0 0 P
+X 6 6 800 -200 200 L 50 50 0 0 P
+X 8 8 800 -300 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 600 100 600 -400 200 -400 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model CRCW08058R06FKEAC
+#/2272502/1832056/2.50/2/3/Resistor
+DEF CRCW08058R06FKEAC R 0 30 Y Y 1 F N
+F0 "R" 550 250 50 H V L CNN
+F1 "CRCW08058R06FKEAC" 550 150 50 H V L CNN
+F2 "RESC2012X60N" 550 50 50 H I L CNN
+F3 "https://www.arrow.com/en/products/crcw08058r06fkeac/vishay" 550 -50 50 H I L CNN
+F4 "D12/CRCW0805-C 100 8R06 1% ET1" 550 -150 50 H I L CNN "Description"
+F5 "0.6" 550 -250 50 H I L CNN "Height"
+F6 "Vishay" 550 -350 50 H I L CNN "Manufacturer_Name"
+F7 "CRCW08058R06FKEAC" 550 -450 50 H I L CNN "Manufacturer_Part_Number"
+F8 "" 550 -550 50 H I L CNN "Mouser Part Number"
+F9 "" 550 -650 50 H I L CNN "Mouser Price/Stock"
+F10 "CRCW08058R06FKEAC" 550 -750 50 H I L CNN "Arrow Part Number"
+F11 "https://www.arrow.com/en/products/crcw08058r06fkeac/vishay" 550 -850 50 H I L CNN "Arrow Price/Stock"
+DRAW
+X ~ 1 0 0 200 R 50 50 0 0 P
+X ~ 2 700 0 200 L 50 50 0 0 P
+P 5 0 1 6 200 50 500 50 500 -50 200 -50 200 50 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model MCF8329A1IREER
+#/19592508/1832056/2.50/37/3/Integrated Circuit
+DEF MCF8329A1IREER IC 0 30 Y Y 1 F N
+F0 "IC" 1450 1400 50 H V L CNN
+F1 "MCF8329A1IREER" 1450 1300 50 H V L CNN
+F2 "QFN40P400X500X80-37N-D" 1450 1200 50 H I L CNN
+F3 "https://www.ti.com/lit/gpn/mcf8329a" 1450 1100 50 H I L CNN
+F4 "Motor / Motion / Ignition Controllers & Drivers 60-V, sensorless, field-oriented control (FOC) three-phase BLDC gate driver 36-WQFN -40 to 125" 1450 1000 50 H I L CNN "Description"
+F5 "0.8" 1450 900 50 H I L CNN "Height"
+F6 "Texas Instruments" 1450 800 50 H I L CNN "Manufacturer_Name"
+F7 "MCF8329A1IREER" 1450 700 50 H I L CNN "Manufacturer_Part_Number"
+F8 "595-MCF8329A1IREER" 1450 600 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/MCF8329A1IREER?qs=mELouGlnn3ewGjq5tsDm5w%3D%3D" 1450 500 50 H I L CNN "Mouser Price/Stock"
+F10 "MCF8329A1IREER" 1450 400 50 H I L CNN "Arrow Part Number"
+F11 "https://www.arrow.com/en/products/mcf8329a1ireer/texas-instruments?utm_currency=USD&region=nac" 1450 300 50 H I L CNN "Arrow Price/Stock"
+DRAW
+X DGND 1 0 0 200 R 50 50 0 0 P
+X VREG 2 0 -100 200 R 50 50 0 0 P
+X GCTRL 3 0 -200 200 R 50 50 0 0 P
+X GND_1 4 0 -300 200 R 50 50 0 0 P
+X PVDD 5 0 -400 200 R 50 50 0 0 P
+X CPL 6 0 -500 200 R 50 50 0 0 P
+X CPH 7 0 -600 200 R 50 50 0 0 P
+X GVDD 8 0 -700 200 R 50 50 0 0 P
+X BSTA 9 0 -800 200 R 50 50 0 0 P
+X SHA 10 0 -900 200 R 50 50 0 0 P
+X GHA 11 400 -1500 200 U 50 50 0 0 P
+X GLA 12 500 -1500 200 U 50 50 0 0 P
+X BSTB 13 600 -1500 200 U 50 50 0 0 P
+X SHB 14 700 -1500 200 U 50 50 0 0 P
+X GHB 15 800 -1500 200 U 50 50 0 0 P
+X GLB 16 900 -1500 200 U 50 50 0 0 P
+X BSTC 17 1000 -1500 200 U 50 50 0 0 P
+X SHC 18 1100 -1500 200 U 50 50 0 0 P
+X FG 28 1600 0 200 L 50 50 0 0 P
+X SPEED/WAKE 27 1600 -100 200 L 50 50 0 0 P
+X AVDD 26 1600 -200 200 L 50 50 0 0 P
+X AGND 25 1600 -300 200 L 50 50 0 0 P
+X DRVOFF 24 1600 -400 200 L 50 50 0 0 P
+X SN 23 1600 -500 200 L 50 50 0 0 P
+X SP 22 1600 -600 200 L 50 50 0 0 P
+X LSS 21 1600 -700 200 L 50 50 0 0 P
+X GLC 20 1600 -800 200 L 50 50 0 0 P
+X GHC 19 1600 -900 200 L 50 50 0 0 P
+X GND_2 37 400 1400 200 D 50 50 0 0 P
+X DVDD 36 500 1400 200 D 50 50 0 0 P
+X NFAULT 35 600 1400 200 D 50 50 0 0 P
+X BRAKE 34 700 1400 200 D 50 50 0 0 P
+X DACOUT/SOX/SPEED_ANA 33 800 1400 200 D 50 50 0 0 P
+X EXT_CLK 32 900 1400 200 D 50 50 0 0 P
+X DIR 31 1000 1400 200 D 50 50 0 0 P
+X SCL 30 1100 1400 200 D 50 50 0 0 P
+X SDA 29 1200 1400 200 D 50 50 0 0 P
+P 5 0 1 6 200 1200 1400 1200 1400 -1300 200 -1300 200 1200 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model STM32L476RGT6TR
+#/1058751/1832056/2.50/64/2/Integrated Circuit
+DEF STM32L476RGT6TR IC 0 30 Y Y 1 F N
+F0 "IC" 2450 1400 50 H V L CNN
+F1 "STM32L476RGT6TR" 2450 1300 50 H V L CNN
+F2 "QFP50P1200X1200X160-64N" 2450 1200 50 H I L CNN
+F3 "https://www.st.com/resource/en/datasheet/stm32l476je.pdf" 2450 1100 50 H I L CNN
+F4 "Ultra-low-power Arm Cortex-M4 32-bit MCU+FPU, 100DMIPS, up to 1MB Flash, 128 KB SRAM, USB OTG FS, LCD, ext. SMPS" 2450 1000 50 H I L CNN "Description"
+F5 "1.6" 2450 900 50 H I L CNN "Height"
+F6 "STMicroelectronics" 2450 800 50 H I L CNN "Manufacturer_Name"
+F7 "STM32L476RGT6TR" 2450 700 50 H I L CNN "Manufacturer_Part_Number"
+F8 "511-STM32L476RGT6TR" 2450 600 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.co.uk/ProductDetail/STMicroelectronics/STM32L476RGT6TR?qs=U58vgkJzipTiakqBcdeU%252Bg%3D%3D" 2450 500 50 H I L CNN "Mouser Price/Stock"
+F10 "STM32L476RGT6TR" 2450 400 50 H I L CNN "Arrow Part Number"
+F11 "https://www.arrow.com/en/products/stm32l476rgt6tr/stmicroelectronics?utm_currency=USD&region=nac" 2450 300 50 H I L CNN "Arrow Price/Stock"
+DRAW
+X VBAT 1 0 0 200 R 50 50 0 0 P
+X PC13 2 0 -100 200 R 50 50 0 0 P
+X PC14-OSC32_IN_(PC14) 3 0 -200 200 R 50 50 0 0 P
+X PC15-OSC32_OUT_(PC15) 4 0 -300 200 R 50 50 0 0 P
+X PH0-OSC_IN_(PH0) 5 0 -400 200 R 50 50 0 0 P
+X PH1-OSC_OUT_(PH1) 6 0 -500 200 R 50 50 0 0 P
+X NRST 7 0 -600 200 R 50 50 0 0 P
+X PC0 8 0 -700 200 R 50 50 0 0 P
+X PC1 9 0 -800 200 R 50 50 0 0 P
+X PC2 10 0 -900 200 R 50 50 0 0 P
+X PC3 11 0 -1000 200 R 50 50 0 0 P
+X VSSA/VREF- 12 0 -1100 200 R 50 50 0 0 P
+X VDDA/VREF+ 13 0 -1200 200 R 50 50 0 0 P
+X PA0 14 0 -1300 200 R 50 50 0 0 P
+X PA1 15 0 -1400 200 R 50 50 0 0 P
+X PA2 16 0 -1500 200 R 50 50 0 0 P
+X PA3 17 500 -2200 200 U 50 50 0 0 P
+X VSS_1 18 600 -2200 200 U 50 50 0 0 P
+X VDD_1 19 700 -2200 200 U 50 50 0 0 P
+X PA4 20 800 -2200 200 U 50 50 0 0 P
+X PA5 21 900 -2200 200 U 50 50 0 0 P
+X PA6 22 1000 -2200 200 U 50 50 0 0 P
+X PA7 23 1100 -2200 200 U 50 50 0 0 P
+X PC4 24 1200 -2200 200 U 50 50 0 0 P
+X PC5 25 1300 -2200 200 U 50 50 0 0 P
+X PB0 26 1400 -2200 200 U 50 50 0 0 P
+X PB1 27 1500 -2200 200 U 50 50 0 0 P
+X PB2 28 1600 -2200 200 U 50 50 0 0 P
+X PB10 29 1700 -2200 200 U 50 50 0 0 P
+X PB11 30 1800 -2200 200 U 50 50 0 0 P
+X VSS_2 31 1900 -2200 200 U 50 50 0 0 P
+X VDD_2 32 2000 -2200 200 U 50 50 0 0 P
+X VDDUSB 48 2600 0 200 L 50 50 0 0 P
+X VSS_3 47 2600 -100 200 L 50 50 0 0 P
+X PA13_(JTMS-SWDIO) 46 2600 -200 200 L 50 50 0 0 P
+X PA12 45 2600 -300 200 L 50 50 0 0 P
+X PA11 44 2600 -400 200 L 50 50 0 0 P
+X PA10 43 2600 -500 200 L 50 50 0 0 P
+X PA9 42 2600 -600 200 L 50 50 0 0 P
+X PA8 41 2600 -700 200 L 50 50 0 0 P
+X PC9 40 2600 -800 200 L 50 50 0 0 P
+X PC8 39 2600 -900 200 L 50 50 0 0 P
+X PC7 38 2600 -1000 200 L 50 50 0 0 P
+X PC6 37 2600 -1100 200 L 50 50 0 0 P
+X PB15 36 2600 -1200 200 L 50 50 0 0 P
+X PB14 35 2600 -1300 200 L 50 50 0 0 P
+X PB13 34 2600 -1400 200 L 50 50 0 0 P
+X PB12 33 2600 -1500 200 L 50 50 0 0 P
+X VDD_3 64 500 1400 200 D 50 50 0 0 P
+X VSS_4 63 600 1400 200 D 50 50 0 0 P
+X PB9 62 700 1400 200 D 50 50 0 0 P
+X PB8 61 800 1400 200 D 50 50 0 0 P
+X BOOT0 60 900 1400 200 D 50 50 0 0 P
+X PB7 59 1000 1400 200 D 50 50 0 0 P
+X PB6 58 1100 1400 200 D 50 50 0 0 P
+X PB5 57 1200 1400 200 D 50 50 0 0 P
+X PB4_(NJTRST) 56 1300 1400 200 D 50 50 0 0 P
+X PB3_(JTDO-TRACESWO) 55 1400 1400 200 D 50 50 0 0 P
+X PD2 54 1500 1400 200 D 50 50 0 0 P
+X PC12 53 1600 1400 200 D 50 50 0 0 P
+X PC11 52 1700 1400 200 D 50 50 0 0 P
+X PC10 51 1800 1400 200 D 50 50 0 0 P
+X PA15_(JTDI) 50 1900 1400 200 D 50 50 0 0 P
+X PA14_(JTCK-SWCLK) 49 2000 1400 200 D 50 50 0 0 P
+P 5 0 1 6 200 1200 2400 1200 2400 -2000 200 -2000 200 1200 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model C0805C102F3GACTU
+#/12246704/1832056/2.50/2/2/Capacitor
+DEF C0805C102F3GACTU C 0 30 Y Y 1 F N
+F0 "C" 350 250 50 H V L CNN
+F1 "C0805C102F3GACTU" 350 150 50 H V L CNN
+F2 "C0805" 350 50 50 H I L CNN
+F3 "https://www.yageogroup.com/content/datasheet/asset/file/KEM_C1003_C0G_SMD" 350 -50 50 H I L CNN
+F4 "SMD, MLCC, Ultra-Stable, Low Loss, Class I" 350 -150 50 H I L CNN "Description"
+F5 "1.1" 350 -250 50 H I L CNN "Height"
+F6 "Yageo Group" 350 -350 50 H I L CNN "Manufacturer_Name"
+F7 "C0805C102F3GACTU" 350 -450 50 H I L CNN "Manufacturer_Part_Number"
+F8 "80-C0805C102F3G" 350 -550 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.co.uk/ProductDetail/KEMET/C0805C102F3GACTU?qs=stSsATjnxep%252BqofUVGbSlg%3D%3D" 350 -650 50 H I L CNN "Mouser Price/Stock"
+F10 "" 350 -750 50 H I L CNN "Arrow Part Number"
+F11 "" 350 -850 50 H I L CNN "Arrow Price/Stock"
+DRAW
+X ~ 1 0 0 200 R 50 50 0 0 P
+X ~ 2 500 0 200 L 50 50 0 0 P
+P 2 0 1 6 220 100 220 -100 N
+P 2 0 1 6 280 100 280 -100 N
+P 2 0 1 6 200 0 220 0 N
+P 2 0 1 6 280 0 300 0 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model ERJ-6RBD1002V
+#/312085/1832056/2.50/2/5/Resistor
+DEF ERJ-6RBD1002V R 0 30 Y Y 1 F N
+F0 "R" 550 250 50 H V L CNN
+F1 "ERJ-6RBD1002V" 550 150 50 H V L CNN
+F2 "RESC2012X70N" 550 50 50 H I L CNN
+F3 "" 550 -50 50 H I L CNN
+F4 "ERJ6R Resistor 0.1W0K.5%0ppm Panasonic Precision Thick Film Surface Mount Resistor 0805 Case 10k +/-0.5% 0.1W +/-50ppm/C" 550 -150 50 H I L CNN "Description"
+F5 "0.7" 550 -250 50 H I L CNN "Height"
+F6 "Panasonic" 550 -350 50 H I L CNN "Manufacturer_Name"
+F7 "ERJ-6RBD1002V" 550 -450 50 H I L CNN "Manufacturer_Part_Number"
+F8 "667-ERJ-6RBD1002V" 550 -550 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.co.uk/ProductDetail/Panasonic/ERJ-6RBD1002V?qs=18kBAoNi3c%2F5OpcgdPnLzA%3D%3D" 550 -650 50 H I L CNN "Mouser Price/Stock"
+F10 "ERJ-6RBD1002V" 550 -750 50 H I L CNN "Arrow Part Number"
+F11 "https://www.arrow.com/en/products/erj-6rbd1002v/panasonic?region=nac" 550 -850 50 H I L CNN "Arrow Price/Stock"
+DRAW
+X ~ 1 0 0 200 R 50 50 0 0 P
+X ~ 2 700 0 200 L 50 50 0 0 P
+P 5 0 1 6 200 50 500 50 500 -50 200 -50 200 50 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model 500SSP1S1M2QEA
+#/801953/1832056/2.50/3/2/Switch
+DEF 500SSP1S1M2QEA S 0 30 Y Y 1 F N
+F0 "S" 750 300 50 H V L CNN
+F1 "500SSP1S1M2QEA" 750 200 50 H V L CNN
+F2 "500SSP1S1M2QEA" 750 100 50 H I L CNN
+F3 "https://configured-product-images.s3.amazonaws.com/2D/specs/500SSP1S1M2QEA.pdf" 750 0 50 H I L CNN
+F4 "SLIDE, 5A, 120VAC/28VDC SPDT, On-On Through Hole" 750 -100 50 H I L CNN "Description"
+F5 "11.43" 750 -200 50 H I L CNN "Height"
+F6 "E-Switch" 750 -300 50 H I L CNN "Manufacturer_Name"
+F7 "500SSP1S1M2QEA" 750 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "612-500-A121" 750 -500 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.co.uk/ProductDetail/E-Switch/500SSP1S1M2QEA?qs=rR7wk9eDIwofjM3j2mZRnA%3D%3D" 750 -600 50 H I L CNN "Mouser Price/Stock"
+F10 "" 750 -700 50 H I L CNN "Arrow Part Number"
+F11 "" 750 -800 50 H I L CNN "Arrow Price/Stock"
+DRAW
+X NC 1 0 0 200 R 50 50 0 0 N
+X COM 2 0 -100 200 R 50 50 0 0 P
+X NO 3 0 -200 200 R 50 50 0 0 P
+P 5 0 1 6 200 100 700 100 700 -300 200 -300 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model MMZ1608Y601BTD25
+#/12336043/1832056/2.50/2/2/Ferrite Bead
+DEF MMZ1608Y601BTD25 FB 0 30 Y Y 1 F N
+F0 "FB" 650 300 50 H V L CNN
+F1 "MMZ1608Y601BTD25" 650 200 50 H V L CNN
+F2 "BEADC1608X95N" 650 100 50 H I L CNN
+F3 "https://product.tdk.com/system/files/dam/doc/product/emc/emc/beads/catalog/beads_automotive_signal_mmz1608_en.pdf" 650 0 50 H I L CNN
+F4 "TDK - MMZ1608Y601BTD25 - Ferrite Bead, 0603 [1608 Metric], 600 ohm, 500 mA, MMZ Series, 0.4 ohm, +/- 25%" 650 -100 50 H I L CNN "Description"
+F5 "0.95" 650 -200 50 H I L CNN "Height"
+F6 "TDK" 650 -300 50 H I L CNN "Manufacturer_Name"
+F7 "MMZ1608Y601BTD25" 650 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "810-MMZ1608Y601BTD25" 650 -500 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.co.uk/ProductDetail/TDK/MMZ1608Y601BTD25?qs=pvNC7ksEVIcqpNcovRD5%2FQ%3D%3D" 650 -600 50 H I L CNN "Mouser Price/Stock"
+F10 "MMZ1608Y601BTD25" 650 -700 50 H I L CNN "Arrow Part Number"
+F11 "https://www.arrow.com/en/products/mmz1608y601btd25/tdk" 650 -800 50 H I L CNN "Arrow Price/Stock"
+DRAW
+X 1 1 0 0 200 R 50 50 0 0 P
+X 2 2 0 -100 200 R 50 50 0 0 P
+P 5 0 1 6 200 100 600 100 600 -200 200 -200 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model EA5070LA12-8.000M_TR
+#/20674347/1832056/2.50/4/4/Crystal or Oscillator
+DEF EA5070LA12-8.000M_TR Y 0 30 Y Y 1 F N
+F0 "Y" 1950 300 50 H V L CNN
+F1 "EA5070LA12-8.000M_TR" 1950 200 50 H V L CNN
+F2 "EA5070LA128000MTR" 1950 100 50 H I L CNN
+F3 "https://abracon.com/datasheets/Ecliptek/EA5070.pdf" 1950 0 50 H I L CNN
+F4 "Crystals 8MHz 12pF 15ppm -20C +70C" 1950 -100 50 H I L CNN "Description"
+F5 "1.4" 1950 -200 50 H I L CNN "Height"
+F6 "ABRACON" 1950 -300 50 H I L CNN "Manufacturer_Name"
+F7 "EA5070LA12-8.000M TR" 1950 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "" 1950 -500 50 H I L CNN "Mouser Part Number"
+F9 "" 1950 -600 50 H I L CNN "Mouser Price/Stock"
+F10 "" 1950 -700 50 H I L CNN "Arrow Part Number"
+F11 "" 1950 -800 50 H I L CNN "Arrow Price/Stock"
+DRAW
+X CRYSTAL_1 1 0 0 200 R 50 50 0 0 P
+X COVER/GROUND_1 2 0 -100 200 R 50 50 0 0 P
+X CRYSTAL_2 3 2100 -100 200 L 50 50 0 0 P
+X COVER/GROUND_2 4 2100 0 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 1900 100 1900 -200 200 -200 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model C0805X180F8HACAUTO
+#/1945441/1832056/2.50/2/2/Capacitor
+DEF C0805X180F8HACAUTO C 0 30 Y Y 1 F N
+F0 "C" 350 250 50 H V L CNN
+F1 "C0805X180F8HACAUTO" 350 150 50 H V L CNN
+F2 "CAPC2012X98N" 350 50 50 H I L CNN
+F3 "https://www.yageogroup.com/content/datasheet/asset/file/KEM_C1063_X8R_FT-CAP_SMD" 350 -50 50 H I L CNN
+F4 "SMD, MLCC, High Temperature, Ultra-Stable, FT-CAP, Automotive Grade" 350 -150 50 H I L CNN "Description"
+F5 "0.98" 350 -250 50 H I L CNN "Height"
+F6 "Yageo Group" 350 -350 50 H I L CNN "Manufacturer_Name"
+F7 "C0805X180F8HACAUTO" 350 -450 50 H I L CNN "Manufacturer_Part_Number"
+F8 "80-C0805X180F8HAUTO" 350 -550 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.co.uk/ProductDetail/KEMET/C0805X180F8HACAUTO?qs=r5DSvlrkXmJuk1eESsFcTw%3D%3D" 350 -650 50 H I L CNN "Mouser Price/Stock"
+F10 "" 350 -750 50 H I L CNN "Arrow Part Number"
+F11 "" 350 -850 50 H I L CNN "Arrow Price/Stock"
+DRAW
+X ~ 1 0 0 200 R 50 50 0 0 P
+X ~ 2 500 0 200 L 50 50 0 0 P
+P 2 0 1 6 220 100 220 -100 N
+P 2 0 1 6 280 100 280 -100 N
+P 2 0 1 6 200 0 220 0 N
+P 2 0 1 6 280 0 300 0 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model 2134441-2
+#/693368/1832056/2.50/9/2/Connector
+DEF 2134441-2 J 0 30 Y Y 1 F N
+F0 "J" 750 300 50 H V L CNN
+F1 "2134441-2" 750 200 50 H V L CNN
+F2 "21344412" 750 100 50 H I L CNN
+F3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=5-1773464-3&DocType=Data%20Sheet&DocLang=English&PartCntxt=2134441-2&DocFormat=pdf" 750 0 50 H I L CNN
+F4 "Body Features: Offset .88 MM | Shell Plating Material Tin over Nickel | Shell Plating Finish Matte | Connector Profile Micro | Configuration Features: Number of Positions 5 | Number of Ports 1 | Contact Features: Contact Mating Area Plating Material Thickness .76 MICM | Contact Current Rating (Max) 1.8 AMP | Contact Mating Area Plating Material Gold | Contact Mating Area Plating Material Thickness 29.52 MICIN | Dimensions: PCB Thickness (Recommended) .8  1. MM | PCB Thickness (Recommended) .031  .039 " 750 -100 50 H I L CNN "Description"
+F5 "1.9" 750 -200 50 H I L CNN "Height"
+F6 "TE Connectivity" 750 -300 50 H I L CNN "Manufacturer_Name"
+F7 "2134441-2" 750 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "571-2134441-2" 750 -500 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.co.uk/ProductDetail/TE-Connectivity/2134441-2?qs=kAqyOuzYGe%252Bz%252BAPK%2FThl2g%3D%3D" 750 -600 50 H I L CNN "Mouser Price/Stock"
+F10 "2134441-2" 750 -700 50 H I L CNN "Arrow Part Number"
+F11 "https://www.arrow.com/en/products/2134441-2_1/te-connectivity.html?utm_currency=USD&region=nac" 750 -800 50 H I L CNN "Arrow Price/Stock"
+DRAW
+X 1 1 0 0 200 R 50 50 0 0 P
+X 2 2 0 -100 200 R 50 50 0 0 P
+X 3 3 0 -200 200 R 50 50 0 0 P
+X 4 4 0 -300 200 R 50 50 0 0 P
+X 5 5 0 -400 200 R 50 50 0 0 P
+X MH1 MH1 900 0 200 L 50 50 0 0 P
+X MH2 MH2 900 -100 200 L 50 50 0 0 P
+X MH3 MH3 900 -200 200 L 50 50 0 0 P
+X MH4 MH4 900 -300 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 700 100 700 -500 200 -500 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model ERA-6AED152V
+#/2395214/1832056/2.50/2/2/Resistor
+DEF ERA-6AED152V R 0 30 Y Y 1 F N
+F0 "R" 550 250 50 H V L CNN
+F1 "ERA-6AED152V" 550 150 50 H V L CNN
+F2 "ERA6AEB101V" 550 50 50 H I L CNN
+F3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf" 550 -50 50 H I L CNN
+F4 "Thin Film Resistors - SMD 0805 1500ohms 25ppm 0.5% AEC-Q200" 550 -150 50 H I L CNN "Description"
+F5 "0.6" 550 -250 50 H I L CNN "Height"
+F6 "Panasonic" 550 -350 50 H I L CNN "Manufacturer_Name"
+F7 "ERA-6AED152V" 550 -450 50 H I L CNN "Manufacturer_Part_Number"
+F8 "667-ERA-6AED152V" 550 -550 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.co.uk/ProductDetail/Panasonic/ERA-6AED152V?qs=MNPzkKEzRtRVRdPM%252BAjMTA%3D%3D" 550 -650 50 H I L CNN "Mouser Price/Stock"
+F10 "" 550 -750 50 H I L CNN "Arrow Part Number"
+F11 "" 550 -850 50 H I L CNN "Arrow Price/Stock"
+DRAW
+X ~ 1 0 0 200 R 50 50 0 0 P
+X ~ 2 700 0 200 L 50 50 0 0 P
+P 5 0 1 6 200 50 500 50 500 -50 200 -50 200 50 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model 22-28-4044
+#/1967937/1832056/2.50/4/3/Connector
+DEF 22-28-4044 J 0 30 Y Y 1 F N
+F0 "J" 650 300 50 H V L CNN
+F1 "22-28-4044" 650 200 50 H V L CNN
+F2 "HDRV4W66P0X254_1X4_1016X249X1067P" 650 100 50 H I L CNN
+F3 "https://www.molex.com/content/dam/molex/molex-dot-com/products/automated/en-us/salesdrawingpdf/423/42375/022284044_sd.pdf?inline" 650 0 50 H I L CNN
+F4 "Headers & Wire Housings 4P VERT HDR 15u Au" 650 -100 50 H I L CNN "Description"
+F5 "10.67" 650 -200 50 H I L CNN "Height"
+F6 "Molex" 650 -300 50 H I L CNN "Manufacturer_Name"
+F7 "22-28-4044" 650 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "538-22-28-4044" 650 -500 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.com/Search/Refine.aspx?Keyword=538-22-28-4044" 650 -600 50 H I L CNN "Mouser Price/Stock"
+F10 "" 650 -700 50 H I L CNN "Arrow Part Number"
+F11 "" 650 -800 50 H I L CNN "Arrow Price/Stock"
+DRAW
+X 1 1 0 0 200 R 50 50 0 0 P
+X 2 2 0 -100 200 R 50 50 0 0 P
+X 3 3 0 -200 200 R 50 50 0 0 P
+X 4 4 0 -300 200 R 50 50 0 0 P
+P 5 0 1 6 200 100 600 100 600 -400 200 -400 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model M20-7832042
+#/342461/1832056/2.50/40/2/Connector
+DEF M20-7832042 J 0 30 Y Y 1 F N
+F0 "J" 750 300 50 H V L CNN
+F1 "M20-7832042" 750 200 50 H V L CNN
+F2 "RHDR40W70P254_2X20_5120X504X850P" 750 100 50 H I L CNN
+F3 "https://content.harwin.com/m/9326bc87f68b4cd2/original/DRG-00386-Technical-Drawing-Datasheet-M20-783-pdf.pdf" 750 0 50 H I L CNN
+F4 "M20: 20+20 Pos Receptacle DIL Straight 3mm THT Connector 8.5mm high Gold+Tin" 750 -100 50 H I L CNN "Description"
+F5 "8.5" 750 -200 50 H I L CNN "Height"
+F6 "Harwin" 750 -300 50 H I L CNN "Manufacturer_Name"
+F7 "M20-7832042" 750 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "855-M20-7832042" 750 -500 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.co.uk/ProductDetail/Harwin/M20-7832042?qs=b3y4SpoYqbkQxLj2vwdgXw%3D%3D" 750 -600 50 H I L CNN "Mouser Price/Stock"
+F10 "" 750 -700 50 H I L CNN "Arrow Part Number"
+F11 "" 750 -800 50 H I L CNN "Arrow Price/Stock"
+DRAW
+X 1 1 0 0 200 R 50 50 0 0 P
+X 3 3 0 -100 200 R 50 50 0 0 P
+X 5 5 0 -200 200 R 50 50 0 0 P
+X 7 7 0 -300 200 R 50 50 0 0 P
+X 9 9 0 -400 200 R 50 50 0 0 P
+X 11 11 0 -500 200 R 50 50 0 0 P
+X 13 13 0 -600 200 R 50 50 0 0 P
+X 15 15 0 -700 200 R 50 50 0 0 P
+X 17 17 0 -800 200 R 50 50 0 0 P
+X 19 19 0 -900 200 R 50 50 0 0 P
+X 21 21 0 -1000 200 R 50 50 0 0 P
+X 23 23 0 -1100 200 R 50 50 0 0 P
+X 25 25 0 -1200 200 R 50 50 0 0 P
+X 27 27 0 -1300 200 R 50 50 0 0 P
+X 29 29 0 -1400 200 R 50 50 0 0 P
+X 31 31 0 -1500 200 R 50 50 0 0 P
+X 33 33 0 -1600 200 R 50 50 0 0 P
+X 35 35 0 -1700 200 R 50 50 0 0 P
+X 37 37 0 -1800 200 R 50 50 0 0 P
+X 39 39 0 -1900 200 R 50 50 0 0 P
+X 2 2 900 0 200 L 50 50 0 0 P
+X 4 4 900 -100 200 L 50 50 0 0 P
+X 6 6 900 -200 200 L 50 50 0 0 P
+X 8 8 900 -300 200 L 50 50 0 0 P
+X 10 10 900 -400 200 L 50 50 0 0 P
+X 12 12 900 -500 200 L 50 50 0 0 P
+X 14 14 900 -600 200 L 50 50 0 0 P
+X 16 16 900 -700 200 L 50 50 0 0 P
+X 18 18 900 -800 200 L 50 50 0 0 P
+X 20 20 900 -900 200 L 50 50 0 0 P
+X 22 22 900 -1000 200 L 50 50 0 0 P
+X 24 24 900 -1100 200 L 50 50 0 0 P
+X 26 26 900 -1200 200 L 50 50 0 0 P
+X 28 28 900 -1300 200 L 50 50 0 0 P
+X 30 30 900 -1400 200 L 50 50 0 0 P
+X 32 32 900 -1500 200 L 50 50 0 0 P
+X 34 34 900 -1600 200 L 50 50 0 0 P
+X 36 36 900 -1700 200 L 50 50 0 0 P
+X 38 38 900 -1800 200 L 50 50 0 0 P
+X 40 40 900 -1900 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 700 100 700 -2000 200 -2000 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model BQ7692006PW
+#/311030/1832056/2.50/20/3/Integrated Circuit
+DEF BQ7692006PW IC 0 30 Y Y 1 F N
+F0 "IC" 1150 300 50 H V L CNN
+F1 "BQ7692006PW" 1150 200 50 H V L CNN
+F2 "SOP65P640X120-20N" 1150 100 50 H I L CNN
+F3 "http://www.ti.com/lit/ds/symlink/bq76920.pdf" 1150 0 50 H I L CNN
+F4 "3 to 5-Series Cell Li-Ion and Li-Phosphate Battery Monitor (bq76940 Family)" 1150 -100 50 H I L CNN "Description"
+F5 "1.2" 1150 -200 50 H I L CNN "Height"
+F6 "Texas Instruments" 1150 -300 50 H I L CNN "Manufacturer_Name"
+F7 "BQ7692006PW" 1150 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "595-BQ7692006PW" 1150 -500 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/BQ7692006PW?qs=MJut%252BdqOEgjXPi0Ty9wSKA%3D%3D" 1150 -600 50 H I L CNN "Mouser Price/Stock"
+F10 "BQ7692006PW" 1150 -700 50 H I L CNN "Arrow Part Number"
+F11 "https://www.arrow.com/en/products/bq7692006pw/texas-instruments?utm_currency=USD&region=nac" 1150 -800 50 H I L CNN "Arrow Price/Stock"
+DRAW
+X DSG 1 0 0 200 R 50 50 0 0 P
+X CHG 2 0 -100 200 R 50 50 0 0 P
+X VSS 3 0 -200 200 R 50 50 0 0 P
+X SDA 4 0 -300 200 R 50 50 0 0 P
+X SCL 5 0 -400 200 R 50 50 0 0 P
+X TS1 6 0 -500 200 R 50 50 0 0 P
+X CAP1 7 0 -600 200 R 50 50 0 0 P
+X REGOUT 8 0 -700 200 R 50 50 0 0 P
+X REGSRC 9 0 -800 200 R 50 50 0 0 P
+X BAT 10 0 -900 200 R 50 50 0 0 P
+X ALERT 20 1300 0 200 L 50 50 0 0 P
+X SRN 19 1300 -100 200 L 50 50 0 0 P
+X SRP 18 1300 -200 200 L 50 50 0 0 P
+X VC0 17 1300 -300 200 L 50 50 0 0 P
+X VC1 16 1300 -400 200 L 50 50 0 0 P
+X VC2 15 1300 -500 200 L 50 50 0 0 P
+X VC3 14 1300 -600 200 L 50 50 0 0 P
+X VC4 13 1300 -700 200 L 50 50 0 0 P
+X VC5 12 1300 -800 200 L 50 50 0 0 P
+X NC 11 1300 -900 200 L 50 50 0 0 N
+P 5 0 1 6 200 100 1100 100 1100 -1000 200 -1000 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model B4B-XH-A_LF__SN_
+#/2430811/1832056/2.50/4/4/Connector
+DEF B4B-XH-A_LF__SN_ J 0 30 Y Y 1 F N
+F0 "J" 650 300 50 H V L CNN
+F1 "B4B-XH-A_LF__SN_" 650 200 50 H V L CNN
+F2 "B4BXHALFSN" 650 100 50 H I L CNN
+F3 "https://datasheet.lcsc.com/szlcsc/JST-Sales-America-B4B-XH-A-LF-SN_C144395.pdf" 650 0 50 H I L CNN
+F4 "CONN HEADER VERT 4POS 2.5MM" 650 -100 50 H I L CNN "Description"
+F5 "7" 650 -200 50 H I L CNN "Height"
+F6 "JST (JAPAN SOLDERLESS TERMINALS)" 650 -300 50 H I L CNN "Manufacturer_Name"
+F7 "B4B-XH-A(LF)(SN)" 650 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "306-B4BXHALFSN" 650 -500 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.co.uk/ProductDetail/JST-Commercial/B4B-XH-ALFSN?qs=cdbOS8ANM9CfC08d%252BywhFw%3D%3D" 650 -600 50 H I L CNN "Mouser Price/Stock"
+F10 "B4B-XH-A(LF)(SN)" 650 -700 50 H I L CNN "Arrow Part Number"
+F11 "https://www.arrow.com/en/products/b4b-xh-a-lf-sn/jst-manufacturing.html?utm_currency=USD&region=europe" 650 -800 50 H I L CNN "Arrow Price/Stock"
+DRAW
+X 1 1 0 0 200 R 50 50 0 0 P
+X 2 2 0 -100 200 R 50 50 0 0 P
+X 3 3 0 -200 200 R 50 50 0 0 P
+X 4 4 0 -300 200 R 50 50 0 0 P
+P 5 0 1 6 200 100 600 100 600 -400 200 -400 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model ERJ-P06F1000V
+#/340060/1832056/2.50/2/2/Resistor
+DEF ERJ-P06F1000V R 0 30 Y Y 1 F N
+F0 "R" 550 250 50 H V L CNN
+F1 "ERJ-P06F1000V" 550 150 50 H V L CNN
+F2 "ERJP06D1000V" 550 50 50 H I L CNN
+F3 "http://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C102.pdf" 550 -50 50 H I L CNN
+F4 "Thick Film Resistors - SMD 0805 100ohms 0.5W 1% AEC-Q200" 550 -150 50 H I L CNN "Description"
+F5 "0.7" 550 -250 50 H I L CNN "Height"
+F6 "Panasonic" 550 -350 50 H I L CNN "Manufacturer_Name"
+F7 "ERJ-P06F1000V" 550 -450 50 H I L CNN "Manufacturer_Part_Number"
+F8 "667-ERJ-P06F1000V" 550 -550 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.co.uk/ProductDetail/Panasonic/ERJ-P06F1000V?qs=JsD2jqDDQCykkNCawV2LnA%3D%3D" 550 -650 50 H I L CNN "Mouser Price/Stock"
+F10 "ERJ-P06F1000V" 550 -750 50 H I L CNN "Arrow Part Number"
+F11 "https://www.arrow.com/en/products/erj-p06f1000v/panasonic?utm_currency=USD&region=nac" 550 -850 50 H I L CNN "Arrow Price/Stock"
+DRAW
+X ~ 1 0 0 200 R 50 50 0 0 P
+X ~ 2 700 0 200 L 50 50 0 0 P
+P 5 0 1 6 200 50 500 50 500 -50 200 -50 200 50 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model FWP218-30C-R002F
+#/21263164/1832056/2.50/2/2/Resistor
+DEF FWP218-30C-R002F R 0 30 Y Y 1 F N
+F0 "R" 550 250 50 H V L CNN
+F1 "FWP218-30C-R002F" 550 150 50 H V L CNN
+F2 "FWP21830CR002F" 550 50 50 H I L CNN
+F3 "https://www.bourns.com/docs/product-datasheets/FWP218.pdf" 550 -50 50 H I L CNN
+F4 "ResFoil FWP218 THT 0.002R 1% 30W TC300" 550 -150 50 H I L CNN "Description"
+F5 "24.2" 550 -250 50 H I L CNN "Height"
+F6 "Bourns" 550 -350 50 H I L CNN "Manufacturer_Name"
+F7 "FWP218-30C-R002F" 550 -450 50 H I L CNN "Manufacturer_Part_Number"
+F8 "" 550 -550 50 H I L CNN "Mouser Part Number"
+F9 "" 550 -650 50 H I L CNN "Mouser Price/Stock"
+F10 "" 550 -750 50 H I L CNN "Arrow Part Number"
+F11 "" 550 -850 50 H I L CNN "Arrow Price/Stock"
+DRAW
+X ~ 1 0 0 200 R 50 50 0 0 P
+X ~ 2 700 0 200 L 50 50 0 0 P
+P 5 0 1 6 200 50 500 50 500 -50 200 -50 200 50 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model SQJ422EP-T1_BE3
+#/13549872/1832056/2.50/8/4/MOSFET (N-Channel)
+DEF SQJ422EP-T1_BE3 Q 0 30 Y Y 1 F N
+F0 "Q" 850 300 50 H V L CNN
+F1 "SQJ422EP-T1_BE3" 850 200 50 H V L CNN
+F2 "SQJ422EPT1_BE3" 850 100 50 H I L CNN
+F3 "https://www.vishay.com/docs/63989/sqj422ep.pdf" 850 0 50 H I L CNN
+F4 "MOSFET N-CHANNEL 40-V (D-S) 175C MOSFET" 850 -100 50 H I L CNN "Description"
+F5 "1.14" 850 -200 50 H I L CNN "Height"
+F6 "Vishay" 850 -300 50 H I L CNN "Manufacturer_Name"
+F7 "SQJ422EP-T1_BE3" 850 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "78-SQJ422EP-T1_BE3" 850 -500 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.co.uk/ProductDetail/Vishay-Siliconix/SQJ422EP-T1_BE3?qs=zW32dvEIR3s9%2FaA%2FvimzvQ%3D%3D" 850 -600 50 H I L CNN "Mouser Price/Stock"
+F10 "" 850 -700 50 H I L CNN "Arrow Part Number"
+F11 "" 850 -800 50 H I L CNN "Arrow Price/Stock"
+DRAW
+X S_1 1 0 0 200 R 50 50 0 0 P
+X S_2 2 0 -100 200 R 50 50 0 0 P
+X S_3 3 0 -200 200 R 50 50 0 0 P
+X G 4 0 -300 200 R 50 50 0 0 P
+X D_1 5 1000 0 200 L 50 50 0 0 P
+X D_2 6 1000 -100 200 L 50 50 0 0 P
+X D_3 7 1000 -200 200 L 50 50 0 0 P
+X D_4 8 1000 -300 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 800 100 800 -400 200 -400 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model SDR10EZPF1004
+#/19097992/1832056/2.50/2/3/Resistor
+DEF SDR10EZPF1004 R 0 30 Y Y 1 F N
+F0 "R" 550 250 50 H V L CNN
+F1 "SDR10EZPF1004" 550 150 50 H V L CNN
+F2 "RESC2012X65N" 550 50 50 H I L CNN
+F3 "https://www.rohm.com/datasheet?p=SDR10EZPF&dist=Mouser&media=referral&source=mouser.com&campaign=Mouser" 550 -50 50 H I L CNN
+F4 "Thick Film Resistors - SMD" 550 -150 50 H I L CNN "Description"
+F5 "0.65" 550 -250 50 H I L CNN "Height"
+F6 "ROHM Semiconductor" 550 -350 50 H I L CNN "Manufacturer_Name"
+F7 "SDR10EZPF1004" 550 -450 50 H I L CNN "Manufacturer_Part_Number"
+F8 "755-SDR10EZPF1004" 550 -550 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.co.uk/ProductDetail/ROHM-Semiconductor/SDR10EZPF1004?qs=ulEaXIWI0c85MumOMyFb%252Bw%3D%3D" 550 -650 50 H I L CNN "Mouser Price/Stock"
+F10 "" 550 -750 50 H I L CNN "Arrow Part Number"
+F11 "" 550 -850 50 H I L CNN "Arrow Price/Stock"
+DRAW
+X ~ 1 0 0 200 R 50 50 0 0 P
+X ~ 2 700 0 200 L 50 50 0 0 P
+P 5 0 1 6 200 50 500 50 500 -50 200 -50 200 50 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model BSS84
+#/969593/1832056/2.50/3/2/MOSFET (P-Channel)
+DEF BSS84 Q 0 30 Y Y 1 F N
+F0 "Q" 450 150 50 H V L CNN
+F1 "BSS84" 450 50 50 H V L CNN
+F2 "SOT95P240X120-3N" 450 -50 50 H I L CNN
+F3 "https://www.onsemi.com/pub/Collateral/BSS84-D.PDF" 450 -150 50 H I L CNN
+F4 "-0.13 A, -50 V RDS(ON) = 10  @ VGS = -5 V; High-Density Cell Design for Low RDS(ON); Voltage-controlled P-channel small signal switch; High Saturation Current." 450 -250 50 H I L CNN "Description"
+F5 "1.2" 450 -350 50 H I L CNN "Height"
+F6 "onsemi" 450 -450 50 H I L CNN "Manufacturer_Name"
+F7 "BSS84" 450 -550 50 H I L CNN "Manufacturer_Part_Number"
+F8 "512-BSS84" 450 -650 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.co.uk/ProductDetail/onsemi-Fairchild/BSS84?qs=FOlmdCx%252BAA0e83h5MpSc0g%3D%3D" 450 -750 50 H I L CNN "Mouser Price/Stock"
+F10 "BSS84" 450 -850 50 H I L CNN "Arrow Part Number"
+F11 "https://www.arrow.com/en/products/bss84/on-semiconductor?utm_currency=USD&region=europe" 450 -950 50 H I L CNN "Arrow Price/Stock"
+DRAW
+X ~ 1 0 0 100 R 50 50 0 0 P
+X ~ 3 300 400 100 D 50 50 0 0 P
+X ~ 2 300 -200 100 U 50 50 0 0 P
+P 2 0 1 6 300 100 300 -100 N
+P 2 0 1 6 300 200 300 300 N
+P 3 0 1 6 100 0 200 0 200 200 N
+P 2 0 1 6 300 100 230 100 N
+P 2 0 1 6 300 200 230 200 N
+P 2 0 1 6 230 0 300 0 N
+P 2 0 1 6 230 220 230 180 N
+P 2 0 1 6 230 -20 230 20 N
+P 2 0 1 6 230 80 230 120 N
+C 250 100 150 0 1 10 N
+P 4 0 1 10 300 100 260 120 260 80 300 100 F
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model 1N4148
+#/1004428/1832056/2.50/2/2/Diode
+DEF 1N4148 D 0 30 Y Y 1 F N
+F0 "D" 450 200 50 H V L CNN
+F1 "1N4148" 450 100 50 H V L CNN
+F2 "DIOAD1068W53L380D172" 450 0 50 H I L CNN
+F3 "https://www.onsemi.com/pub/Collateral/1N914-D.PDF" 450 -100 50 H I L CNN
+F4 "Small Signal Diode, 100V 0.3A 2-Pin DO35" 450 -200 50 H I L CNN "Description"
+F5 "" 450 -300 50 H I L CNN "Height"
+F6 "onsemi" 450 -400 50 H I L CNN "Manufacturer_Name"
+F7 "1N4148" 450 -500 50 H I L CNN "Manufacturer_Part_Number"
+F8 "512-1N4148" 450 -600 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.co.uk/ProductDetail/onsemi-Fairchild/1N4148?qs=i4Fj9T%2FoRm8RMUhj5DeFQg%3D%3D" 450 -700 50 H I L CNN "Mouser Price/Stock"
+F10 "1N4148" 450 -800 50 H I L CNN "Arrow Part Number"
+F11 "https://www.arrow.com/en/products/1n4148/on-semiconductor.html?utm_currency=USD&region=europe" 450 -900 50 H I L CNN "Arrow Price/Stock"
+DRAW
+X ~ 1 0 0 100 R 50 50 0 0 P
+X ~ 2 600 0 100 L 50 50 0 0 P
+P 2 0 1 6 200 100 200 -100 N
+P 2 0 1 6 100 0 200 0 N
+P 2 0 1 6 400 0 500 0 N
+P 4 0 1 10 200 0 400 100 400 -100 200 0 F
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model NTCS0805E3103HLT
+#/1764400/1832056/2.50/2/5/Thermistor
+DEF NTCS0805E3103HLT RT 0 30 Y Y 1 F N
+F0 "RT" 550 250 50 H V L CNN
+F1 "NTCS0805E3103HLT" 550 150 50 H V L CNN
+F2 "THRMC2012X95N" 550 50 50 H I L CNN
+F3 "http://www.vishay.com/docs/29044/ntcs0805e3t.pdf" 550 -50 50 H I L CNN
+F4 "VISHAY - NTCS0805E3103HLT - NTC THERMISTOR, AEC-Q200, 10K, SMD, 0805" 550 -150 50 H I L CNN "Description"
+F5 "0.95" 550 -250 50 H I L CNN "Height"
+F6 "Vishay" 550 -350 50 H I L CNN "Manufacturer_Name"
+F7 "NTCS0805E3103HLT" 550 -450 50 H I L CNN "Manufacturer_Part_Number"
+F8 "594-NTCS0805E3103HLT" 550 -550 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.co.uk/ProductDetail/Vishay-BC-Components/NTCS0805E3103HLT?qs=%2FWiulJ9oly4RwrUhDQe8Xg%3D%3D" 550 -650 50 H I L CNN "Mouser Price/Stock"
+F10 "NTCS0805E3103HLT" 550 -750 50 H I L CNN "Arrow Part Number"
+F11 "https://www.arrow.com/en/products/ntcs0805e3103hlt/vishay" 550 -850 50 H I L CNN "Arrow Price/Stock"
+DRAW
+X ~ 1 0 0 200 R 50 50 0 0 P
+X ~ 2 700 0 200 L 50 50 0 0 P
+P 5 0 1 6 200 50 500 50 500 -50 200 -50 200 50 N
+P 3 0 1 6 220 -80 280 -80 420 80 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model ERJ-U06D2002V
+#/12151377/1832056/2.50/2/2/Resistor
+DEF ERJ-U06D2002V R 0 30 Y Y 1 F N
+F0 "R" 550 250 50 H V L CNN
+F1 "ERJ-U06D2002V" 550 150 50 H V L CNN
+F2 "ERJS06_U06_(0805)" 550 50 50 H I L CNN
+F3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDP0000/AOA0000C334.pdf" 550 -50 50 H I L CNN
+F4 "Anti-Sulfurated Thick Film Chip Resistor, 0805, 0.125W" 550 -150 50 H I L CNN "Description"
+F5 "0.7" 550 -250 50 H I L CNN "Height"
+F6 "Panasonic" 550 -350 50 H I L CNN "Manufacturer_Name"
+F7 "ERJ-U06D2002V" 550 -450 50 H I L CNN "Manufacturer_Part_Number"
+F8 "667-ERJ-U06D2002V" 550 -550 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.co.uk/ProductDetail/Panasonic/ERJ-U06D2002V?qs=MLItCLRbWsyimjo2rYXFLQ%3D%3D" 550 -650 50 H I L CNN "Mouser Price/Stock"
+F10 "" 550 -750 50 H I L CNN "Arrow Part Number"
+F11 "" 550 -850 50 H I L CNN "Arrow Price/Stock"
+DRAW
+X ~ 1 0 0 200 R 50 50 0 0 P
+X ~ 2 700 0 200 L 50 50 0 0 P
+P 5 0 1 6 200 50 500 50 500 -50 200 -50 200 50 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model 0805X475M250CT
+#/5479105/1832056/2.50/2/3/Capacitor
+DEF 0805X475M250CT C 0 30 Y Y 1 F N
+F0 "C" 350 250 50 H V L CNN
+F1 "0805X475M250CT" 350 150 50 H V L CNN
+F2 "CAPC2012X145N" 350 50 50 H I L CNN
+F3 "https://www.mouser.co.uk/datasheet/2/210/WTC_MLCC_General_Purpose-1534899.pdf" 350 -50 50 H I L CNN
+F4 "Multilayer Ceramic Capacitors MLCC - SMD/SMT 0805 MLCC X5R 4.7 uF +/- 20% 25 V T&R GP" 350 -150 50 H I L CNN "Description"
+F5 "1.45" 350 -250 50 H I L CNN "Height"
+F6 "Walsin Technology Corporation" 350 -350 50 H I L CNN "Manufacturer_Name"
+F7 "0805X475M250CT" 350 -450 50 H I L CNN "Manufacturer_Part_Number"
+F8 "791-0805X475M250CT" 350 -550 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.co.uk/ProductDetail/Walsin/0805X475M250CT?qs=fIkAfuXiAQJV%252BOo%252BgAHIhA%3D%3D" 350 -650 50 H I L CNN "Mouser Price/Stock"
+F10 "" 350 -750 50 H I L CNN "Arrow Part Number"
+F11 "" 350 -850 50 H I L CNN "Arrow Price/Stock"
+DRAW
+X ~ 1 0 0 200 R 50 50 0 0 P
+X ~ 2 500 0 200 L 50 50 0 0 P
+P 2 0 1 6 220 100 220 -100 N
+P 2 0 1 6 280 100 280 -100 N
+P 2 0 1 6 200 0 220 0 N
+P 2 0 1 6 280 0 300 0 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model MCP9808-E_MS
+#/237575/1832056/2.50/8/3/Integrated Circuit
+DEF MCP9808-E_MS IC 0 30 Y Y 1 F N
+F0 "IC" 950 300 50 H V L CNN
+F1 "MCP9808-E_MS" 950 200 50 H V L CNN
+F2 "SOP65P490X110-8N" 950 100 50 H I L CNN
+F3 "https://datasheet.datasheetarchive.com/originals/distributors/Datasheets-DGA18/383780.pdf" 950 0 50 H I L CNN
+F4 "+/-0.5C Maximum Accuracy Digital Temperature Sensor" 950 -100 50 H I L CNN "Description"
+F5 "1.1" 950 -200 50 H I L CNN "Height"
+F6 "Microchip" 950 -300 50 H I L CNN "Manufacturer_Name"
+F7 "MCP9808-E/MS" 950 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "579-MCP9808-E/MS" 950 -500 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.co.uk/ProductDetail/Microchip-Technology/MCP9808-E-MS?qs=fgHA1UgJI8CbPdrkP5zjqQ%3D%3D" 950 -600 50 H I L CNN "Mouser Price/Stock"
+F10 "MCP9808-E/MS" 950 -700 50 H I L CNN "Arrow Part Number"
+F11 "https://www.arrow.com/en/products/mcp9808-ems/microchip-technology?utm_currency=USD&region=europe" 950 -800 50 H I L CNN "Arrow Price/Stock"
+DRAW
+X SDA 1 0 0 200 R 50 50 0 0 P
+X SCL 2 0 -100 200 R 50 50 0 0 P
+X ALERT 3 0 -200 200 R 50 50 0 0 P
+X GND 4 0 -300 200 R 50 50 0 0 P
+X VDD 8 1100 0 200 L 50 50 0 0 P
+X A0 7 1100 -100 200 L 50 50 0 0 P
+X A1 6 1100 -200 200 L 50 50 0 0 P
+X A2 5 1100 -300 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 900 100 900 -400 200 -400 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model 22-28-4054
+#/1896997/1832056/2.50/5/3/Connector
+DEF 22-28-4054 J 0 30 Y Y 1 F N
+F0 "J" 650 300 50 H V L CNN
+F1 "22-28-4054" 650 200 50 H V L CNN
+F2 "HDRV5W66P0X254_1X5_1270X249X1067P" 650 100 50 H I L CNN
+F3 "https://www.mouser.com/datasheet/2/276/0022284054_PCB_HEADERS-228201.pdf" 650 0 50 H I L CNN
+F4 "Headers & Wire Housings 5P HEADER 15u Au" 650 -100 50 H I L CNN "Description"
+F5 "10.67" 650 -200 50 H I L CNN "Height"
+F6 "Molex" 650 -300 50 H I L CNN "Manufacturer_Name"
+F7 "22-28-4054" 650 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "538-22-28-4054" 650 -500 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.com/Search/Refine.aspx?Keyword=538-22-28-4054" 650 -600 50 H I L CNN "Mouser Price/Stock"
+F10 "" 650 -700 50 H I L CNN "Arrow Part Number"
+F11 "" 650 -800 50 H I L CNN "Arrow Price/Stock"
+DRAW
+X 1 1 0 0 200 R 50 50 0 0 P
+X 2 2 0 -100 200 R 50 50 0 0 P
+X 3 3 0 -200 200 R 50 50 0 0 P
+X 4 4 0 -300 200 R 50 50 0 0 P
+X 5 5 0 -400 200 R 50 50 0 0 P
+P 5 0 1 6 200 100 600 100 600 -500 200 -500 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model MCP9600-E_MX
+#/717397/1832056/2.50/21/4/Integrated Circuit
+DEF MCP9600-E_MX IC 0 30 Y Y 1 F N
+F0 "IC" 1150 700 50 H V L CNN
+F1 "MCP9600-E_MX" 1150 600 50 H V L CNN
+F2 "QFN65P500X500X100-21N-D" 1150 500 50 H I L CNN
+F3 "https://datasheet.datasheetarchive.com/originals/distributors/DKDS41/DSANUWW0026539.pdf" 1150 400 50 H I L CNN
+F4 "Board Mount Temperature Sensors Thermocouple to I2C converter" 1150 300 50 H I L CNN "Description"
+F5 "1" 1150 200 50 H I L CNN "Height"
+F6 "Microchip" 1150 100 50 H I L CNN "Manufacturer_Name"
+F7 "MCP9600-E/MX" 1150 0 50 H I L CNN "Manufacturer_Part_Number"
+F8 "579-MCP9600-E/MX" 1150 -100 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.co.uk/ProductDetail/Microchip-Technology/MCP9600-E-MX?qs=ZEMkBHnybREkP7PCRsOOMQ%3D%3D" 1150 -200 50 H I L CNN "Mouser Price/Stock"
+F10 "MCP9600-E/MX" 1150 -300 50 H I L CNN "Arrow Part Number"
+F11 "https://www.arrow.com/en/products/mcp9600-emx/microchip-technology?utm_currency=USD&region=nac" 1150 -400 50 H I L CNN "Arrow Price/Stock"
+DRAW
+X GND_1 1 0 0 200 R 50 50 0 0 P
+X VIN+ 2 0 -100 200 R 50 50 0 0 P
+X GND_2 3 0 -200 200 R 50 50 0 0 P
+X VIN- 4 0 -300 200 R 50 50 0 0 P
+X GND_3 5 0 -400 200 R 50 50 0 0 P
+X GND_4 6 400 -1100 200 U 50 50 0 0 P
+X GND_5 7 500 -1100 200 U 50 50 0 0 P
+X VDD 8 600 -1100 200 U 50 50 0 0 P
+X GND_6 9 700 -1100 200 U 50 50 0 0 P
+X GND_7 10 800 -1100 200 U 50 50 0 0 P
+X ALERT4 15 1300 0 200 L 50 50 0 0 P
+X ALERT3 14 1300 -100 200 L 50 50 0 0 P
+X GND_8 13 1300 -200 200 L 50 50 0 0 P
+X ALERT2 12 1300 -300 200 L 50 50 0 0 P
+X ALERT1 11 1300 -400 200 L 50 50 0 0 P
+X EP 21 400 700 200 D 50 50 0 0 P
+X SDA 20 500 700 200 D 50 50 0 0 P
+X SCL 19 600 700 200 D 50 50 0 0 P
+X GND_10 18 700 700 200 D 50 50 0 0 P
+X GND_9 17 800 700 200 D 50 50 0 0 P
+X ADDR 16 900 700 200 D 50 50 0 0 P
+P 5 0 1 6 200 500 1100 500 1100 -900 200 -900 200 500 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model HMC0805JT20M0
+#/14761079/1832056/2.50/2/2/Resistor
+DEF HMC0805JT20M0 R 0 30 Y Y 1 F N
+F0 "R" 550 250 50 H V L CNN
+F1 "HMC0805JT20M0" 550 150 50 H V L CNN
+F2 "RESC2012X60N" 550 50 50 H I L CNN
+F3 "https://cs.seielect.com/catalog/SEI-HMC.pdf" 550 -50 50 H I L CNN
+F4 "RES, 0805, 20 Mohm, 5%, 0.125W" 550 -150 50 H I L CNN "Description"
+F5 "0.6" 550 -250 50 H I L CNN "Height"
+F6 "Stackpole Electronics, Inc." 550 -350 50 H I L CNN "Manufacturer_Name"
+F7 "HMC0805JT20M0" 550 -450 50 H I L CNN "Manufacturer_Part_Number"
+F8 "" 550 -550 50 H I L CNN "Mouser Part Number"
+F9 "" 550 -650 50 H I L CNN "Mouser Price/Stock"
+F10 "" 550 -750 50 H I L CNN "Arrow Part Number"
+F11 "" 550 -850 50 H I L CNN "Arrow Price/Stock"
+DRAW
+X ~ 1 0 0 200 R 50 50 0 0 P
+X ~ 2 700 0 200 L 50 50 0 0 P
+P 5 0 1 6 200 50 500 50 500 -50 200 -50 200 50 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model CRCW08052M00FKEAC
+#/1820365/1832056/2.50/2/3/Resistor
+DEF CRCW08052M00FKEAC R 0 30 Y Y 1 F N
+F0 "R" 550 250 50 H V L CNN
+F1 "CRCW08052M00FKEAC" 550 150 50 H V L CNN
+F2 "RESC2012X50N" 550 50 50 H I L CNN
+F3 "https://www.vishay.com/docs/20008/dcrcw.pdf" 550 -50 50 H I L CNN
+F4 "Res Thick Film 0805 2M Ohm 1% 0.125W(1/8W) +/-100ppm/C Pad SMD T/R" 550 -150 50 H I L CNN "Description"
+F5 "0.5" 550 -250 50 H I L CNN "Height"
+F6 "Vishay" 550 -350 50 H I L CNN "Manufacturer_Name"
+F7 "CRCW08052M00FKEAC" 550 -450 50 H I L CNN "Manufacturer_Part_Number"
+F8 "71-CRCW08052M00FKEAC" 550 -550 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.co.uk/ProductDetail/Vishay-Dale/CRCW08052M00FKEAC?qs=E3Y5ESvWgWNxC9KlBD%252B%252BQg%3D%3D" 550 -650 50 H I L CNN "Mouser Price/Stock"
+F10 "CRCW08052M00FKEAC" 550 -750 50 H I L CNN "Arrow Part Number"
+F11 "https://www.arrow.com/en/products/crcw08052m00fkeac/vishay?region=nac" 550 -850 50 H I L CNN "Arrow Price/Stock"
+DRAW
+X ~ 1 0 0 200 R 50 50 0 0 P
+X ~ 2 700 0 200 L 50 50 0 0 P
+P 5 0 1 6 200 50 500 50 500 -50 200 -50 200 50 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model CRCW08052M00JNEA
+#/336818/1832056/2.50/2/5/Resistor
+DEF CRCW08052M00JNEA R 0 30 Y Y 1 F N
+F0 "R" 550 250 50 H V L CNN
+F1 "CRCW08052M00JNEA" 550 150 50 H V L CNN
+F2 "RESC2012X50N" 550 50 50 H I L CNN
+F3 "http://www.vishay.com/docs/20035/dcrcwe3.pdf" 550 -50 50 H I L CNN
+F4 "Vishay CRCW Series Thick Film Surface Mount Resistor 0805 Case 2M +/-5% 0.33W +/-200ppm/K" 550 -150 50 H I L CNN "Description"
+F5 "0.5" 550 -250 50 H I L CNN "Height"
+F6 "Vishay" 550 -350 50 H I L CNN "Manufacturer_Name"
+F7 "CRCW08052M00JNEA" 550 -450 50 H I L CNN "Manufacturer_Part_Number"
+F8 "71-CRCW08052M00JNEA" 550 -550 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.co.uk/ProductDetail/Vishay-Dale/CRCW08052M00JNEA?qs=YsYeyRVmgbT6SPB1BRVYIQ%3D%3D" 550 -650 50 H I L CNN "Mouser Price/Stock"
+F10 "" 550 -750 50 H I L CNN "Arrow Part Number"
+F11 "" 550 -850 50 H I L CNN "Arrow Price/Stock"
+DRAW
+X ~ 1 0 0 200 R 50 50 0 0 P
+X ~ 2 700 0 200 L 50 50 0 0 P
+P 5 0 1 6 200 50 500 50 500 -50 200 -50 200 50 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model CRCW08051M00JNEAHP
+#/1425277/1832056/2.50/2/5/Resistor
+DEF CRCW08051M00JNEAHP R 0 30 Y Y 1 F N
+F0 "R" 550 250 50 H V L CNN
+F1 "CRCW08051M00JNEAHP" 550 150 50 H V L CNN
+F2 "RESC2012X60N" 550 50 50 H I L CNN
+F3 "https://componentsearchengine.com/Datasheets/1/CRCW08051R00FKEAHP.pdf" 550 -50 50 H I L CNN
+F4 "Thick Film Resistors - SMD 1/2watt 1Mohms 5% High Power AEC-Q200" 550 -150 50 H I L CNN "Description"
+F5 "0.6" 550 -250 50 H I L CNN "Height"
+F6 "Vishay" 550 -350 50 H I L CNN "Manufacturer_Name"
+F7 "CRCW08051M00JNEAHP" 550 -450 50 H I L CNN "Manufacturer_Part_Number"
+F8 "71-CRCW08051M00JNEAH" 550 -550 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.co.uk/ProductDetail/Vishay-Dale/CRCW08051M00JNEAHP?qs=k2%2FDWSARqgFQBkgpMitLAQ%3D%3D" 550 -650 50 H I L CNN "Mouser Price/Stock"
+F10 "CRCW08051M00JNEAHP" 550 -750 50 H I L CNN "Arrow Part Number"
+F11 "https://www.arrow.com/en/products/crcw08051m00jneahp/vishay?region=nac" 550 -850 50 H I L CNN "Arrow Price/Stock"
+DRAW
+X ~ 1 0 0 200 R 50 50 0 0 P
+X ~ 2 700 0 200 L 50 50 0 0 P
+P 5 0 1 6 200 50 500 50 500 -50 200 -50 200 50 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model 1711026
+#/12831653/1832056/2.50/2/2/Connector
+DEF 1711026 J 0 30 Y Y 1 F N
+F0 "J" 650 300 50 H V L CNN
+F1 "1711026" 650 200 50 H V L CNN
+F2 "1711026" 650 100 50 H I L CNN
+F3 "https://www.phoenixcontact.com/en-us/products/printed-circuit-board-terminal-mkds-3-2-1711026?type=pdf" 650 0 50 H I L CNN
+F4 "PCB terminal block, nominal current: 24 A, rated voltage (III/2): 400 V, nominal cross section: 2.5 mm?, Number of potentials: 2, Number of rows: 1, Number of positions per row: 2, product range: MKDS 3, pitch: 5 mm, connection method: Screw connection with tension sleeve, mounting: Wave soldering, conductor/PCB connection direction: 0 ?, color: green, Pin layout: Linear pinning, Solder pin [P]: 5 mm, type of packaging: packed in cardboard. The article can be aligned to create different nos. of positions!" 650 -100 50 H I L CNN "Description"
+F5 "18.2" 650 -200 50 H I L CNN "Height"
+F6 "Phoenix Contact" 650 -300 50 H I L CNN "Manufacturer_Name"
+F7 "1711026" 650 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "651-1711026" 650 -500 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.co.uk/ProductDetail/Phoenix-Contact/1711026?qs=JcjeNNoqGSMahJ%2FDM5awSg%3D%3D" 650 -600 50 H I L CNN "Mouser Price/Stock"
+F10 "1711026" 650 -700 50 H I L CNN "Arrow Part Number"
+F11 "https://www.arrow.com/en/products/1711026/phoenix-contact?utm_currency=USD&region=nac" 650 -800 50 H I L CNN "Arrow Price/Stock"
+DRAW
+X 1 1 0 0 200 R 50 50 0 0 P
+X 2 2 0 -100 200 R 50 50 0 0 P
+P 5 0 1 6 200 100 600 100 600 -200 200 -200 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model 22-30-3093
+#/13761845/1832056/2.50/9/3/Connector
+DEF 22-30-3093 J 0 30 Y Y 1 F N
+F0 "J" 650 300 50 H V L CNN
+F1 "22-30-3093" 650 200 50 H V L CNN
+F2 "HDRV9W66P0X254_1X9_2286X249X1258P" 650 100 50 H I L CNN
+F3 "https://www.mouser.com/datasheet/2/276/022303093_sd-589259.pdf" 650 0 50 H I L CNN
+F4 "Headers & Wire Housings KK 100 Hdr Assy Bkwy Assy Bkwy 09 Ckt Tin" 650 -100 50 H I L CNN "Description"
+F5 "12.58" 650 -200 50 H I L CNN "Height"
+F6 "Molex" 650 -300 50 H I L CNN "Manufacturer_Name"
+F7 "22-30-3093" 650 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "" 650 -500 50 H I L CNN "Mouser Part Number"
+F9 "" 650 -600 50 H I L CNN "Mouser Price/Stock"
+F10 "" 650 -700 50 H I L CNN "Arrow Part Number"
+F11 "" 650 -800 50 H I L CNN "Arrow Price/Stock"
+DRAW
+X 1 1 0 0 200 R 50 50 0 0 P
+X 2 2 0 -100 200 R 50 50 0 0 P
+X 3 3 0 -200 200 R 50 50 0 0 P
+X 4 4 0 -300 200 R 50 50 0 0 P
+X 5 5 0 -400 200 R 50 50 0 0 P
+X 6 6 0 -500 200 R 50 50 0 0 P
+X 7 7 0 -600 200 R 50 50 0 0 P
+X 8 8 0 -700 200 R 50 50 0 0 P
+X 9 9 0 -800 200 R 50 50 0 0 P
+P 5 0 1 6 200 100 600 100 600 -900 200 -900 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model M20-9990345
+#/572694/1050414/2.50/3/2/Connector
+DEF M20-9990345 J 0 30 Y Y 1 F N
+F0 "J" 650 300 50 H V L CNN
+F1 "M20-9990345" 650 200 50 H V L CNN
+F2 "HDRV3W64P0X254_1X3_762X254X864P" 650 100 50 H I L CNN
+F3 "https://content.harwin.com/m/0df15f6e0f9f48e2/original/DRG-00479-Technical-Drawing-Datasheet-M20-999-pdf.pdf" 650 0 50 H I L CNN
+F4 "M20: 3 Pos Plug SIL Straight 3mm THT Connector 6.1mm pin Gold" 650 -100 50 H I L CNN "Description"
+F5 "8.64" 650 -200 50 H I L CNN "Height"
+F6 "855-M20-9990345" 650 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/Harwin/M20-9990345?qs=ulE8k0yEMYbl6ZPCtNdmpA%3D%3D" 650 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "Harwin" 650 -500 50 H I L CNN "Manufacturer_Name"
+F9 "M20-9990345" 650 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X 1 1 0 0 200 R 50 50 0 0 P
+X 2 2 0 -100 200 R 50 50 0 0 P
+X 3 3 0 -200 200 R 50 50 0 0 P
+P 5 0 1 6 200 100 600 100 600 -300 200 -300 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model 22-28-4083
+#/761504/1832056/2.50/8/4/Connector
+DEF 22-28-4083 J 0 30 Y Y 1 F N
+F0 "J" 650 300 50 H V L CNN
+F1 "22-28-4083" 650 200 50 H V L CNN
+F2 "HDRV8W87P0X254_1X8_2032X249X863P" 650 100 50 H I L CNN
+F3 "https://componentsearchengine.com/Datasheets/1/22-28-4083.pdf" 650 0 50 H I L CNN
+F4 "Headers & Wire Housings BREAKAWAY HDR VERT 8" 650 -100 50 H I L CNN "Description"
+F5 "8.63" 650 -200 50 H I L CNN "Height"
+F6 "Molex" 650 -300 50 H I L CNN "Manufacturer_Name"
+F7 "22-28-4083" 650 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "538-22-28-4083" 650 -500 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.co.uk/ProductDetail/Molex/22-28-4083?qs=d9fIA1aNikQMlX6q%252Bcx1qQ%3D%3D" 650 -600 50 H I L CNN "Mouser Price/Stock"
+F10 "" 650 -700 50 H I L CNN "Arrow Part Number"
+F11 "" 650 -800 50 H I L CNN "Arrow Price/Stock"
+DRAW
+X 1 1 0 0 200 R 50 50 0 0 P
+X 2 2 0 -100 200 R 50 50 0 0 P
+X 3 3 0 -200 200 R 50 50 0 0 P
+X 4 4 0 -300 200 R 50 50 0 0 P
+X 5 5 0 -400 200 R 50 50 0 0 P
+X 6 6 0 -500 200 R 50 50 0 0 P
+X 7 7 0 -600 200 R 50 50 0 0 P
+X 8 8 0 -700 200 R 50 50 0 0 P
+P 5 0 1 6 200 100 600 100 600 -800 200 -800 200 100 N
+ENDDRAW
+ENDDEF
+#
 #End Library
