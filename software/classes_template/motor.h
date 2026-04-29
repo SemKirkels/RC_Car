@@ -4,7 +4,7 @@
 #include "main.h"
 #include "rc_config.h"
 
-#define DEADZONE 5
+#define DEADZONE 1
 
 class Motor{
     public:

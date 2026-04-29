@@ -24,7 +24,7 @@ Car::Car(
     m_prevX(false),
     m_prevB(false),
     m_motor(motorTim, motorChannel, dirPort, dirPin, brakePort, brakePin, drvoffPort, drvoffPin){
-    }
+}
 
 void Car::init(){
     m_gamepad.init();

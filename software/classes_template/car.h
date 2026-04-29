@@ -7,6 +7,13 @@
 #include "gpioDrive.h"
 #include "motor.h"
 
+/* TOF Struct */
+struct DistanceMap{
+    uint16_t front;
+    uint16_t left;
+    uint16_t right;
+};
+
 class Car{
     public:
         Car(
@@ -29,7 +36,11 @@ class Car{
         void init();
         void update();
 
+        /* Uart callback */
         void uartRxCallback(uint16_t size);
+
+        /* TOF Setup */
+        void setDistances(const DistanceMap& distances);
     private:
         GamepadParser   m_gamepad;
         Steering        m_steering;
@@ -39,6 +50,9 @@ class Car{
 
         bool            m_prevX;
         bool            m_prevB;
+
+        DistanceMap     m_distances;
+        osMutexId_t     m_distanceMutex;
 };
 
 #endif
