@@ -21,10 +21,10 @@ Car::Car(
     m_steering(steeringTim, steeringChannel),
     m_ledFront(ledFrontPort, ledFrontPin),
     m_ledRear(ledRearPort, ledRearPin),
+    m_motor(motorTim, motorChannel, dirPort, dirPin, brakePort, brakePin, drvoffPort, drvoffPin),
     m_prevX(false),
-    m_prevB(false),
-    m_motor(motorTim, motorChannel, dirPort, dirPin, brakePort, brakePin, drvoffPort, drvoffPin){
-    }
+    m_prevB(false){
+}
 
 void Car::init(){
     m_gamepad.init();
@@ -45,8 +45,8 @@ void Car::update(){
         m_motor.setFromTriggers(state.leftTrigger, state.rightTrigger);
 
         /* Update Lights */
-        bool currX = (state.buttons & 0x4000) != 0;
-        bool currB = (state.buttons & 0x2000) != 0;
+        bool currX = (state.buttons & CTRL_X) != 0;
+        bool currB = (state.buttons & CTRL_B) != 0;
         if(currX && !m_prevX) m_ledFront.toggle();
         if(currB && !m_prevB) m_ledRear.toggle();
         m_prevX = currX;

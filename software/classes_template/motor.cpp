@@ -47,11 +47,11 @@ void Motor::stop(){
 }
 
 void Motor::setFromTriggers(uint8_t leftTrigger, uint8_t rightTrigger){
-    if(rightTrigger > DEADZONE){
+    if(rightTrigger > MOTOR_TRIGGER_DEADZONE){
         setSpeed(rightTrigger, true);
     }
 
-    if(leftTrigger > DEADZONE){
+    if(leftTrigger > MOTOR_TRIGGER_DEADZONE){
         setSpeed(leftTrigger, false);
     }
 }
