@@ -31,18 +31,35 @@
 /* GPIO */
 #define GPIO_ENABLE true
 
-/* MOTOR PWM */
+/* MOTOR */
 #define MOTOR_PWM_ENABLE true
 #define MOTOR_PWM_PERIOD 7999 /* 10 kHz *//* Max val 65535 */
+#define MOTOR_TRIGGER_DEADZONE 1
 
-/* STEERING PWM */
+/* STEERING */
 #define STEERING_PWM_ENABLE true
 #define STEERING_PWM_PERIOD 19999  /* 50 Hz *//* Max val 4294967295 */
 #define STEERING_PWM_PRESCALER 79
+#define STEERING_JOYSTICK_DEADZONE 1500
 
 /* UART4 (ESP COMMUNICATION) */
 #define ESP_COMM_ENABLE true
 #define ESP_COMM_BAUD_RATE 115200
+/* BUTTON VALUES */
+#define CTRL_D_PAD_UP       0x0001
+#define CTRL_D_PAD_DOWN     0x0002
+#define CTRL_D_PAD_LEFT     0x0004
+#define CTRL_D_PAD_RIGHT    0x0008
+#define CTRL_START          0x0010
+#define CTRL_BACK           0x0020
+#define CTRL_JOY_LEFT_BTN   0x0040
+#define CTRL_JOY_RIGHT_BTN  0x0080
+#define CTRL_LB             0x0100
+#define CTRL_RB             0x0200
+#define CTRL_A              0x1000
+#define CTRL_B              0x2000
+#define CTRL_X              0x4000
+#define CTRL_Y              0x8000
 
 /* UART5 (UNUSED) */
 #define UART5_COMM_ENABLE false

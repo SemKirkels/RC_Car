@@ -4,8 +4,6 @@
 #include "main.h"
 #include "rc_config.h"
 
-#define DEADZONE 1
-
 class Motor{
     public:
         Motor(

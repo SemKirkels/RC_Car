@@ -15,17 +15,17 @@ void Steering::setFromJoystick(short thumbLX){
  
 uint32_t Steering::mapToCCR(short thumbLX){
     /* Deadzone: -1500 to 1500*/
-    if(thumbLX > -1500 && thumbLX < 1500){
+    if(thumbLX > -STEERING_JOYSTICK_DEADZONE && thumbLX < STEERING_JOYSTICK_DEADZONE){
         return SERVO_MID;
     }
 
     /* thumbLX: -32768 (left) to 32767 (right) */
-    if(thumbLX >= 1500){
-        int32_t val = thumbLX - 1500; 
+    if(thumbLX >= STEERING_JOYSTICK_DEADZONE){
+        int32_t val = thumbLX - STEERING_JOYSTICK_DEADZONE; 
         return SERVO_MID + (uint32_t)(val * (SERVO_MAX - SERVO_MID) / 32767);
     }
     else{
-        int32_t val = thumbLX + 1500; 
+        int32_t val = thumbLX + STEERING_JOYSTICK_DEADZONE; 
         return SERVO_MID - (uint32_t)(-val * (SERVO_MID - SERVO_MIN) / 32768);
     }
 }

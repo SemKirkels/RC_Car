@@ -2,6 +2,7 @@
 #define STEERING_H
 
 #include "main.h"
+#include "rc_config.h"
 
 class Steering{
     public:
