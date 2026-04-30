@@ -10,6 +10,7 @@
 
 /* TOF sensors */
 #define TOF_DEFAULT_ADDR    0x29
+#define TOF_READOUT_DELAY   20
 /* Front */
 #define TOF_FRONT_ADDR          0x30
 #define XSHUT_FRONT_GPIO_PORT   GPIOC
