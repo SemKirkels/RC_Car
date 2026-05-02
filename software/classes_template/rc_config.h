@@ -10,6 +10,12 @@
 
 /* TOF sensors */
 #define TOF_DEFAULT_ADDR    0x29
+#define TOF_READOUT_DELAY   20
+#define TOF_STARTUP_DELAY   10
+/* Sensor type */
+#define TOF_SENSOR_VL53L0X  0
+#define TOF_SENSOR_VL53L1X  1
+#define TOF_SENSOR_TYPE     TOF_SENSOR_VL53L0X
 /* Front */
 #define TOF_FRONT_ADDR          0x30
 #define XSHUT_FRONT_GPIO_PORT   GPIOC

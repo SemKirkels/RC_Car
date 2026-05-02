@@ -12,7 +12,6 @@ void Steering::setFromJoystick(short thumbLX){
     __HAL_TIM_SET_COMPARE(m_htim, m_channel, mapToCCR(thumbLX));
 }
  
- 
 uint32_t Steering::mapToCCR(short thumbLX){
     /* Deadzone: -1500 to 1500*/
     if(thumbLX > -STEERING_JOYSTICK_DEADZONE && thumbLX < STEERING_JOYSTICK_DEADZONE){
