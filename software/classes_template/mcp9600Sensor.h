@@ -23,6 +23,17 @@ class Mcp9600 : public I2cDevice{
         float getColdJunc() const{return m_coldJunc;}
         bool isValid()      const{return m_valid;}
     private:
+        ProbeType   m_type;
+        float       m_hotJunc;
+        float       m_coldJunc;
+        bool        m_valid;
+
+        static const uint8_t REG_HOT_JUNCTION   = 0x00;
+        static const uint8_t REG_COLD_JUNCTION  = 0x02;
+        static const uint8_t REG_SENSOR_CONFIG  = 0x05;
+        static const uint8_t REG_DEVICE_CONFIG  = 0x06;
+        
+        float convertTemp(uint8_t* buf);
 };
 
 #endif
