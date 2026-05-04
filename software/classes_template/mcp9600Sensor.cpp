@@ -1,6 +1,6 @@
 #include "mcp9600Sensor.h"
 
-Mcp9600::Mcpa(I2C_HandleTypeDef* hi2c, uint8_t address, ProbeType type):
+Mcp9600::Mcp9600(I2C_HandleTypeDef* hi2c, uint8_t address, ProbeType type):
     I2cDevice(hi2c, address, false),
     m_type(type),
     m_hotJunc(0.0f),
