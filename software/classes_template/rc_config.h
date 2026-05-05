@@ -6,7 +6,8 @@
 #define TEMP_AMBIENT_ADDR   0x18
 
 /* BMS Sensor */
-#define TEMP_BATTERY_ADDR   0x08
+#define BMS_BATTERY_ADDR        0x08
+#define BMS_SENSE_RESISTOR_OHM  0.01f
 
 /* TOF sensors */
 #define TOF_DEFAULT_ADDR    0x29
