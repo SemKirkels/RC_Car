@@ -1224,21 +1224,21 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "J18"
-				(at 11.4301 -8.89 90)
+				(at 0.254 -7.112 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify right)
+					(justify left)
 				)
 			)
 			(property "Value" "221391-0003"
-				(at 8.8901 -8.89 90)
+				(at 0.254 -9.652 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify right)
+					(justify left)
 				)
 			)
 			(property "Footprint" "2213910003"
@@ -1373,14 +1373,14 @@
 				(pin passive line
 					(at 0 -5.08 0)
 					(length 5.08)
-					(name "5"
+					(name "4"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "5"
+					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1427,14 +1427,14 @@
 				(pin passive line
 					(at 20.32 -2.54 180)
 					(length 5.08)
-					(name "4"
+					(name "5"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "4"
+					(number "5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5134,16 +5134,6 @@
 	)
 	(wire
 		(pts
-			(xy 302.26 157.48) (xy 309.88 157.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "305aa126-f973-47ae-baf8-fd356caaa2c7")
-	)
-	(wire
-		(pts
 			(xy 302.26 193.04) (xy 309.88 193.04)
 		)
 		(stroke
@@ -5391,16 +5381,6 @@
 			(type default)
 		)
 		(uuid "42335365-efb1-4fbf-9e38-d6a683fdccfb")
-	)
-	(wire
-		(pts
-			(xy 302.26 154.94) (xy 309.88 154.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "42927f3c-6fe7-4fc5-8ab0-7acc92d2fd68")
 	)
 	(wire
 		(pts
@@ -5891,6 +5871,16 @@
 			(type default)
 		)
 		(uuid "74d19ae5-d67c-46bc-885a-dcca7d0eaafd")
+	)
+	(wire
+		(pts
+			(xy 302.26 154.94) (xy 309.88 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7600fa38-5c40-48dc-b1ba-f0fe387b3d57")
 	)
 	(wire
 		(pts
@@ -6584,6 +6574,16 @@
 	)
 	(wire
 		(pts
+			(xy 302.26 157.48) (xy 309.88 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bf674684-0b61-4db4-8d29-9b4daefa0a62")
+	)
+	(wire
+		(pts
 			(xy 62.23 83.82) (xy 86.36 83.82)
 		)
 		(stroke
@@ -7245,7 +7245,7 @@
 	)
 	(hierarchical_label "EXT_CLK"
 		(shape input)
-		(at 302.26 154.94 180)
+		(at 302.26 157.48 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7432,7 +7432,7 @@
 	)
 	(hierarchical_label "DRVOFF"
 		(shape input)
-		(at 302.26 157.48 180)
+		(at 302.26 154.94 180)
 		(effects
 			(font
 				(size 1.27 1.27)

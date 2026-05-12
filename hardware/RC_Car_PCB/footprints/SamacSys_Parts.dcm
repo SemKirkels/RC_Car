@@ -402,4 +402,10 @@ K
 F http://www.anytek.com.tw/Upload/8YK0001881-09262968837.pdf
 $ENDCMP
 #
+$CMP 2213910003
+D 3 Position Wire to Board Terminal Block 30 (150) Angle with Board 0.295" (7.50mm) Through Hole, -40C ~ 115C
+K
+F https://www.molex.com/en-us/products/part-detail/2213910003?display=pdf
+$ENDCMP
+#
 #End Doc Library

@@ -5657,10 +5657,10 @@
 	)
 	(text "BLDC TEMP"
 		(exclude_from_sim no)
-		(at 399.034 138.176 0)
+		(at 396.494 138.684 0)
 		(effects
 			(font
-				(size 1.27 1.27)
+				(size 1.778 1.778)
 			)
 		)
 		(uuid "eb815be0-e954-49dd-bcf6-cc6d793628e3")
