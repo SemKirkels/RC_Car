@@ -3,7 +3,7 @@
 
 #include "main.h"
 #include "cmsis_os.h"
-#include <string.h>
+#include <cstring>
 
 struct GamepadState{
     bool  connected;

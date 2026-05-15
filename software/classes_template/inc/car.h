@@ -2,10 +2,14 @@
 #define CAR_H
 
 #include "main.h"
+#include "cmsis_os.h"
 #include "gamepadParser.h"
 #include "steering.h"
 #include "gpioDrive.h"
 #include "motor.h"
+#include "cstdio"
+
+extern UART_HandleTypeDef huart1;
 
 /* TOF Struct */
 struct DistanceMap{

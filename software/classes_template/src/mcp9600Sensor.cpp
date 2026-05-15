@@ -14,8 +14,8 @@ void Mcp9600::init(){
     writeReg(REG_SENSOR_CONFIG, &sensorConfig, 1);
 
     /* Use default mode */
-    uint8_t deviceC0nfig = 0x00;
-    writeReg(REG_DEVICE_CONFIG, &sensorConfig, 1);
+    uint8_t deviceConfig = 0x00;
+    writeReg(REG_DEVICE_CONFIG, &deviceConfig, 1);
 }
 
 void Mcp9600::processData(){

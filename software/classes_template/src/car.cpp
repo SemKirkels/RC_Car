@@ -27,11 +27,18 @@ Car::Car(
 }
 
 void Car::init(){
+    m_distanceMutex = osMutexNew(NULL);
     m_gamepad.init();
     m_steering.init();
     m_ledFront.init("FrontLEDs");
     m_ledRear.init("RearLEDs");
     m_motor.init();
+}
+
+void Car::setDistances(const DistanceMap& distances){
+    osMutexAcquire(m_distanceMutex, osWaitForever);
+    m_distances = distances;
+    osMutexRelease(m_distanceMutex);
 }
 
 void Car::update(){
@@ -51,6 +58,17 @@ void Car::update(){
         if(currB && !m_prevB) m_ledRear.toggle();
         m_prevX = currX;
         m_prevB = currB;
+    }
+    
+    if(m_distanceMutex != NULL){
+        osMutexAcquire(m_distanceMutex, osWaitForever);
+        DistanceMap dist = m_distances;
+        osMutexRelease(m_distanceMutex);
+
+        char buf[64];
+        snprintf(buf, sizeof(buf), "L:%u F:%u R:%u\r\n",
+            dist.left, dist.front, dist.right);
+        HAL_UART_Transmit(&huart1, (uint8_t*)buf, strlen(buf), 100);
     }
 }
 

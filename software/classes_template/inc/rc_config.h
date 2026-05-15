@@ -6,7 +6,8 @@
 #define TEMP_AMBIENT_ADDR   0x18
 
 /* BMS Sensor */
-#define TEMP_BATTERY_ADDR   0x08
+#define BMS_BATTERY_ADDR        0x08
+#define BMS_SENSE_RESISTOR_OHM  0.01f
 
 /* TOF sensors */
 #define TOF_DEFAULT_ADDR    0x29
@@ -67,27 +68,11 @@
 #define CTRL_X              0x4000
 #define CTRL_Y              0x8000
 
-/* UART5 (UNUSED) */
-#define UART5_COMM_ENABLE false
-#define UART5_COMM_BAUD_RATE 115200
-
 /* USART1 (DEBUG COMMUNICATION)*/
 #define DEBUG_COMM_ENABLE true
 #define DEBUG_COMM_BAUD_RATE 115200
 
 /* I2C1 */
 #define I2C1_ENABLE true
-
-/* ADC1 */
-#define ADC1_ENABLE false
-
-/* ADC1 */
-#define ADC2_ENABLE false
-
-/* DAC1 */
-#define DAC1_ENABLE false
-
-/* SPI1 */
-#define SPI1_ENABLE false
 
 #endif

@@ -13,15 +13,21 @@ Vl53l0xSensor::Vl53l0xSensor(
     m_distance(65535){
         m_dev.address       = TOF_DEFAULT_ADDR << 1;
         m_dev.io_2v8        = true;
-        m_dev.io_timeout    = 500;
+        m_dev.io_timeout    = 200;
         m_dev.did_timeout   = false;
 }
 
 void Vl53l0xSensor::init(){
     m_dev.address = TOF_DEFAULT_ADDR << 1;
-    VL53L0X_init(&m_dev);
-    VL53L0X_setAddress(&m_dev, m_newAddress << 1);
-    VL53L0X_startContinuous(&m_dev, TOF_READOUT_DELAY);
+
+    bool initOk = VL53L0X_init(&m_dev);
+    if(!initOk){
+        return;
+    }
+
+    VL53L0X_setAddress(&m_dev, m_newAddress);
+
+    VL53L0X_startContinuous(&m_dev, 0);
 }
 
 void Vl53l0xSensor::processData(){

@@ -6,7 +6,7 @@ I2cDevice::I2cDevice(I2C_HandleTypeDef* hi2c, uint8_t address, bool crcEnabled):
     m_crcEnabled(crcEnabled),
     m_busy(false),
     m_semaphore(NULL){
-        m_semaphore= osSemaphoreNew(1, 0, NULL);
+        m_semaphore = osSemaphoreNew(1, 0, NULL);
 }
 
 HAL_StatusTypeDef I2cDevice::writeReg(uint8_t reg, uint8_t* data, uint16_t len){
