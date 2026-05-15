@@ -24,7 +24,7 @@ void Bms::init(){
     
     /* charge and discharge enable */
     uint8_t ctrl2 = 0x03;
-    writeReg(REG_SYS_CTRL2. &ctrl2, 1);
+    writeReg(REG_SYS_CTRL2, &ctrl2, 1);
 
     /* clear current fault flags */
     clearFaults();
@@ -69,11 +69,27 @@ float Bms::getCellVoltage(uint8_t cell) const{
 }
 
 void Bms::enableCharging(bool enable){
-
+    uint8_t buf[1];
+    readReg(REG_SYS_CTRL2, buf, 1);
+    if(enable){
+        buf[0] |= 0x01;
+    }
+    else{
+        buf[0] &= ~0x01;
+    }
+    writeReg(REG_SYS_CTRL2, buf, 1);
 }
 
 void Bms::enableDischarging(bool enable){
-
+    uint8_t buf[1];
+    readReg(REG_SYS_CTRL2, buf, 1);
+    if(enable){
+        buf[0] |= 0x02;
+    }
+    else{
+        buf[0] &= ~0x02;
+    }
+    writeReg(REG_SYS_CTRL2, buf, 1);
 }
 
 float Bms::convertCellVoltage(uint16_t raw){
@@ -95,7 +111,7 @@ void Bms::readGainOffset(){
     /* Gain is split in to two regs */
     if(readReg(REG_ADCGAIN1, buf, 1) == HAL_OK){
         uint8_t gain1 = buf[0];
-        if(readReg(REG_ADCGAIN2)){
+        if(readReg(REG_ADCGAIN2, buf, 1) == HAL_OK){
             uint8_t gain2 = buf[0];
             /* datasheet for split (p30) */
             /* WIP */
@@ -109,5 +125,7 @@ void Bms::readGainOffset(){
 }
 
 void Bms::clearFaults(){
-
+    /* clear stat reg */
+    uint8_t stat = 0xFF;
+    writeReg(REG_SYS_STAT, &stat, 1);
 }

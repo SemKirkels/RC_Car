@@ -52,7 +52,7 @@ void GamepadParser::rxEventCallback(uint16_t size){
     for(uint16_t i = 0; i < size; i++){
         parseChar((char)m_dmaBuffer[i]);
     }
-    //startDmaReception(); /* Restart DMA for next data */
+    startDmaReception(); /* Restart DMA for next data */
 }
 
 void GamepadParser::parseChar(char c){

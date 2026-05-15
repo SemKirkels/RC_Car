@@ -36,3 +36,6 @@ Thumbs.db
 # Excel
 ~$*
 
+software/simpleAtoi_speed_validation/bench_scaling
+software/simpleAtoi_speed_validation/bench_simple
+software/simpleAtoi_speed_validation/bench_stdlib

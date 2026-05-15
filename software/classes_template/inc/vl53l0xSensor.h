@@ -1,4 +1,13 @@
 /* Required library https://github.com/aminejouini/VL53L0X-STM32H7 */
+/*
+    Using this library requires a modification to the library’s source code. 
+    The function below should replace the corresponding function in the source code.
+    
+    void VL53L0X_setAddress(VL53L0X* dev, uint8_t new_addr){
+        VL53L0X_writeReg(dev, I2C_SLAVE_DEVICE_ADDRESS, new_addr & 0x7F);
+        dev->address = new_addr << 1;
+    }
+*/
 
 #ifndef VL53L0XSENSOR_H
 #define VL53L0XSENSOR_H
