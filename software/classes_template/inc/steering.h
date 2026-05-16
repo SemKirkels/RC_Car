@@ -13,9 +13,9 @@ class Steering{
         TIM_HandleTypeDef*  m_htim;
         uint32_t            m_channel;
 
-        static const uint32_t SERVO_MIN = 1000;
+        static const uint32_t SERVO_MIN = 750;
         static const uint32_t SERVO_MID = 1500;
-        static const uint32_t SERVO_MAX = 2000;
+        static const uint32_t SERVO_MAX = 2250;
     
         uint32_t mapToCCR(short thumbLX);
 };

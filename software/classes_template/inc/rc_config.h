@@ -11,7 +11,7 @@
 
 /* TOF sensors */
 #define TOF_DEFAULT_ADDR    0x29
-#define TOF_READOUT_DELAY   20
+#define TOF_READOUT_DELAY   10
 #define TOF_STARTUP_DELAY   10
 /* Sensor type */
 #define TOF_SENSOR_VL53L0X  0
@@ -34,6 +34,7 @@
 #define STOP_DISTANCE_MM        300
 #define STEER_BLOCK_LEFT_MM     200
 #define STEER_BLOCK_RIGHT_MM    200
+#define MOTOR_TEMP_LIM          50
 
 /* GPIO */
 #define GPIO_ENABLE true
@@ -74,5 +75,8 @@
 
 /* I2C1 */
 #define I2C1_ENABLE true
+
+/* Health task */
+#define HEALTH_READOUT_DELAY 1000
 
 #endif
