@@ -2,6 +2,7 @@
 #define CAR_H
 
 #include "main.h"
+#include "rc_config.h"
 #include "cmsis_os.h"
 #include "gamepadParser.h"
 #include "steering.h"
@@ -16,6 +17,17 @@ struct DistanceMap{
     uint16_t front;
     uint16_t left;
     uint16_t right;
+};
+
+/* Health sensors struct */
+struct HealthMap{
+    float   motorTempHot;
+    float   motorTempCold;
+    float   ambientTemp;
+    float   cellVoltage[3];
+    float   totalVoltage;
+    float   current;
+    uint8_t bmsStatus;
 };
 
 class Car{
@@ -43,8 +55,11 @@ class Car{
         /* Uart callback */
         void uartRxCallback(uint16_t size);
 
-        /* TOF Setup */
+        /* TOF */
         void setDistances(const DistanceMap& distances);
+
+        /* Health */
+        void setHealth(const HealthMap& health);
     private:
         GamepadParser   m_gamepad;
         Steering        m_steering;
@@ -57,6 +72,9 @@ class Car{
 
         DistanceMap     m_distances;
         osMutexId_t     m_distanceMutex;
+
+        HealthMap       m_health;
+        osMutexId_t     m_healthMutex;
 };
 
 #endif

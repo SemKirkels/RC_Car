@@ -1,12 +1,21 @@
 #include "i2cDevice.h"
 
+osMutexId_t I2cDevice::s_busMutex     = NULL;
+bool        I2cDevice::s_busMutexInit = false;
+I2cDevice*  I2cDevice::s_activeDevice = NULL;
+
 I2cDevice::I2cDevice(I2C_HandleTypeDef* hi2c, uint8_t address, bool crcEnabled):
     m_hi2c(hi2c),
     m_address(address),
     m_crcEnabled(crcEnabled),
     m_busy(false),
     m_semaphore(NULL){
-        m_semaphore = osSemaphoreNew(1, 0, NULL);
+    m_semaphore = osSemaphoreNew(1, 0, NULL);
+
+    if(!s_busMutexInit){
+        s_busMutex      = osMutexNew(NULL);
+        s_busMutexInit  = true;
+    }
 }
 
 HAL_StatusTypeDef I2cDevice::writeReg(uint8_t reg, uint8_t* data, uint16_t len){
@@ -57,9 +66,7 @@ HAL_StatusTypeDef I2cDevice::readReg(uint8_t reg, uint8_t* data, uint16_t len){
 }
 
 HAL_StatusTypeDef I2cDevice::readRegDMA(uint8_t reg, uint8_t* buf, uint16_t len){
-    if(m_busy){
-        return HAL_BUSY;
-    }
+    osMutexAcquire(s_busMutex, osWaitForever);
 
     HAL_StatusTypeDef status;
     status = HAL_I2C_Master_Transmit(m_hi2c, m_address << 1, &reg, 1, 100);
@@ -67,7 +74,8 @@ HAL_StatusTypeDef I2cDevice::readRegDMA(uint8_t reg, uint8_t* buf, uint16_t len)
         return status;
     }
 
-    m_busy = true;
+    m_busy          = true;
+    s_activeDevice  = this;
 
     uint16_t rxLen;
     if(m_crcEnabled){
@@ -77,11 +85,20 @@ HAL_StatusTypeDef I2cDevice::readRegDMA(uint8_t reg, uint8_t* buf, uint16_t len)
         rxLen = len;
     }
 
-    return HAL_I2C_Master_Receive_DMA(m_hi2c, m_address << 1, buf, rxLen);
+    status = HAL_I2C_Master_Receive_DMA(m_hi2c, m_address << 1, buf, rxLen);
+    if(status != HAL_OK){
+        m_busy         = false;
+        s_activeDevice = NULL;
+        osMutexRelease(s_busMutex);
+    }
+
+    return status; 
 }
 
 bool I2cDevice::waitDMA(uint32_t timeoutMs){
-    return osSemaphoreAcquire(m_semaphore, timeoutMs) == osOK;
+    bool ok =  osSemaphoreAcquire(m_semaphore, timeoutMs) == osOK;
+    osMutexRelease(s_busMutex);
+    return ok;
 }
 
 void I2cDevice::onDmaComplete(){
