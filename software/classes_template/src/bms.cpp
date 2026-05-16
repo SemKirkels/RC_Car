@@ -31,31 +31,37 @@ void Bms::init(){
 }
 
 void Bms::processData(){
-    uint8_t buf[2];
-
     /* stat reg */
-    if(readReg(REG_SYS_STAT, buf, 1) != HAL_OK){
+    if(readRegDMA(REG_SYS_STAT, m_dmaBuf, 1) != HAL_OK){
         m_valid = false;
         return;
     }
-    m_status = buf[0];
+    if(!waitDMA(100)){
+        m_valid = false;
+        return;
+    }
+    m_status = m_dmaBuf[0];
 
     /* read cell voltages */
     for(uint8_t i = 0; i < 3; i++){
-        if(readReg(REG_VC1_HI + (i * 2), buf, 2) != HAL_OK){
+        if(readRegDMA(REG_VC1_HI + (i * 2), m_dmaBuf, 2) != HAL_OK){
             m_valid = false;
             return;
         }
-        uint16_t raw = (uint8_t)((buf[0] << 8) | buf[1]);
+        if(!waitDMA(100)){
+            m_valid = false;
+            return;
+        }
+        uint16_t raw = (uint8_t)((m_dmaBuf[0] << 8) | m_dmaBuf[1]);
         m_cellVoltage[i] = convertCellVoltage(raw);
     }
 
     /* Total voltage */
-    if(readReg(REG_CC_HI, buf, 2) != HAL_OK){
+    if(readRegDMA(REG_CC_HI, m_dmaBuf, 2) != HAL_OK){
         m_valid = false;
         return;
     }
-    uint16_t ccRaw = (uint16_t)((buf[0] << 8) | buf[1]);
+    uint16_t ccRaw = (uint16_t)((m_dmaBuf[0] << 8) | m_dmaBuf[1]);
     m_current = convertCurrent(ccRaw);
 
     m_valid = true;

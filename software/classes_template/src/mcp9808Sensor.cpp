@@ -14,15 +14,19 @@ void Mcp9808::init(){
 }
 
 void Mcp9808::processData(){
-    uint8_t buf[2];
-    if(readReg(REG_TEMP, buf, 2) != HAL_OK){
+    if(readRegDMA(REG_TEMP, m_dmaBuf, 2) != HAL_OK){
+        m_valid = false;
+        return;
+    }
+
+    if(!waitDMA(100)){
         m_valid = false;
         return;
     }
 
     /* Mask alert flags */
-    uint8_t upperByte = buf[0] & 0x1F;
-    uint8_t lowerByte = buf[1];
+    uint8_t upperByte = m_dmaBuf[0] & 0x1F;
+    uint8_t lowerByte = m_dmaBuf[1];
 
     /* Check sign bit & convert if needed */
     if(upperByte & 0x10){

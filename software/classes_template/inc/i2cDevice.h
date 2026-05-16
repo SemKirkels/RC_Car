@@ -9,8 +9,8 @@ class I2cDevice{
         I2cDevice(I2C_HandleTypeDef* hi2c, uint8_t address, bool crcEnabled = false);
         virtual void init() = 0;
         virtual void processData() = 0;
-        bool isBusy() const{return m_busy;}
         void onDmaComplete();
+        static I2cDevice* s_activeDevice;
     protected:
         /* Read and write functions */
         HAL_StatusTypeDef writeReg(uint8_t reg, uint8_t* data, uint16_t len);
@@ -25,7 +25,11 @@ class I2cDevice{
         bool                m_crcEnabled;
         volatile bool       m_busy;
         osSemaphoreId_t     m_semaphore;
+        uint8_t             m_dmaBuf[32];
     private:
+        static osMutexId_t  s_busMutex;
+        static bool         s_busMutexInit;
+
         static uint8_t calcCRC(uint8_t* data, uint16_t len);
         bool verifyCRC(uint8_t* data, uint16_t len, uint8_t receivedCRC);
 };

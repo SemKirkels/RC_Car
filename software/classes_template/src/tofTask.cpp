@@ -43,8 +43,8 @@ void StartToFTask(void* argument){
 
         DistanceMap dist = {
             tofFront.getDistance(),
-            0,//tofLeft.getDistance(),
-            0,//tofRight.getDistance()
+            tofLeft.getDistance(),
+            tofRight.getDistance()
         };
 
         car.setDistances(dist);

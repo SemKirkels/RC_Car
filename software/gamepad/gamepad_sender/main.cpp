@@ -13,7 +13,7 @@
 #define POLL_DELAY_MS (1000/POLL_RATE_HZ)
 
 /* Network defines */
-#define UDP_HOST        "192.168.1.65"
+#define UDP_HOST        "192.168.50.65"
 #define UDP_PORT        40450
 
 int main(){
