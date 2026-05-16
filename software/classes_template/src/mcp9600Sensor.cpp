@@ -19,21 +19,27 @@ void Mcp9600::init(){
 }
 
 void Mcp9600::processData(){
-    uint8_t buf[0];
-
     /* Get hot junction */
-    if(readReg(REG_HOT_JUNCTION, buf, 2) != HAL_OK){
+    if(readRegDMA(REG_HOT_JUNCTION, m_dmaBuf, 2) != HAL_OK){
         m_valid = false;
         return;
     }
-    m_hotJunc = convertTemp(buf);
+    if(!waitDMA(100)){
+        m_valid = false;
+        return;
+    }
+    m_hotJunc = convertTemp(m_dmaBuf);
 
     /* Get cold junction */
-    if(readReg(REG_HOT_JUNCTION, buf, 2) != HAL_OK){
+    if(readRegDMA(REG_HOT_JUNCTION, m_dmaBuf, 2) != HAL_OK){
         m_valid = false;
         return;
     }
-    m_coldJunc = convertTemp(buf);
+    if(!waitDMA(100)){
+        m_valid = false;
+        return;
+    }
+    m_coldJunc = convertTemp(m_dmaBuf);
 
     m_valid = true;
 }
