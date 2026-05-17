@@ -102,6 +102,18 @@
 		(uuid 57564a84-2096-4691-8dc3-3790c124ba2c)
 	)
 	(rectangle
+		(start 231.14 85.09)
+		(end 281.94 106.68)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 710aa6a1-59ea-4072-926d-430a47a02b67)
+	)
+	(rectangle
 		(start 231.14 39.37)
 		(end 281.94 60.96)
 		(stroke
@@ -112,6 +124,28 @@
 			(type none)
 		)
 		(uuid 731cf78b-3096-4037-8f6f-c452bc9e6641)
+	)
+	(rectangle
+		(start 231.14 62.23)
+		(end 281.94 83.82)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid d3ed0c81-b7e7-4af9-a626-210e6368e7db)
+	)
+	(text "MH BMS"
+		(exclude_from_sim no)
+		(at 277.114 63.754 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "0b30de78-5800-4028-9ef4-2db4480dba50")
 	)
 	(text "MH STM PCB"
 		(exclude_from_sim no)
@@ -132,6 +166,16 @@
 			)
 		)
 		(uuid "ae1d77b2-25cf-4462-99af-c9b4ef0eba9e")
+	)
+	(text "MH Ambient\n"
+		(exclude_from_sim no)
+		(at 275.59 86.868 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "d488fe8d-8352-458a-a633-d4b7bbabba7f")
 	)
 	(junction
 		(at 104.14 45.72)
@@ -407,6 +451,70 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
+		(at 236.22 90.17 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "00cf9aae-c67c-4eb3-b84f-68c40529d284")
+		(property "Reference" "H13"
+			(at 238.76 88.8999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MH_STM"
+			(at 238.76 91.4399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965"
+			(at 236.22 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 236.22 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 236.22 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "RC_Car_PCB"
+				(path "/e3eebfb1-ca33-4fe6-a6b8-7fbebca142f4"
+					(reference "H13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
 		(at 250.19 49.53 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -599,6 +707,70 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
+		(at 236.22 77.47 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3cbcdfca-14ed-47fb-98b8-f679f0b0e3f4")
+		(property "Reference" "H12"
+			(at 238.76 76.1999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MH_STM"
+			(at 238.76 78.7399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965"
+			(at 236.22 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 236.22 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 236.22 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "RC_Car_PCB"
+				(path "/e3eebfb1-ca33-4fe6-a6b8-7fbebca142f4"
+					(reference "H12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
 		(at 236.22 21.59 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -656,6 +828,70 @@
 			(project ""
 				(path "/e3eebfb1-ca33-4fe6-a6b8-7fbebca142f4"
 					(reference "H1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 236.22 95.25 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4d1e0c0e-f8fe-4e06-a454-e5c5f132e234")
+		(property "Reference" "H14"
+			(at 238.76 93.9799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MH_STM"
+			(at 238.76 96.5199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965"
+			(at 236.22 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 236.22 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 236.22 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "RC_Car_PCB"
+				(path "/e3eebfb1-ca33-4fe6-a6b8-7fbebca142f4"
+					(reference "H14")
 					(unit 1)
 				)
 			)
@@ -912,6 +1148,134 @@
 			(project "RC_Car_PCB"
 				(path "/e3eebfb1-ca33-4fe6-a6b8-7fbebca142f4"
 					(reference "H6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 236.22 67.31 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cb96e0ac-cbc3-4c6d-baf7-93f2d26f3b97")
+		(property "Reference" "H10"
+			(at 238.76 66.0399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MH_STM"
+			(at 238.76 68.5799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965"
+			(at 236.22 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 236.22 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 236.22 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "RC_Car_PCB"
+				(path "/e3eebfb1-ca33-4fe6-a6b8-7fbebca142f4"
+					(reference "H10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 236.22 72.39 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cf4fc728-2fc0-4fe8-a568-ff39f4105f0e")
+		(property "Reference" "H11"
+			(at 238.76 71.1199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MH_STM"
+			(at 238.76 73.6599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965"
+			(at 236.22 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 236.22 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 236.22 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "RC_Car_PCB"
+				(path "/e3eebfb1-ca33-4fe6-a6b8-7fbebca142f4"
+					(reference "H11")
 					(unit 1)
 				)
 			)
@@ -1463,16 +1827,6 @@
 				(justify left)
 			)
 		)
-		(pin "ALERT_BMS" output
-			(at 109.22 39.37 270)
-			(uuid "98b8e1c8-299e-4d29-9e26-587522166361")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(pin "SCL" output
 			(at 101.6 39.37 270)
 			(uuid "a50f1d29-83de-4efb-a8b2-0da0e73a73ce")
@@ -1516,6 +1870,16 @@
 		(pin "TOFxShut_Right" output
 			(at 116.84 39.37 270)
 			(uuid "b51f4a0a-054d-4cda-82df-15d3292bc9d1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "ALERT_BMS_STM" output
+			(at 109.22 39.37 270)
+			(uuid "1388e731-8f74-4571-801c-15671638369c")
 			(effects
 				(font
 					(size 1.27 1.27)

@@ -3818,6 +3818,176 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "SamacSys_Parts:M20-9990345"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 16.51 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "M20-9990345"
+				(at 16.51 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "HDRV3W64P0X254_1X3_762X254X864P"
+				(at 16.51 -94.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://content.harwin.com/m/0df15f6e0f9f48e2/original/DRG-00479-Technical-Drawing-Datasheet-M20-999-pdf.pdf"
+				(at 16.51 -194.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "M20: 3 Pos Plug SIL Straight 3mm THT Connector 6.1mm pin Gold"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "8.64"
+				(at 16.51 -394.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "855-M20-9990345"
+				(at 16.51 -494.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Harwin/M20-9990345?qs=ulE8k0yEMYbl6ZPCtNdmpA%3D%3D"
+				(at 16.51 -594.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "Harwin"
+				(at 16.51 -694.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "M20-9990345"
+				(at 16.51 -794.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "M20-9990345_1_1"
+				(rectangle
+					(start 5.08 2.54)
+					(end 15.24 -7.62)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 0)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 0)
+					(length 5.08)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "SamacSys_Parts:MCP9600-E_MX"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -5262,6 +5432,212 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "SamacSys_Parts:XT60PW-M"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J1"
+				(at 11.43 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "XT60PW-M"
+				(at 11.43 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "XT60PWM"
+				(at 19.05 -94.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.tme.eu/Document/b13629717d44ae038681dba08d18c0b6/XT60PW-M.pdf"
+				(at 19.05 -194.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "Connector: DC supply; socket; XT60; male; PIN: 2; on PCBs; THT; 30A"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "8.4"
+				(at 19.05 -394.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "Amass"
+				(at 19.05 -494.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "XT60PW-M"
+				(at 19.05 -594.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" ""
+				(at 19.05 -694.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" ""
+				(at 19.05 -794.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Arrow Part Number" ""
+				(at 19.05 -894.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Arrow Price/Stock" ""
+				(at 19.05 -994.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "XT60PW-M_1_1"
+				(rectangle
+					(start 5.08 2.54)
+					(end 17.78 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 0)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 22.86 0 180)
+					(length 5.08)
+					(name "MH1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 22.86 -2.54 180)
+					(length 5.08)
+					(name "MH2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:+3.3V"
 			(power)
 			(pin_numbers
@@ -5502,8 +5878,32 @@
 		(uuid 24301a2e-9cd7-4784-8a12-b2ba44d8fa71)
 	)
 	(rectangle
-		(start 251.46 33.02)
-		(end 312.42 52.07)
+		(start 274.32 53.34)
+		(end 322.58 87.63)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 574f0f19-6c51-44a0-a058-1285dffb883f)
+	)
+	(rectangle
+		(start 275.59 90.17)
+		(end 322.58 107.95)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 5a003473-e9be-42a4-8b41-2c85ef523a26)
+	)
+	(rectangle
+		(start 261.62 33.02)
+		(end 322.58 52.07)
 		(stroke
 			(width 0)
 			(type default)
@@ -5524,6 +5924,18 @@
 			(type none)
 		)
 		(uuid 75393347-98ee-4e75-bbce-e6b843caeb0c)
+	)
+	(rectangle
+		(start 278.13 113.03)
+		(end 322.58 130.81)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 89cb6d95-b732-40d5-a7d2-3a25e71cd756)
 	)
 	(rectangle
 		(start 330.2 54.61)
@@ -5597,7 +6009,7 @@
 	)
 	(text "LiPo 3S balance connector"
 		(exclude_from_sim no)
-		(at 293.624 35.56 0)
+		(at 303.784 35.56 0)
 		(effects
 			(font
 				(size 1.778 1.778)
@@ -5990,6 +6402,12 @@
 		(uuid "ee22fce6-c7cf-4636-aefb-d63507ddbeae")
 	)
 	(junction
+		(at 38.1 30.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "eec047a4-0f48-48be-bfdd-7ec851f7a282")
+	)
+	(junction
 		(at 176.53 111.76)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6014,8 +6432,16 @@
 		(uuid "fbffd377-e8bf-4266-a209-e8fb15649836")
 	)
 	(no_connect
+		(at 313.69 82.55)
+		(uuid "14072b13-017b-427c-b675-2eeabbbe004c")
+	)
+	(no_connect
 		(at 138.43 76.2)
 		(uuid "21921a12-8c79-433a-8e47-a24e3755a0ca")
+	)
+	(no_connect
+		(at 313.69 64.77)
+		(uuid "296a3565-a9fb-492b-8f93-8e22d6d2261f")
 	)
 	(no_connect
 		(at 356.87 179.07)
@@ -6026,8 +6452,16 @@
 		(uuid "426df001-14d1-416d-9081-46171bdf6bc8")
 	)
 	(no_connect
+		(at 313.69 80.01)
+		(uuid "6b79c7bf-d597-45a9-b35a-a4fc304d3231")
+	)
+	(no_connect
 		(at 356.87 175.26)
 		(uuid "7bde0f38-999f-416d-9d9e-c756b63cca00")
+	)
+	(no_connect
+		(at 313.69 67.31)
+		(uuid "d03d0a16-7504-47e7-9afd-19cc540b8d75")
 	)
 	(no_connect
 		(at 356.87 182.88)
@@ -6052,6 +6486,16 @@
 			(type default)
 		)
 		(uuid "00dd16cd-b7ed-4008-87c7-90ba11c86f02")
+	)
+	(wire
+		(pts
+			(xy 284.48 80.01) (xy 290.83 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "00f205ed-edae-4d7f-a492-c0b7ae009fbc")
 	)
 	(wire
 		(pts
@@ -6465,6 +6909,16 @@
 	)
 	(wire
 		(pts
+			(xy 295.91 99.06) (xy 302.26 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "229f3762-bcaf-4062-b0bd-fe93c7058bc6")
+	)
+	(wire
+		(pts
 			(xy 170.18 82.55) (xy 191.77 82.55)
 		)
 		(stroke
@@ -6512,6 +6966,16 @@
 			(type default)
 		)
 		(uuid "26a81b04-d351-45f6-a93d-dc8b32da0117")
+	)
+	(wire
+		(pts
+			(xy 295.91 121.92) (xy 302.26 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "285170e9-2a15-4e6e-a785-a96048016607")
 	)
 	(wire
 		(pts
@@ -6585,6 +7049,16 @@
 	)
 	(wire
 		(pts
+			(xy 295.91 96.52) (xy 302.26 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "30d2fc35-4320-4378-a9e4-402ad4113821")
+	)
+	(wire
+		(pts
 			(xy 207.01 113.03) (xy 207.01 115.57)
 		)
 		(stroke
@@ -6635,7 +7109,7 @@
 	)
 	(wire
 		(pts
-			(xy 264.16 48.26) (xy 270.51 48.26)
+			(xy 264.16 48.26) (xy 280.67 48.26)
 		)
 		(stroke
 			(width 0)
@@ -6735,6 +7209,16 @@
 	)
 	(wire
 		(pts
+			(xy 284.48 82.55) (xy 290.83 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3c3b5be8-a978-4749-b439-b8154a70bfe3")
+	)
+	(wire
+		(pts
 			(xy 246.38 181.61) (xy 251.46 181.61)
 		)
 		(stroke
@@ -6752,6 +7236,16 @@
 			(type default)
 		)
 		(uuid "3c9ebe31-5608-4f05-a680-62c963553148")
+	)
+	(wire
+		(pts
+			(xy 295.91 119.38) (xy 302.26 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3d5b98d5-1efb-4f8f-b7e9-bc3f4cf2575e")
 	)
 	(wire
 		(pts
@@ -6955,6 +7449,16 @@
 	)
 	(wire
 		(pts
+			(xy 284.48 67.31) (xy 290.83 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5033afee-3a1d-47c1-9193-abd5d56cbf91")
+	)
+	(wire
+		(pts
 			(xy 345.44 106.68) (xy 358.14 106.68)
 		)
 		(stroke
@@ -7115,6 +7619,16 @@
 	)
 	(wire
 		(pts
+			(xy 31.75 30.48) (xy 38.1 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "656cb197-8039-4232-8fcb-4248a79e045f")
+	)
+	(wire
+		(pts
 			(xy 226.06 38.1) (xy 233.68 38.1)
 		)
 		(stroke
@@ -7225,6 +7739,16 @@
 	)
 	(wire
 		(pts
+			(xy 295.91 101.6) (xy 302.26 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6e840b1a-4ea8-4f1e-8a7d-59996f3c2d48")
+	)
+	(wire
+		(pts
 			(xy 153.67 48.26) (xy 162.56 48.26)
 		)
 		(stroke
@@ -7315,7 +7839,7 @@
 	)
 	(wire
 		(pts
-			(xy 264.16 45.72) (xy 270.51 45.72)
+			(xy 274.32 45.72) (xy 280.67 45.72)
 		)
 		(stroke
 			(width 0)
@@ -7565,13 +8089,33 @@
 	)
 	(wire
 		(pts
-			(xy 264.16 43.18) (xy 270.51 43.18)
+			(xy 284.48 64.77) (xy 290.83 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9005d05d-f5c2-497d-ab70-3f30cf91bac4")
+	)
+	(wire
+		(pts
+			(xy 274.32 43.18) (xy 280.67 43.18)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "902e2657-81c4-4f2a-b2e1-4f5ffb220259")
+	)
+	(wire
+		(pts
+			(xy 295.91 124.46) (xy 302.26 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "90802e1d-bc89-4738-aa9c-8ec8ab3a3fe0")
 	)
 	(wire
 		(pts
@@ -8245,6 +8789,16 @@
 	)
 	(wire
 		(pts
+			(xy 34.29 111.76) (xy 38.1 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cc2c0eb7-aca6-4daf-8a3c-6a519d6c9812")
+	)
+	(wire
+		(pts
 			(xy 255.27 111.76) (xy 256.54 111.76)
 		)
 		(stroke
@@ -8455,7 +9009,7 @@
 	)
 	(wire
 		(pts
-			(xy 264.16 40.64) (xy 270.51 40.64)
+			(xy 274.32 40.64) (xy 280.67 40.64)
 		)
 		(stroke
 			(width 0)
@@ -8815,7 +9369,7 @@
 	)
 	(hierarchical_label "PACK+"
 		(shape input)
-		(at 264.16 40.64 180)
+		(at 274.32 40.64 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8834,6 +9388,17 @@
 			(justify left)
 		)
 		(uuid "114246c1-f15f-446d-bc06-729ead190dae")
+	)
+	(hierarchical_label "LOAD-"
+		(shape input)
+		(at 284.48 80.01 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "149d1872-72a6-4998-aa2e-268b85bd9500")
 	)
 	(hierarchical_label "SCL"
 		(shape output)
@@ -8934,9 +9499,20 @@
 		)
 		(uuid "3bf97e83-d183-44cb-9803-47c7c0dcafcd")
 	)
+	(hierarchical_label "SCL"
+		(shape output)
+		(at 295.91 121.92 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "3e595ba7-145f-4b27-86c8-7e106572b16a")
+	)
 	(hierarchical_label "cel2-3"
 		(shape input)
-		(at 264.16 43.18 180)
+		(at 274.32 43.18 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8944,6 +9520,17 @@
 			(justify right)
 		)
 		(uuid "462c574c-9567-4b90-b128-cf9153e51107")
+	)
+	(hierarchical_label "LOAD+"
+		(shape input)
+		(at 31.75 30.48 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "46d9c112-cb6f-4d6d-b37c-3e5a73970b80")
 	)
 	(hierarchical_label "VDD_ambient"
 		(shape output)
@@ -8966,6 +9553,17 @@
 			(justify right)
 		)
 		(uuid "4ada3165-e580-4d53-83d0-6138b466a9d1")
+	)
+	(hierarchical_label "SDA"
+		(shape output)
+		(at 295.91 119.38 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4bc0d5d8-371f-4e3e-b9a5-6ab26db3c2dc")
 	)
 	(hierarchical_label "SCL"
 		(shape output)
@@ -9011,6 +9609,17 @@
 		)
 		(uuid "5c98294c-6e84-4058-af4c-175cc3e8aa20")
 	)
+	(hierarchical_label "PACK-"
+		(shape input)
+		(at 284.48 64.77 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "645f530f-66fa-4c95-806f-8e8f937d521d")
+	)
 	(hierarchical_label "ALERT_AMB_STM32"
 		(shape input)
 		(at 35.56 182.88 180)
@@ -9022,6 +9631,17 @@
 		)
 		(uuid "66f726a6-1040-4e19-b70c-bdb0c3844dff")
 	)
+	(hierarchical_label "SCL_BMS"
+		(shape output)
+		(at 295.91 99.06 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6a3b14be-873d-46b4-a265-1f57d882f57f")
+	)
 	(hierarchical_label "SCL_Ambient"
 		(shape input)
 		(at 115.57 177.8 180)
@@ -9032,6 +9652,17 @@
 			(justify right)
 		)
 		(uuid "6e26dbaf-37be-464a-80f2-6cda84834422")
+	)
+	(hierarchical_label "ALERT_BMS"
+		(shape output)
+		(at 295.91 101.6 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6e306681-5238-4d7a-b63b-d250f4d29ae3")
 	)
 	(hierarchical_label "PACK+"
 		(shape input)
@@ -9055,9 +9686,20 @@
 		)
 		(uuid "70252de6-36f2-41db-a24c-5c48d96de032")
 	)
+	(hierarchical_label "LOAD+"
+		(shape input)
+		(at 284.48 82.55 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "766d8794-c091-4d73-816a-323fd0c964da")
+	)
 	(hierarchical_label "cel1-2"
 		(shape input)
-		(at 264.16 45.72 180)
+		(at 274.32 45.72 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9077,6 +9719,17 @@
 		)
 		(uuid "7c82630e-b636-4ebd-b0ac-f774e75a16a5")
 	)
+	(hierarchical_label "SDA_BMS"
+		(shape output)
+		(at 295.91 96.52 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "7e6f0b61-e96f-40c9-8c69-8a8c2ed04b47")
+	)
 	(hierarchical_label "SCL"
 		(shape output)
 		(at 350.52 111.76 180)
@@ -9088,7 +9741,7 @@
 		)
 		(uuid "8b92d0f5-5b97-41ce-ada2-689e6048fd48")
 	)
-	(hierarchical_label "SDA"
+	(hierarchical_label "SDA_BMS"
 		(shape output)
 		(at 166.37 60.96 0)
 		(effects
@@ -9154,6 +9807,17 @@
 		)
 		(uuid "a653aca9-8af6-4680-aa95-ce9008a92b34")
 	)
+	(hierarchical_label "LOAD-"
+		(shape input)
+		(at 34.29 111.76 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ae0ec738-4c8d-43c2-a8a3-98dfecaf2306")
+	)
 	(hierarchical_label "cel2-3"
 		(shape input)
 		(at 38.1 52.07 180)
@@ -9176,6 +9840,17 @@
 		)
 		(uuid "b47d9368-b17b-4757-b9c2-52a413358653")
 	)
+	(hierarchical_label "PACK+"
+		(shape input)
+		(at 284.48 67.31 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b9ce5d50-dfbf-459a-9b2f-c6f6ad65decf")
+	)
 	(hierarchical_label "VDD_ambient"
 		(shape output)
 		(at 81.28 175.26 0)
@@ -9187,7 +9862,7 @@
 		)
 		(uuid "bd55b9c6-6ba6-483b-97af-393b4d4cf79d")
 	)
-	(hierarchical_label "SCL"
+	(hierarchical_label "SCL_BMS"
 		(shape output)
 		(at 166.37 58.42 0)
 		(effects
@@ -9241,6 +9916,17 @@
 			(justify left)
 		)
 		(uuid "ee696d66-4ef4-48a5-9cfb-9a72a0c757b1")
+	)
+	(hierarchical_label "ALERT_BMS_STM"
+		(shape output)
+		(at 295.91 124.46 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f5787919-3fee-41fc-95fd-cec3b94f72c4")
 	)
 	(hierarchical_label "SDA_Ambient"
 		(shape input)
@@ -10646,6 +11332,130 @@
 		)
 	)
 	(symbol
+		(lib_id "SamacSys_Parts:M20-9990345")
+		(at 302.26 96.52 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "27f54474-391c-43ea-b563-e31593e96320")
+		(property "Reference" "J20"
+			(at 312.42 99.822 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "M20-9990345"
+			(at 305.054 106.172 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "HDRV3W64P0X254_1X3_762X254X864P"
+			(at 318.77 191.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://content.harwin.com/m/0df15f6e0f9f48e2/original/DRG-00479-Technical-Drawing-Datasheet-M20-999-pdf.pdf"
+			(at 318.77 291.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "M20: 3 Pos Plug SIL Straight 3mm THT Connector 6.1mm pin Gold"
+			(at 302.26 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "8.64"
+			(at 318.77 491.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "855-M20-9990345"
+			(at 318.77 591.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Harwin/M20-9990345?qs=ulE8k0yEMYbl6ZPCtNdmpA%3D%3D"
+			(at 318.77 691.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Harwin"
+			(at 318.77 791.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "M20-9990345"
+			(at 318.77 891.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "86c9b0da-1910-4c29-96ab-1f39a8d232ef")
+		)
+		(pin "1"
+			(uuid "a3a529a5-beb9-4f33-bc8d-1384d27b8209")
+		)
+		(pin "2"
+			(uuid "3eb965ad-cf07-4b0a-a186-0ea0ced25150")
+		)
+		(instances
+			(project "RC_Car_PCB"
+				(path "/e3eebfb1-ca33-4fe6-a6b8-7fbebca142f4/dd30d5ad-9a79-4300-9c98-d053ac2ad334"
+					(reference "J20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "SamacSys_Parts:ERJ-P06F1000V")
 		(at 186.69 38.1 0)
 		(unit 1)
@@ -11496,6 +12306,152 @@
 			(project ""
 				(path "/e3eebfb1-ca33-4fe6-a6b8-7fbebca142f4/dd30d5ad-9a79-4300-9c98-d053ac2ad334"
 					(reference "IC9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SamacSys_Parts:XT60PW-M")
+		(at 290.83 64.77 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "40eef952-6b58-488d-a3a1-9aeb9a95f1b3")
+		(property "Reference" "J5"
+			(at 302.26 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "XT60PW-M"
+			(at 302.26 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "XT60PWM"
+			(at 309.88 159.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.tme.eu/Document/b13629717d44ae038681dba08d18c0b6/XT60PW-M.pdf"
+			(at 309.88 259.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Connector: DC supply; socket; XT60; male; PIN: 2; on PCBs; THT; 30A"
+			(at 290.83 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "8.4"
+			(at 309.88 459.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Amass"
+			(at 309.88 559.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "XT60PW-M"
+			(at 309.88 659.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 309.88 759.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 309.88 859.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 309.88 959.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 309.88 1059.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "14417079-889e-4d78-9ced-f002a476a27a")
+		)
+		(pin "2"
+			(uuid "adcc1a02-bec9-486b-bb9b-e6b819997d93")
+		)
+		(pin "4"
+			(uuid "87354c9a-a5b4-4695-bb7f-660914deeed5")
+		)
+		(pin "1"
+			(uuid "13781d26-924d-4e01-9068-aca33f9554ec")
+		)
+		(instances
+			(project "RC_Car_PCB"
+				(path "/e3eebfb1-ca33-4fe6-a6b8-7fbebca142f4/dd30d5ad-9a79-4300-9c98-d053ac2ad334"
+					(reference "J5")
 					(unit 1)
 				)
 			)
@@ -14439,7 +15395,7 @@
 	)
 	(symbol
 		(lib_id "SamacSys_Parts:B4B-XH-A_LF__SN_")
-		(at 270.51 40.64 0)
+		(at 280.67 40.64 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14448,7 +15404,7 @@
 		(fields_autoplaced yes)
 		(uuid "8ae804f1-fdd5-4347-ac6f-2f48243f3e73")
 		(property "Reference" "J4"
-			(at 287.02 43.1799 0)
+			(at 297.18 43.1799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14457,7 +15413,7 @@
 			)
 		)
 		(property "Value" "B4B-XH-A_LF__SN_"
-			(at 287.02 45.7199 0)
+			(at 297.18 45.7199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14466,7 +15422,7 @@
 			)
 		)
 		(property "Footprint" "B4BXHALFSN"
-			(at 287.02 135.56 0)
+			(at 297.18 135.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14476,7 +15432,7 @@
 			)
 		)
 		(property "Datasheet" "https://datasheet.lcsc.com/szlcsc/JST-Sales-America-B4B-XH-A-LF-SN_C144395.pdf"
-			(at 287.02 235.56 0)
+			(at 297.18 235.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14486,7 +15442,7 @@
 			)
 		)
 		(property "Description" "CONN HEADER VERT 4POS 2.5MM"
-			(at 270.51 40.64 0)
+			(at 280.67 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14495,7 +15451,7 @@
 			)
 		)
 		(property "Height" "7"
-			(at 287.02 435.56 0)
+			(at 297.18 435.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14505,7 +15461,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "JST (JAPAN SOLDERLESS TERMINALS)"
-			(at 287.02 535.56 0)
+			(at 297.18 535.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14515,7 +15471,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "B4B-XH-A(LF)(SN)"
-			(at 287.02 635.56 0)
+			(at 297.18 635.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14525,7 +15481,7 @@
 			)
 		)
 		(property "Mouser Part Number" "306-B4BXHALFSN"
-			(at 287.02 735.56 0)
+			(at 297.18 735.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14535,7 +15491,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/JST-Commercial/B4B-XH-ALFSN?qs=cdbOS8ANM9CfC08d%252BywhFw%3D%3D"
-			(at 287.02 835.56 0)
+			(at 297.18 835.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14545,7 +15501,7 @@
 			)
 		)
 		(property "Arrow Part Number" "B4B-XH-A(LF)(SN)"
-			(at 287.02 935.56 0)
+			(at 297.18 935.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14555,7 +15511,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/b4b-xh-a-lf-sn/jst-manufacturing.html?utm_currency=USD&region=europe"
-			(at 287.02 1035.56 0)
+			(at 297.18 1035.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15063,6 +16019,130 @@
 			(project "RC_Car_PCB"
 				(path "/e3eebfb1-ca33-4fe6-a6b8-7fbebca142f4/dd30d5ad-9a79-4300-9c98-d053ac2ad334"
 					(reference "C34")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SamacSys_Parts:M20-9990345")
+		(at 302.26 119.38 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a6ada673-e892-4c8f-9f45-ffe49f8d0822")
+		(property "Reference" "J21"
+			(at 312.42 122.682 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "M20-9990345"
+			(at 305.054 129.032 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "HDRV3W64P0X254_1X3_762X254X864P"
+			(at 318.77 214.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://content.harwin.com/m/0df15f6e0f9f48e2/original/DRG-00479-Technical-Drawing-Datasheet-M20-999-pdf.pdf"
+			(at 318.77 314.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "M20: 3 Pos Plug SIL Straight 3mm THT Connector 6.1mm pin Gold"
+			(at 302.26 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "8.64"
+			(at 318.77 514.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "855-M20-9990345"
+			(at 318.77 614.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Harwin/M20-9990345?qs=ulE8k0yEMYbl6ZPCtNdmpA%3D%3D"
+			(at 318.77 714.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Harwin"
+			(at 318.77 814.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "M20-9990345"
+			(at 318.77 914.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "2a52f93b-e74e-4527-b37b-8a78d1b11efa")
+		)
+		(pin "1"
+			(uuid "e3cf1dfa-cd39-498a-bfd6-b2e70f5c8bc8")
+		)
+		(pin "2"
+			(uuid "7fa52942-fe04-49b6-af42-726163375c4d")
+		)
+		(instances
+			(project "RC_Car_PCB"
+				(path "/e3eebfb1-ca33-4fe6-a6b8-7fbebca142f4/dd30d5ad-9a79-4300-9c98-d053ac2ad334"
+					(reference "J21")
 					(unit 1)
 				)
 			)
@@ -17066,6 +18146,152 @@
 			(project ""
 				(path "/e3eebfb1-ca33-4fe6-a6b8-7fbebca142f4/dd30d5ad-9a79-4300-9c98-d053ac2ad334"
 					(reference "R42")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SamacSys_Parts:XT60PW-M")
+		(at 290.83 80.01 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ebb1cba9-5bb6-4045-9ee7-fe7af0a42550")
+		(property "Reference" "J19"
+			(at 302.26 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "XT60PW-M"
+			(at 302.26 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "XT60PWM"
+			(at 309.88 174.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.tme.eu/Document/b13629717d44ae038681dba08d18c0b6/XT60PW-M.pdf"
+			(at 309.88 274.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Connector: DC supply; socket; XT60; male; PIN: 2; on PCBs; THT; 30A"
+			(at 290.83 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "8.4"
+			(at 309.88 474.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Amass"
+			(at 309.88 574.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "XT60PW-M"
+			(at 309.88 674.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 309.88 774.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 309.88 874.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 309.88 974.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 309.88 1074.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "f9f53167-150b-4c14-a47f-9590bf6b6c01")
+		)
+		(pin "2"
+			(uuid "ac45cd3d-64e3-4904-8185-e582c4f60a0a")
+		)
+		(pin "4"
+			(uuid "6a2ecd3b-8d47-4010-abd3-907d162cd241")
+		)
+		(pin "1"
+			(uuid "c0ccc73c-65e9-4346-89a3-9589dcb34e50")
+		)
+		(instances
+			(project "RC_Car_PCB"
+				(path "/e3eebfb1-ca33-4fe6-a6b8-7fbebca142f4/dd30d5ad-9a79-4300-9c98-d053ac2ad334"
+					(reference "J19")
 					(unit 1)
 				)
 			)

@@ -217,492 +217,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "SamacSys_Parts:2134441-2"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J5"
-				(at 11.43 7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "USB_B_Micro"
-				(at 11.43 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "21344412"
-				(at 19.05 -94.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=5-1773464-3&DocType=Data%20Sheet&DocLang=English&PartCntxt=2134441-2&DocFormat=pdf"
-				(at 19.05 -194.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Description" "Body Features: Offset .88 MM | Shell Plating Material Tin over Nickel | Shell Plating Finish Matte | Connector Profile Micro | Configuration Features: Number of Positions 5 | Number of Ports 1 | Contact Features: Contact Mating Area Plating Material Thickness .76 MICM | Contact Current Rating (Max) 1.8 AMP | Contact Mating Area Plating Material Gold | Contact Mating Area Plating Material Thickness 29.52 MICIN | Dimensions: PCB Thickness (Recommended) .8  1. MM | PCB Thickness (Recommended) .031  .039"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Height" "1.9"
-				(at 19.05 -394.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Name" "TE Connectivity"
-				(at 19.05 -494.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Part_Number" "2134441-2"
-				(at 19.05 -594.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Mouser Part Number" "571-2134441-2"
-				(at 19.05 -694.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/TE-Connectivity/2134441-2?qs=kAqyOuzYGe%252Bz%252BAPK%2FThl2g%3D%3D"
-				(at 19.05 -794.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Arrow Part Number" "2134441-2"
-				(at 19.05 -894.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Arrow Price/Stock" "https://www.arrow.com/en/products/2134441-2_1/te-connectivity.html?utm_currency=USD&region=nac"
-				(at 19.05 -994.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(symbol "2134441-2_1_1"
-				(rectangle
-					(start 5.08 2.54)
-					(end 17.78 -12.7)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin passive line
-					(at 0 0 0)
-					(length 5.08)
-					(name "1(VCC)"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -2.54 0)
-					(length 5.08)
-					(name "2(D-)"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -5.08 0)
-					(length 5.08)
-					(name "3(D+)"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -7.62 0)
-					(length 5.08)
-					(name "4(ID)"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -10.16 0)
-					(length 5.08)
-					(name "5(GND)"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 22.86 0 180)
-					(length 5.08)
-					(name "MH1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "MH1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 22.86 -2.54 180)
-					(length 5.08)
-					(name "MH2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "MH2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 22.86 -5.08 180)
-					(length 5.08)
-					(name "MH3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "MH3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 22.86 -7.62 180)
-					(length 5.08)
-					(name "MH4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "MH4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "SamacSys_Parts:500SSP1S1M2QEA"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "S1"
-				(at 10.1599 3.81 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "500SSP1S1M2QEA"
-				(at 12.6999 3.81 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "500SSP1S1M2QEA"
-				(at 19.05 -94.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://configured-product-images.s3.amazonaws.com/2D/specs/500SSP1S1M2QEA.pdf"
-				(at 19.05 -194.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Description" "SLIDE, 5A, 120VAC/28VDC SPDT, On-On Through Hole"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Height" "11.43"
-				(at 19.05 -394.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Name" "E-Switch"
-				(at 19.05 -494.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Part_Number" "500SSP1S1M2QEA"
-				(at 19.05 -594.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Mouser Part Number" "612-500-A121"
-				(at 19.05 -694.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/E-Switch/500SSP1S1M2QEA?qs=rR7wk9eDIwofjM3j2mZRnA%3D%3D"
-				(at 19.05 -794.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Arrow Part Number" ""
-				(at 19.05 -894.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Arrow Price/Stock" ""
-				(at 19.05 -994.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(symbol "500SSP1S1M2QEA_1_1"
-				(rectangle
-					(start 5.08 2.54)
-					(end 17.78 -7.62)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin passive line
-					(at 0 0 0)
-					(length 5.08)
-					(name "COM"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -2.54 0)
-					(length 5.08)
-					(name "NO"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin no_connect line
-					(at 0 -5.08 0)
-					(length 5.08)
-					(name "NC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "SamacSys_Parts:C0805C102F3GACTU"
 			(pin_names
 				(hide yes)
@@ -1710,6 +1224,196 @@
 						)
 					)
 					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "SamacSys_Parts:EG1218"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "S2"
+				(at 10.1599 3.81 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "EG1218"
+				(at 12.6999 3.81 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "EG1218"
+				(at 19.05 -94.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://configured-product-images.s3.amazonaws.com/2D/specs/EG1218.pdf"
+				(at 19.05 -194.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "SLIDE, 200mA, 30VDC SPDT, On-On Through Hole"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "7.4"
+				(at 19.05 -394.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "E-Switch"
+				(at 19.05 -494.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "EG1218"
+				(at 19.05 -594.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "612-EG1218"
+				(at 19.05 -694.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/E-Switch/EG1218?qs=xDsBkp9LkocT0c8K%252B5e%2FgA%3D%3D"
+				(at 19.05 -794.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Arrow Part Number" ""
+				(at 19.05 -894.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Arrow Price/Stock" ""
+				(at 19.05 -994.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "EG1218_1_1"
+				(rectangle
+					(start 5.08 2.54)
+					(end 17.78 -7.62)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "COMM"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 0)
+					(length 5.08)
+					(name "NO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 0)
+					(length 5.08)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4619,6 +4323,266 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "SamacSys_Parts:ZX62WD1-B-5PC"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J2"
+				(at 11.43 -17.78 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "ZX62WD1-B-5PC"
+				(at 11.43 -15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "ZX62WD1B5PC"
+				(at 19.05 -94.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.hirose.com/product/download/?distributor=digikey&type=2d&lang=en&num=ZX62WD1-B-5PC"
+				(at 19.05 -194.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "USB - micro B USB 2.0 Receptacle Connector 5 Position Surface Mount, Right Angle"
+				(at 2.54 19.05 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "3.62"
+				(at 19.05 -394.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "Hirose"
+				(at 19.05 -494.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "ZX62WD1-B-5PC"
+				(at 19.05 -594.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "798-ZX62WD1-B-5PC"
+				(at 19.05 -694.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Hirose-Connector/ZX62WD1-B-5PC?qs=%2Fp4LXwb3CwGcU0vxJ5wpwQ%3D%3D"
+				(at 19.05 -794.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Arrow Part Number" ""
+				(at 19.05 -894.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Arrow Price/Stock" ""
+				(at 19.05 -994.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "ZX62WD1-B-5PC_1_1"
+				(rectangle
+					(start 5.08 2.54)
+					(end 17.78 -12.7)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "MH1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "MH1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 0)
+					(length 5.08)
+					(name "MH2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "MH2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 22.86 0 180)
+					(length 5.08)
+					(name "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 22.86 -2.54 180)
+					(length 5.08)
+					(name "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 22.86 -5.08 180)
+					(length 5.08)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 22.86 -7.62 180)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 22.86 -10.16 180)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:+3.3V"
 			(power)
 			(pin_numbers
@@ -5025,12 +4989,6 @@
 		(uuid "652f29a6-71a3-4568-a011-8b84e587cbc0")
 	)
 	(junction
-		(at 389.89 49.53)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "675b756f-9972-41de-8c20-556b6f9fca36")
-	)
-	(junction
 		(at 163.83 41.91)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5091,6 +5049,12 @@
 		(uuid "8ec68259-2c2d-4686-8451-454aad152451")
 	)
 	(junction
+		(at 389.89 57.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "923a9172-bbb8-4e0a-8ecc-ce80b0508a68")
+	)
+	(junction
 		(at 185.42 41.91)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5133,16 +5097,10 @@
 		(uuid "bb159eb5-e5b9-4aea-99ba-d8d179abb955")
 	)
 	(junction
-		(at 389.89 54.61)
+		(at 213.36 41.91)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "cca6dba0-e86c-4947-bad4-f58b9826aa3b")
-	)
-	(junction
-		(at 389.89 52.07)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "cf2b1704-e592-4ad0-8168-d78fdef10bf6")
+		(uuid "c6e8d102-0b2b-49dc-808c-861c9f3e408c")
 	)
 	(junction
 		(at 152.4 165.1)
@@ -5243,6 +5201,10 @@
 	(no_connect
 		(at 369.57 133.35)
 		(uuid "b6ed7910-33f5-415d-93d2-6da5697bed1c")
+	)
+	(no_connect
+		(at 365.76 46.99)
+		(uuid "c0cb86f6-0f08-406f-b7ff-17f62824401e")
 	)
 	(no_connect
 		(at 130.81 102.87)
@@ -5416,13 +5378,13 @@
 	)
 	(wire
 		(pts
-			(xy 389.89 49.53) (xy 389.89 52.07)
+			(xy 389.89 57.15) (xy 389.89 60.96)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "11f1a519-4bcc-492b-9eec-07c6065accdc")
+		(uuid "1320a8cf-64a7-4b71-942e-b48f76b2a4ee")
 	)
 	(wire
 		(pts
@@ -5693,16 +5655,6 @@
 			(type default)
 		)
 		(uuid "2896604c-b785-4aae-a93d-9e8368eef5ce")
-	)
-	(wire
-		(pts
-			(xy 389.89 52.07) (xy 389.89 54.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2a2b2571-c1d1-4101-9c19-d6bb16c2a9e0")
 	)
 	(wire
 		(pts
@@ -5996,16 +5948,6 @@
 	)
 	(wire
 		(pts
-			(xy 363.22 46.99) (xy 365.76 46.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "45c8f1df-20a9-4f26-9840-4677acb58696")
-	)
-	(wire
-		(pts
 			(xy 369.57 118.11) (xy 386.08 118.11)
 		)
 		(stroke
@@ -6033,16 +5975,6 @@
 			(type default)
 		)
 		(uuid "49ffe40f-7066-4da9-987a-536465d4a49c")
-	)
-	(wire
-		(pts
-			(xy 363.22 39.37) (xy 363.22 46.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4aa71890-b42b-481a-bc95-7f613d2175e7")
 	)
 	(wire
 		(pts
@@ -6156,16 +6088,6 @@
 	)
 	(wire
 		(pts
-			(xy 388.62 49.53) (xy 389.89 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5a6f916f-8ba5-4085-9871-653ee0122811")
-	)
-	(wire
-		(pts
 			(xy 369.57 110.49) (xy 393.7 110.49)
 		)
 		(stroke
@@ -6233,6 +6155,16 @@
 			(type default)
 		)
 		(uuid "61b765f2-a70d-4e41-9f16-047de21c23ce")
+	)
+	(wire
+		(pts
+			(xy 213.36 34.29) (xy 213.36 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6792f21b-075f-46ec-b96b-62e9fa04f593")
 	)
 	(wire
 		(pts
@@ -6876,16 +6808,6 @@
 	)
 	(wire
 		(pts
-			(xy 388.62 46.99) (xy 389.89 46.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b0342cd8-24ac-4240-9d61-e9758cada81c")
-	)
-	(wire
-		(pts
 			(xy 152.4 165.1) (xy 148.59 165.1)
 		)
 		(stroke
@@ -7006,16 +6928,6 @@
 	)
 	(wire
 		(pts
-			(xy 389.89 46.99) (xy 389.89 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bc3ea3fc-de74-40b7-b4b7-b8f208b4c1a0")
-	)
-	(wire
-		(pts
 			(xy 219.71 120.65) (xy 196.85 120.65)
 		)
 		(stroke
@@ -7056,7 +6968,7 @@
 	)
 	(wire
 		(pts
-			(xy 389.89 54.61) (xy 389.89 60.96)
+			(xy 389.89 54.61) (xy 389.89 57.15)
 		)
 		(stroke
 			(width 0)
@@ -7183,6 +7095,16 @@
 			(type default)
 		)
 		(uuid "d53d7233-4d30-4934-9a95-c84ac0419cdb")
+	)
+	(wire
+		(pts
+			(xy 388.62 57.15) (xy 389.89 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d60f296f-9560-402c-a1cb-477e6872b53c")
 	)
 	(wire
 		(pts
@@ -7436,16 +7358,6 @@
 	)
 	(wire
 		(pts
-			(xy 388.62 52.07) (xy 389.89 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f2f1ce8e-61bd-4095-b7ee-6574ad6724c3")
-	)
-	(wire
-		(pts
 			(xy 196.85 107.95) (xy 219.71 107.95)
 		)
 		(stroke
@@ -7643,6 +7555,16 @@
 			(justify left bottom)
 		)
 		(uuid "2baa7461-9145-410c-b9f8-b22e1acbb146")
+	)
+	(label "SWDIO"
+		(at 261.62 102.87 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2be11fbd-45ec-4b3d-9747-bf316e170ba1")
 	)
 	(label "I2C_SCL_STM"
 		(at 118.11 134.62 0)
@@ -8093,6 +8015,16 @@
 			(justify left bottom)
 		)
 		(uuid "c1789985-ddda-4742-abef-da8c41f331ed")
+	)
+	(label "SWCLK"
+		(at 261.62 105.41 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c25145d5-df5f-4201-8cce-e4a3e6dd6cc0")
 	)
 	(label "BLDC_BRAKE"
 		(at 196.85 140.97 0)
@@ -9338,6 +9270,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3.3V")
+		(at 213.36 34.29 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "19e6ee90-1ac8-4dd7-abfc-6bb2b40019ff")
+		(property "Reference" "#PWR089"
+			(at 213.36 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "3V3 STM"
+			(at 213.36 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 213.36 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 213.36 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 213.36 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5f374fe7-2c51-4285-8c5e-2269c3d79195")
+		)
+		(instances
+			(project "RC_Car_PCB"
+				(path "/e3eebfb1-ca33-4fe6-a6b8-7fbebca142f4/6159ebca-a40f-461f-8084-aad194c89b4d"
+					(reference "#PWR089")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "SamacSys_Parts:CRGH0805F4K7")
 		(at 105.41 115.57 270)
 		(unit 1)
@@ -10367,7 +10365,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1nF"
+		(property "Value" "10nF"
 			(at 174.498 54.61 90)
 			(effects
 				(font
@@ -11396,233 +11394,6 @@
 			(project "RC_Car_PCB"
 				(path "/e3eebfb1-ca33-4fe6-a6b8-7fbebca142f4/6159ebca-a40f-461f-8084-aad194c89b4d"
 					(reference "C20")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "SamacSys_Parts:2134441-2")
-		(at 365.76 46.99 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "64715a89-07be-4a2a-bd00-5d953d13b34e")
-		(property "Reference" "J5"
-			(at 377.19 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "USB_B_Micro"
-			(at 377.19 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "21344412"
-			(at 384.81 141.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=5-1773464-3&DocType=Data%20Sheet&DocLang=English&PartCntxt=2134441-2&DocFormat=pdf"
-			(at 384.81 241.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "Body Features: Offset .88 MM | Shell Plating Material Tin over Nickel | Shell Plating Finish Matte | Connector Profile Micro | Configuration Features: Number of Positions 5 | Number of Ports 1 | Contact Features: Contact Mating Area Plating Material Thickness .76 MICM | Contact Current Rating (Max) 1.8 AMP | Contact Mating Area Plating Material Gold | Contact Mating Area Plating Material Thickness 29.52 MICIN | Dimensions: PCB Thickness (Recommended) .8  1. MM | PCB Thickness (Recommended) .031  .039"
-			(at 365.76 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "1.9"
-			(at 384.81 441.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "TE Connectivity"
-			(at 384.81 541.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "2134441-2"
-			(at 384.81 641.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "571-2134441-2"
-			(at 384.81 741.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/TE-Connectivity/2134441-2?qs=kAqyOuzYGe%252Bz%252BAPK%2FThl2g%3D%3D"
-			(at 384.81 841.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" "2134441-2"
-			(at 384.81 941.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/2134441-2_1/te-connectivity.html?utm_currency=USD&region=nac"
-			(at 384.81 1041.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "MH4"
-			(uuid "bff914ce-e1d6-4f0b-b58d-6acc5c92de83")
-		)
-		(pin "1"
-			(uuid "83f4390d-ef50-42e9-aed0-86afe4297731")
-		)
-		(pin "MH2"
-			(uuid "eec6e621-eed8-460e-8331-f8f79ad91b2f")
-		)
-		(pin "2"
-			(uuid "3667ac65-99b0-4c8d-a55e-32222d80b23e")
-		)
-		(pin "MH3"
-			(uuid "521bc514-366e-42ad-a194-add5c80ea540")
-		)
-		(pin "3"
-			(uuid "74e46a5b-a725-4aa5-bce3-c9581c299ee6")
-		)
-		(pin "4"
-			(uuid "26f923d3-c30f-483e-94f5-21f2601ea084")
-		)
-		(pin "5"
-			(uuid "0a23f0e7-e78b-42e0-be9d-d6dacd8dbc3a")
-		)
-		(pin "MH1"
-			(uuid "84397355-ff90-474a-bf57-a39d0a98c71e")
-		)
-		(instances
-			(project "RC_Car_PCB"
-				(path "/e3eebfb1-ca33-4fe6-a6b8-7fbebca142f4/6159ebca-a40f-461f-8084-aad194c89b4d"
-					(reference "J5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 363.22 39.37 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6712224e-7bf2-4f98-a587-7d295daec056")
-		(property "Reference" "#PWR050"
-			(at 363.22 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "5V"
-			(at 363.22 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 363.22 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 363.22 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 363.22 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f8df1bab-bd48-4e73-bdec-49615a366a42")
-		)
-		(instances
-			(project "RC_Car_PCB"
-				(path "/e3eebfb1-ca33-4fe6-a6b8-7fbebca142f4/6159ebca-a40f-461f-8084-aad194c89b4d"
-					(reference "#PWR050")
 					(unit 1)
 				)
 			)
@@ -12738,10 +12509,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "a91b574f-b260-4c99-99f4-6793fad33b99")
 		(property "Reference" "FB2"
-			(at 204.47 27.9399 90)
+			(at 197.612 20.574 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12749,8 +12519,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "600ohm"
-			(at 204.47 30.4799 90)
+		(property "Value" "600"
+			(at 197.612 22.86 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13320,6 +13090,151 @@
 			(project "RC_Car_PCB"
 				(path "/e3eebfb1-ca33-4fe6-a6b8-7fbebca142f4/6159ebca-a40f-461f-8084-aad194c89b4d"
 					(reference "#PWR041")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SamacSys_Parts:EG1218")
+		(at 63.5 83.82 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bc0f700d-60db-446e-9bda-a0e704166de1")
+		(property "Reference" "S2"
+			(at 67.31 93.9799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "EG1218"
+			(at 67.31 96.5199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "EG1218"
+			(at -31.42 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://configured-product-images.s3.amazonaws.com/2D/specs/EG1218.pdf"
+			(at -131.42 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "SLIDE, 200mA, 30VDC SPDT, On-On Through Hole"
+			(at 63.5 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "7.4"
+			(at -331.42 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "E-Switch"
+			(at -431.42 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "EG1218"
+			(at -531.42 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "612-EG1218"
+			(at -631.42 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/E-Switch/EG1218?qs=xDsBkp9LkocT0c8K%252B5e%2FgA%3D%3D"
+			(at -731.42 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at -831.42 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at -931.42 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "185b5432-d176-444a-b74a-271981e8428e")
+		)
+		(pin "1"
+			(uuid "aa1052cc-a32a-44b5-b9f4-e5b8d2962452")
+		)
+		(pin "3"
+			(uuid "81e82420-458c-47be-b07d-c4bb038abd6d")
+		)
+		(instances
+			(project ""
+				(path "/e3eebfb1-ca33-4fe6-a6b8-7fbebca142f4/6159ebca-a40f-461f-8084-aad194c89b4d"
+					(reference "S2")
 					(unit 1)
 				)
 			)
@@ -13918,44 +13833,33 @@
 		)
 	)
 	(symbol
-		(lib_id "SamacSys_Parts:500SSP1S1M2QEA")
-		(at 63.5 83.82 270)
+		(lib_id "SamacSys_Parts:ZX62WD1-B-5PC")
+		(at 388.62 57.15 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "e2d0abcd-1802-4c83-8c1d-2b70aa726e8f")
-		(property "Reference" "S1"
-			(at 60.198 96.012 90)
+		(fields_autoplaced yes)
+		(uuid "ea7b655b-c81b-4d1d-9c5e-a37827586d19")
+		(property "Reference" "J2"
+			(at 377.19 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "SW"
-			(at 56.134 100.584 90)
+		(property "Value" "ZX62WD1-B-5PC"
+			(at 377.19 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" "500SSP1S1M2QEA"
-			(at -31.42 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://configured-product-images.s3.amazonaws.com/2D/specs/500SSP1S1M2QEA.pdf"
-			(at -131.42 102.87 0)
+		(property "Footprint" "ZX62WD1B5PC"
+			(at 369.57 -37.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13964,17 +13868,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "SLIDE, 5A, 120VAC/28VDC SPDT, On-On Through Hole"
-			(at 63.5 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "11.43"
-			(at -331.42 102.87 0)
+		(property "Datasheet" "https://www.hirose.com/product/download/?distributor=digikey&type=2d&lang=en&num=ZX62WD1-B-5PC"
+			(at 369.57 -137.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13983,8 +13878,17 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" "E-Switch"
-			(at -431.42 102.87 0)
+		(property "Description" "USB - micro B USB 2.0 Receptacle Connector 5 Position Surface Mount, Right Angle"
+			(at 386.08 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "3.62"
+			(at 369.57 -337.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13993,8 +13897,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "500SSP1S1M2QEA"
-			(at -531.42 102.87 0)
+		(property "Manufacturer_Name" "Hirose"
+			(at 369.57 -437.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14003,8 +13907,8 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "612-500-A121"
-			(at -631.42 102.87 0)
+		(property "Manufacturer_Part_Number" "ZX62WD1-B-5PC"
+			(at 369.57 -537.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14013,8 +13917,18 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/E-Switch/500SSP1S1M2QEA?qs=rR7wk9eDIwofjM3j2mZRnA%3D%3D"
-			(at -731.42 102.87 0)
+		(property "Mouser Part Number" "798-ZX62WD1-B-5PC"
+			(at 369.57 -637.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Hirose-Connector/ZX62WD1-B-5PC?qs=%2Fp4LXwb3CwGcU0vxJ5wpwQ%3D%3D"
+			(at 369.57 -737.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14024,7 +13938,7 @@
 			)
 		)
 		(property "Arrow Part Number" ""
-			(at -831.42 102.87 0)
+			(at 369.57 -837.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14034,7 +13948,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" ""
-			(at -931.42 102.87 0)
+			(at 369.57 -937.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14043,19 +13957,31 @@
 				(hide yes)
 			)
 		)
-		(pin "1"
-			(uuid "278a37c9-d443-4803-b777-9dc203a07e8d")
+		(pin "MH1"
+			(uuid "4d6f5623-4900-41b4-932e-6623183fab91")
 		)
-		(pin "2"
-			(uuid "6ca9f4c0-18ee-4011-9836-ea0907d72f52")
+		(pin "1"
+			(uuid "3ad83a43-4b6f-468f-9669-011bb3619e69")
 		)
 		(pin "3"
-			(uuid "2eb5266d-4ff1-4830-bb4f-d1e9765404c0")
+			(uuid "3a495b3a-6fd3-4810-93f8-d02e44440580")
+		)
+		(pin "5"
+			(uuid "2e48b867-0085-4e8c-8336-5b5a18bf4e65")
+		)
+		(pin "MH2"
+			(uuid "aa57154d-b829-4df3-adae-a1320301bd5b")
+		)
+		(pin "2"
+			(uuid "3d73bf14-2e11-4518-81a5-88de1ce5a06f")
+		)
+		(pin "4"
+			(uuid "311bcf88-50e3-4e53-bbe9-0d7111d19af4")
 		)
 		(instances
 			(project ""
 				(path "/e3eebfb1-ca33-4fe6-a6b8-7fbebca142f4/6159ebca-a40f-461f-8084-aad194c89b4d"
-					(reference "S1")
+					(reference "J2")
 					(unit 1)
 				)
 			)

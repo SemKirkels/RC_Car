@@ -408,4 +408,16 @@ K
 F https://www.molex.com/en-us/products/part-detail/2213910003?display=pdf
 $ENDCMP
 #
+$CMP ZX62WD1-B-5PC
+D USB - micro B USB 2.0 Receptacle Connector 5 Position Surface Mount, Right Angle
+K
+F https://www.hirose.com/product/download/?distributor=digikey&type=2d&lang=en&num=ZX62WD1-B-5PC
+$ENDCMP
+#
+$CMP EG1218
+D SLIDE, 200mA, 30VDC SPDT, On-On Through Hole
+K
+F https://configured-product-images.s3.amazonaws.com/2D/specs/EG1218.pdf
+$ENDCMP
+#
 #End Doc Library

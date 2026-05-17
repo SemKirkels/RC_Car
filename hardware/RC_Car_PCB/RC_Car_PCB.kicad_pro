@@ -51,8 +51,60 @@
           "min_clearance": 0.5
         }
       },
-      "diff_pair_dimensions": [],
-      "drc_exclusions": [],
+      "diff_pair_dimensions": [
+        {
+          "gap": 0.0,
+          "via_gap": 0.0,
+          "width": 0.0
+        },
+        {
+          "gap": 0.32,
+          "via_gap": 0.27,
+          "width": 0.27
+        }
+      ],
+      "drc_exclusions": [
+        [
+          "clearance|141679800|71962000|35175327-edfb-4140-81b9-c0ddda361b94|d3982ff9-8d16-4322-bed7-be63aa20285d",
+          ""
+        ],
+        [
+          "clearance|141679800|80292000|35175327-edfb-4140-81b9-c0ddda361b94|7a731e15-5c9f-4a91-a6b1-8fe4c83d9f55",
+          ""
+        ],
+        [
+          "solder_mask_bridge|141679800|71962000|35175327-edfb-4140-81b9-c0ddda361b94|d3982ff9-8d16-4322-bed7-be63aa20285d",
+          "design van chip"
+        ],
+        [
+          "solder_mask_bridge|141679800|80292000|35175327-edfb-4140-81b9-c0ddda361b94|7a731e15-5c9f-4a91-a6b1-8fe4c83d9f55",
+          ""
+        ],
+        [
+          "text_height|144430800|35377000|f32f3763-c9d8-4354-9726-08bb72200d4b|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "text_height|150430800|34627000|9df64407-98b5-44a8-89af-8b150394ad31|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "text_height|156180800|51877000|1e4274dc-a263-47a5-ab10-73bd82356b3d|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "text_height|156430800|34627000|ac506011-3b5a-4531-9545-a17a99c48af3|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "via_dangling|108128800|52825000|b749096e-07e8-4bc9-8e00-553cea9815c5|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "via_dangling|136180800|50127000|bc4533d9-197b-4de3-88fa-c39a305aeee7|00000000-0000-0000-0000-000000000000",
+          ""
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -180,7 +232,9 @@
           "td_width_to_size_filter_ratio": 0.9
         }
       ],
-      "track_widths": [],
+      "track_widths": [
+        0.0
+      ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
           "corner_radius_percentage": 80,
@@ -207,7 +261,12 @@
           "spacing": 0.6
         }
       },
-      "via_dimensions": [],
+      "via_dimensions": [
+        {
+          "diameter": 0.0,
+          "drill": 0.0
+        }
+      ],
       "zones_allow_external_fillets": false
     },
     "ipc2581": {
@@ -415,7 +474,7 @@
       "footprint_link_issues": "warning",
       "four_way_junction": "ignore",
       "global_label_dangling": "warning",
-      "hier_label_mismatch": "error",
+      "hier_label_mismatch": "warning",
       "label_dangling": "error",
       "label_multiple_wires": "warning",
       "lib_symbol_issues": "warning",
@@ -430,7 +489,7 @@
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
-      "pin_to_pin": "warning",
+      "pin_to_pin": "error",
       "power_pin_not_driven": "error",
       "same_local_global_label": "warning",
       "similar_label_and_power": "warning",
@@ -459,9 +518,9 @@
       {
         "bus_width": 12,
         "clearance": 0.2,
-        "diff_pair_gap": 0.25,
+        "diff_pair_gap": 0.32,
         "diff_pair_via_gap": 0.25,
-        "diff_pair_width": 0.2,
+        "diff_pair_width": 0.25,
         "line_style": 0,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
