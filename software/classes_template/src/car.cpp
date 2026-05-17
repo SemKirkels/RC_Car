@@ -74,6 +74,7 @@ void Car::update(){
     bool blockRight    = dist.right < STEER_BLOCK_RIGHT_MM;
     bool blockMotor    = health.motorTempHot > MOTOR_TEMP_LIM;
 
+
     if(osSemaphoreAcquire(m_gamepad.getSemaphore(), 100) == osOK){
         GamepadState state = m_gamepad.getState();
 
@@ -113,8 +114,6 @@ void Car::update(){
         snprintf(buf, sizeof(buf), "L:%u F:%u R:%u\r\n", dist.left, dist.front, dist.right);
         HAL_UART_Transmit(&huart1, (uint8_t*)buf, strlen(buf), 100);
     }
-*/
-
 /*
     if(m_healthMutex != NULL){
         osMutexAcquire(m_healthMutex, osWaitForever);
