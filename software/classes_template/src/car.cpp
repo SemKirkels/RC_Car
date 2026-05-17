@@ -104,7 +104,7 @@ void Car::update(){
         m_prevX = currX;
         m_prevB = currB;
     }
-    
+/*
     if(m_distanceMutex != NULL){
         osMutexAcquire(m_distanceMutex, osWaitForever);
         DistanceMap dist = m_distances;
@@ -132,8 +132,26 @@ void Car::update(){
         HAL_UART_Transmit(&huart1, (uint8_t*)buf, strlen(buf), 100);
     }
 */
+    uint32_t now = HAL_GetTick();
+    if(now - m_lastTelemetry >= 500){
+        m_lastTelemetry = now;
+        sendTelemetry();
+    }
 }
 
 void Car::uartRxCallback(uint16_t size){
     m_gamepad.rxEventCallback(size);
+}
+
+void Car::sendTelemetry(){
+    DistanceMap dist = {0xFFFF, 0xFFFF, 0xFFFF};
+    if(m_distanceMutex != NULL){
+        osMutexAcquire(m_distanceMutex, osWaitForever);
+        dist = m_distances;
+        osMutexRelease(m_distanceMutex);
+    }
+
+    char buf[64];
+    snprintf(buf, sizeof(buf), "T:F:%u,L:%u,R:%u\n",dist.front, dist.left, dist.right);
+    HAL_UART_Transmit(&huart4, (uint8_t*)buf, strlen(buf), 100);
 }

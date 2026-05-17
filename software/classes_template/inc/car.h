@@ -8,9 +8,11 @@
 #include "steering.h"
 #include "gpioDrive.h"
 #include "motor.h"
-#include "cstdio"
+#include <cstdio>
+#include <cstring>
 
 extern UART_HandleTypeDef huart1;
+extern UART_HandleTypeDef huart4;
 
 /* TOF Struct */
 struct DistanceMap{
@@ -75,6 +77,10 @@ class Car{
 
         HealthMap       m_health;
         osMutexId_t     m_healthMutex;
+
+        uint32_t        m_lastTelemetry;
+
+        void sendTelemetry();
 };
 
 #endif
