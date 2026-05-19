@@ -1,32 +1,202 @@
-(module "T491C" (layer F.Cu)
-  (descr "T491C-1")
-  (tags "Capacitor Polarised")
-  (attr smd)
-  (fp_text reference C** (at 0 0) (layer F.SilkS)
-    (effects (font (size 1.27 1.27) (thickness 0.254)))
-  )
-  (fp_text user %R (at 0 0) (layer F.Fab)
-    (effects (font (size 1.27 1.27) (thickness 0.254)))
-  )
-  (fp_text value "T491C" (at 0 0) (layer F.SilkS) hide
-    (effects (font (size 1.27 1.27) (thickness 0.254)))
-  )
-  (fp_line (start -3 -1.6) (end 3 -1.6) (layer F.Fab) (width 0.2))
-  (fp_line (start 3 -1.6) (end 3 1.6) (layer F.Fab) (width 0.2))
-  (fp_line (start 3 1.6) (end -3 1.6) (layer F.Fab) (width 0.2))
-  (fp_line (start -3 1.6) (end -3 -1.6) (layer F.Fab) (width 0.2))
-  (fp_line (start -3 -1.6) (end 3 -1.6) (layer F.SilkS) (width 0.1))
-  (fp_line (start 3 1.6) (end -3 1.6) (layer F.SilkS) (width 0.1))
-  (fp_line (start -4.455 -2.6) (end 4.455 -2.6) (layer F.CrtYd) (width 0.05))
-  (fp_line (start 4.455 -2.6) (end 4.455 2.6) (layer F.CrtYd) (width 0.05))
-  (fp_line (start 4.455 2.6) (end -4.455 2.6) (layer F.CrtYd) (width 0.05))
-  (fp_line (start -4.455 2.6) (end -4.455 -2.6) (layer F.CrtYd) (width 0.05))
-  (fp_circle (center -4.07 0) (end -4.07 0.05) (layer F.SilkS) (width 0.2))
-  (pad 1 smd rect (at -2.47 0 90) (size 2.23 2.37) (layers F.Cu F.Paste F.Mask))
-  (pad 2 smd rect (at 2.47 0 90) (size 2.23 2.37) (layers F.Cu F.Paste F.Mask))
-  (model "C:\\Uhasselt\\2025_2026\\semester2\\bachelor proef\\design\\RC_Car_PCB\\footprints\\SamacSys_Parts.3dshapes\\T491C106M025AT.stp"
-    (at (xyz 0 0 0))
-    (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 0))
-  )
+(footprint "T491C"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "T491C-1")
+	(tags "Capacitor Polarised")
+	(property "Reference" "C**"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(uuid "b037fb2b-034f-47e4-9470-597e748e70db")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "T491C"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "cd9acfe3-aad1-47b4-81d0-755ef373aed9")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "490b0026-75e8-40b2-9aff-6d183582eb7a")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "09f57a6d-754e-40df-8c2f-2f44dd66b391")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -3 -1.6)
+		(end 3 -1.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "02cd78ab-f87f-4c5b-a4e1-d951e419cae9")
+	)
+	(fp_line
+		(start 3 1.6)
+		(end -3 1.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a8a1ca5d-8af8-490d-b5b1-17c1019965d7")
+	)
+	(fp_circle
+		(center -4.07 0)
+		(end -4.07 0.05)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "116945db-e0d1-415d-83c1-6e13ee7a839e")
+	)
+	(fp_line
+		(start -4.455 -2.6)
+		(end 4.455 -2.6)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "fe226163-043a-41c7-a79c-b55b6901bc3c")
+	)
+	(fp_line
+		(start -4.455 2.6)
+		(end -4.455 -2.6)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "ee8e07f2-5235-42de-ad68-d1363653380c")
+	)
+	(fp_line
+		(start 4.455 -2.6)
+		(end 4.455 2.6)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "63d4b77a-c68e-43fb-b3eb-0fb83f877268")
+	)
+	(fp_line
+		(start 4.455 2.6)
+		(end -4.455 2.6)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "02db4790-5ac8-402b-aea8-8872eba1a081")
+	)
+	(fp_line
+		(start -3 -1.6)
+		(end 3 -1.6)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "68fba470-35e5-4719-a69b-a2698e455cc5")
+	)
+	(fp_line
+		(start -3 1.6)
+		(end -3 -1.6)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "9f3c8650-8679-47f3-b6a3-fa89ad440dc2")
+	)
+	(fp_line
+		(start 3 -1.6)
+		(end 3 1.6)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "c2ef5ec8-1912-4c87-b030-1f906e7d84bc")
+	)
+	(fp_line
+		(start 3 1.6)
+		(end -3 1.6)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "21b78cb1-b892-4f9f-9550-d17eebbbefe3")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "1a036d7a-afc9-4edc-a462-d552b36ecd57")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -2.47 0 90)
+		(size 2.23 2.37)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "8ecb576d-330a-4336-b0df-aff08abbec20")
+	)
+	(pad "2" smd rect
+		(at 2.47 0 90)
+		(size 2.23 2.37)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "50f360ca-87d4-4a68-b2fa-10bcda1bf304")
+	)
+	(embedded_fonts no)
+	(model "C:\\Uhasselt\\2025_2026\\semester2\\bachelor proef\\design\\RC_Car_PCB\\footprints\\SamacSys_Parts.3dshapes\\T491C106M025AT.stp"
+		(offset
+			(xyz -3 -1.5 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
 )

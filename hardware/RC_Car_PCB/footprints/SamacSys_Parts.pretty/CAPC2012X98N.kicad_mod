@@ -1,29 +1,171 @@
-(module "CAPC2012X98N" (layer F.Cu)
-  (descr "0805 (0.98 T)")
-  (tags "Capacitor")
-  (attr smd)
-  (fp_text reference C** (at 0 0) (layer F.SilkS)
-    (effects (font (size 1.27 1.27) (thickness 0.254)))
-  )
-  (fp_text user %R (at 0 0) (layer F.Fab)
-    (effects (font (size 1.27 1.27) (thickness 0.254)))
-  )
-  (fp_text value "CAPC2012X98N" (at 0 0) (layer F.SilkS) hide
-    (effects (font (size 1.27 1.27) (thickness 0.254)))
-  )
-  (fp_line (start -1.51 -0.94) (end 1.51 -0.94) (layer F.CrtYd) (width 0.05))
-  (fp_line (start 1.51 -0.94) (end 1.51 0.94) (layer F.CrtYd) (width 0.05))
-  (fp_line (start 1.51 0.94) (end -1.51 0.94) (layer F.CrtYd) (width 0.05))
-  (fp_line (start -1.51 0.94) (end -1.51 -0.94) (layer F.CrtYd) (width 0.05))
-  (fp_line (start -1 -0.625) (end 1 -0.625) (layer F.Fab) (width 0.1))
-  (fp_line (start 1 -0.625) (end 1 0.625) (layer F.Fab) (width 0.1))
-  (fp_line (start 1 0.625) (end -1 0.625) (layer F.Fab) (width 0.1))
-  (fp_line (start -1 0.625) (end -1 -0.625) (layer F.Fab) (width 0.1))
-  (pad 1 smd rect (at -0.81 0 0) (size 1.1 1.57) (layers F.Cu F.Paste F.Mask))
-  (pad 2 smd rect (at 0.81 0 0) (size 1.1 1.57) (layers F.Cu F.Paste F.Mask))
-  (model "C:\\Uhasselt\\2025_2026\\semester2\\bachelor proef\\design\\RC_Car_PCB\\footprints\\SamacSys_Parts.3dshapes\\C0805X180F8HACAUTO.stp"
-    (at (xyz 0 0 0))
-    (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 0))
-  )
+(footprint "CAPC2012X98N"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "0805 (0.98 T)")
+	(tags "Capacitor")
+	(property "Reference" "C**"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(uuid "b6fbbc55-6c2e-425e-88c2-5108584add5f")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "CAPC2012X98N"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "a68d48f4-269a-4595-b31b-bde0040ee1dc")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "51ea7829-ead7-4148-9de6-2dffe4c199bc")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "eecd7fb2-23cf-44bf-b203-dd9f5d0ffdfa")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.51 -0.94)
+		(end 1.51 -0.94)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "edece20c-c22e-4cb2-a747-1345059b7ab6")
+	)
+	(fp_line
+		(start -1.51 0.94)
+		(end -1.51 -0.94)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "24c5edc0-cedf-46a1-ac96-f3a66a94c418")
+	)
+	(fp_line
+		(start 1.51 -0.94)
+		(end 1.51 0.94)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "44ec9957-6fa6-4382-92b4-4be8e4a0a667")
+	)
+	(fp_line
+		(start 1.51 0.94)
+		(end -1.51 0.94)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "65f50041-9f53-41de-a8f7-d266cfe99716")
+	)
+	(fp_line
+		(start -1 -0.625)
+		(end 1 -0.625)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "9ff82eba-5cc4-49fe-8a55-166af27b7292")
+	)
+	(fp_line
+		(start -1 0.625)
+		(end -1 -0.625)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "98c00aac-a376-4367-b5e1-6a2cae6238bb")
+	)
+	(fp_line
+		(start 1 -0.625)
+		(end 1 0.625)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "af2bee07-8337-4646-9d77-138a73ae4b51")
+	)
+	(fp_line
+		(start 1 0.625)
+		(end -1 0.625)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "33d65972-e7db-4d84-9fa5-18f1e785b2a3")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "18ce205e-abac-4ec3-ada9-65975a01006e")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -0.81 0)
+		(size 1.1 1.57)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "2b0a28aa-ecdf-4f3c-8e9c-794397d04506")
+	)
+	(pad "2" smd rect
+		(at 0.81 0)
+		(size 1.1 1.57)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "35748d0e-cc01-4368-a141-6759e38a947c")
+	)
+	(embedded_fonts no)
+	(model "C:\\Uhasselt\\2025_2026\\semester2\\bachelor proef\\design\\RC_Car_PCB\\footprints\\SamacSys_Parts.3dshapes\\C0805X180F8HACAUTO.stp"
+		(offset
+			(xyz -1 -0.5 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
 )
